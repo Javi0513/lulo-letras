@@ -1,0 +1,10 @@
+# Clave de ElevenLabs: NUNCA subirla
+clave-voz.txt
+*.env
+.env
+.env.*
+
+# Archivos que no hacen falta en el repositorio
+muestras/
+index-anterior.html
+*.bak

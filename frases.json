@@ -1,0 +1,3822 @@
+[
+ {
+  "key": "fb0450504",
+  "text": "¡Muy bien!"
+ },
+ {
+  "key": "f074900bb",
+  "text": "¡Genial!"
+ },
+ {
+  "key": "f784252de",
+  "text": "¡Fenomenal!"
+ },
+ {
+  "key": "fe464c02e",
+  "text": "¡Lo has hecho fenomenal!"
+ },
+ {
+  "key": "f477e671b",
+  "text": "¡Bravo!"
+ },
+ {
+  "key": "f9db5aef6",
+  "text": "¡Qué bien lo has dicho!"
+ },
+ {
+  "key": "f17f48e26",
+  "text": "¡Estupendo!"
+ },
+ {
+  "key": "ff1a033c7",
+  "text": "¡Eres un crack!"
+ },
+ {
+  "key": "fa345dd3a",
+  "text": "¡Hola! Soy Lulo. ¿Jugamos?"
+ },
+ {
+  "key": "fd17087c6",
+  "text": "No puedo usar el micrófono. Dilo en voz alta y que un mayor pulse el botón verde."
+ },
+ {
+  "key": "fe1368a0c",
+  "text": "¡Casi! Escucha bien y prueba otra vez."
+ },
+ {
+  "key": "f8ff465bf",
+  "text": "No te he oído. Pulsa el micrófono y habla fuerte."
+ },
+ {
+  "key": "f181318ee",
+  "text": "¿Cómo se llama esta letra? Pulsa el micrófono y dilo."
+ },
+ {
+  "key": "f3183071f",
+  "text": "Ahora lee esta sílaba en voz alta."
+ },
+ {
+  "key": "f32db57b2",
+  "text": "¿Y esta? Léela."
+ },
+ {
+  "key": "f5bc54818",
+  "text": "Lee esta sílaba."
+ },
+ {
+  "key": "fb79a6f65",
+  "text": "¡Ahora una palabra entera! Léela despacio."
+ },
+ {
+  "key": "fb3dd53d1",
+  "text": "Primero vamos a aprender una letra. ¡Luego la repasamos!"
+ },
+ {
+  "key": "fc4b14db4",
+  "text": "¡Vamos a repasar! Así veremos todo lo que has aprendido."
+ },
+ {
+  "key": "f7ece5619",
+  "text": "¿Qué letra es esta? Dila en voz alta."
+ },
+ {
+  "key": "fbcc8723d",
+  "text": "Elige una letra."
+ },
+ {
+  "key": "fcc07ea09",
+  "text": "¡Mira todas tus pegatinas!"
+ },
+ {
+  "key": "f023fd81a",
+  "text": "Aprende letras para ganar pegatinas."
+ },
+ {
+  "key": "f4b2f6f9f",
+  "text": "¡Pegatina nueva!"
+ },
+ {
+  "key": "f71e1072a",
+  "text": "Toma una pegatina nueva."
+ },
+ {
+  "key": "f9abcc25c",
+  "text": "¡Seguimos practicando y lo harás genial!"
+ },
+ {
+  "key": "f33eb769b",
+  "text": "Esta es la a. a, de abeja."
+ },
+ {
+  "key": "f17d94936",
+  "text": "Ahora haz el gesto de la a, como en el cole."
+ },
+ {
+  "key": "f0b05f433",
+  "text": "Se llama a."
+ },
+ {
+  "key": "fc2af4f94",
+  "text": "Toca todas las a: las grandes y las pequeñas."
+ },
+ {
+  "key": "fea3511e1",
+  "text": "¿Qué dibujo empieza por la a?"
+ },
+ {
+  "key": "f869e8c4a",
+  "text": "Esa es la a."
+ },
+ {
+  "key": "f742542f7",
+  "text": "Busca la a."
+ },
+ {
+  "key": "f750b99f9",
+  "text": "Empieza por la a."
+ },
+ {
+  "key": "f777b11be",
+  "text": "¿Dónde está la a?"
+ },
+ {
+  "key": "fabbd4cc3",
+  "text": "Es la a."
+ },
+ {
+  "key": "f3ad51e5a",
+  "text": "Escribe la a mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f3769ec8d",
+  "text": "Ahora la a minúscula, la pequeña."
+ },
+ {
+  "key": "fa978f263",
+  "text": "Escribe la a mayúscula."
+ },
+ {
+  "key": "fa0910de8",
+  "text": "Escribe la a minúscula."
+ },
+ {
+  "key": "f3d59ad3f",
+  "text": "¡Has aprendido la a!"
+ },
+ {
+  "key": "fc190390d",
+  "text": "Eso es abeja."
+ },
+ {
+  "key": "f76c3e6da",
+  "text": "¿Con qué letra empieza abeja?"
+ },
+ {
+  "key": "ff93b02f8",
+  "text": "Escucha: abeja."
+ },
+ {
+  "key": "fabfe3054",
+  "text": "Esta es la e. e, de elefante."
+ },
+ {
+  "key": "fb178041a",
+  "text": "Ahora haz el gesto de la e, como en el cole."
+ },
+ {
+  "key": "f8afc3057",
+  "text": "Se llama e."
+ },
+ {
+  "key": "f56f83300",
+  "text": "Toca todas las e: las grandes y las pequeñas."
+ },
+ {
+  "key": "fea2a8485",
+  "text": "¿Qué dibujo empieza por la e?"
+ },
+ {
+  "key": "f06a85026",
+  "text": "Esa es la e."
+ },
+ {
+  "key": "ff42f06d3",
+  "text": "Busca la e."
+ },
+ {
+  "key": "ff501d61d",
+  "text": "Empieza por la e."
+ },
+ {
+  "key": "ff7714de2",
+  "text": "¿Dónde está la e?"
+ },
+ {
+  "key": "f2bb388e7",
+  "text": "Es la e."
+ },
+ {
+  "key": "fe63909ce",
+  "text": "Escribe la e mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "fa70f3c39",
+  "text": "Ahora la e minúscula, la pequeña."
+ },
+ {
+  "key": "f469392d7",
+  "text": "Escribe la e mayúscula."
+ },
+ {
+  "key": "feb785d74",
+  "text": "Escribe la e minúscula."
+ },
+ {
+  "key": "f654f5edb",
+  "text": "¡Has aprendido la e!"
+ },
+ {
+  "key": "f8a9e5282",
+  "text": "Eso es elefante."
+ },
+ {
+  "key": "f0e852075",
+  "text": "¿Con qué letra empieza elefante?"
+ },
+ {
+  "key": "f4a2c48b9",
+  "text": "Escucha: elefante."
+ },
+ {
+  "key": "f5ae1be6f",
+  "text": "Esta es la i. i, de isla."
+ },
+ {
+  "key": "f5c4ac79e",
+  "text": "Ahora haz el gesto de la i, como en el cole."
+ },
+ {
+  "key": "f0b197beb",
+  "text": "Se llama i."
+ },
+ {
+  "key": "fb32ab19c",
+  "text": "Toca todas las i: las grandes y las pequeñas."
+ },
+ {
+  "key": "f6a20c0a9",
+  "text": "¿Qué dibujo empieza por la i?"
+ },
+ {
+  "key": "fa6b24662",
+  "text": "Esa es la i."
+ },
+ {
+  "key": "f9438fd0f",
+  "text": "Busca la i."
+ },
+ {
+  "key": "f94f844a1",
+  "text": "Empieza por la i."
+ },
+ {
+  "key": "ff78f62f6",
+  "text": "¿Dónde está la i?"
+ },
+ {
+  "key": "f2bd19dfb",
+  "text": "Es la i."
+ },
+ {
+  "key": "f163b9722",
+  "text": "Escribe la i mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f3ac40665",
+  "text": "Ahora la i minúscula, la pequeña."
+ },
+ {
+  "key": "f9989e94b",
+  "text": "Escribe la i mayúscula."
+ },
+ {
+  "key": "f0d131620",
+  "text": "Escribe la i minúscula."
+ },
+ {
+  "key": "fcd457537",
+  "text": "¡Has aprendido la i!"
+ },
+ {
+  "key": "f25b63c81",
+  "text": "Eso es isla."
+ },
+ {
+  "key": "f72ea870e",
+  "text": "¿Con qué letra empieza isla?"
+ },
+ {
+  "key": "fe8bd291a",
+  "text": "Escucha: isla."
+ },
+ {
+  "key": "fce70d2c3",
+  "text": "Esta es la o. o, de oso."
+ },
+ {
+  "key": "fc720cc18",
+  "text": "Ahora haz el gesto de la o, como en el cole."
+ },
+ {
+  "key": "f0b14febd",
+  "text": "Se llama o."
+ },
+ {
+  "key": "f8fbd6d2e",
+  "text": "Toca todas las o: las grandes y las pequeñas."
+ },
+ {
+  "key": "f6a1c437b",
+  "text": "¿Qué dibujo empieza por la o?"
+ },
+ {
+  "key": "f86c11e8c",
+  "text": "Esa es la o."
+ },
+ {
+  "key": "f7447d539",
+  "text": "Busca la o."
+ },
+ {
+  "key": "f74e907b7",
+  "text": "Empieza por la o."
+ },
+ {
+  "key": "ff780586c",
+  "text": "¿Dónde está la o?"
+ },
+ {
+  "key": "fabcc574d",
+  "text": "Es la o."
+ },
+ {
+  "key": "fda7366d4",
+  "text": "Escribe la o mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "fff05b137",
+  "text": "Ahora la o minúscula, la pequeña."
+ },
+ {
+  "key": "f9f43b895",
+  "text": "Escribe la o mayúscula."
+ },
+ {
+  "key": "f2f70543e",
+  "text": "Escribe la o minúscula."
+ },
+ {
+  "key": "fc140e525",
+  "text": "¡Has aprendido la o!"
+ },
+ {
+  "key": "f9969e96d",
+  "text": "Eso es oso."
+ },
+ {
+  "key": "fd3981cda",
+  "text": "¿Con qué letra empieza oso?"
+ },
+ {
+  "key": "fb5bd3fb0",
+  "text": "Escucha: oso."
+ },
+ {
+  "key": "f3a751a24",
+  "text": "Esta es la u. u, de uva."
+ },
+ {
+  "key": "f8bfc724a",
+  "text": "Ahora haz el gesto de la u, como en el cole."
+ },
+ {
+  "key": "f2ad489c7",
+  "text": "Se llama u."
+ },
+ {
+  "key": "f678e45f0",
+  "text": "Toca todas las u: las grandes y las pequeñas."
+ },
+ {
+  "key": "f6a525d75",
+  "text": "¿Qué dibujo empieza por la u?"
+ },
+ {
+  "key": "fa6d05b76",
+  "text": "Esa es la u."
+ },
+ {
+  "key": "f94076043",
+  "text": "Busca la u."
+ },
+ {
+  "key": "f94da2f8d",
+  "text": "Empieza por la u."
+ },
+ {
+  "key": "f774974f2",
+  "text": "¿Dónde está la u?"
+ },
+ {
+  "key": "f8bdb2f77",
+  "text": "Es la u."
+ },
+ {
+  "key": "f64ec56de",
+  "text": "Escribe la u mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f017a5649",
+  "text": "Ahora la u minúscula, la pequeña."
+ },
+ {
+  "key": "fcdf801c7",
+  "text": "Escribe la u mayúscula."
+ },
+ {
+  "key": "fce04bdc4",
+  "text": "Escribe la u minúscula."
+ },
+ {
+  "key": "fc577056b",
+  "text": "¡Has aprendido la u!"
+ },
+ {
+  "key": "feb6d048a",
+  "text": "Eso es uva."
+ },
+ {
+  "key": "fc54d509d",
+  "text": "¿Con qué letra empieza uva?"
+ },
+ {
+  "key": "f868856bb",
+  "text": "Escucha: uva."
+ },
+ {
+  "key": "f3cac1a20",
+  "text": "Esta es la eme. Suena así: mmmm. Con ella decimos ma, me, mi. Eme, de mono."
+ },
+ {
+  "key": "fece18d08",
+  "text": "Ahora haz el gesto de la eme, como en el cole."
+ },
+ {
+  "key": "f0816a389",
+  "text": "Se llama eme."
+ },
+ {
+  "key": "f62f80ed6",
+  "text": "Toca todas las eme: las grandes y las pequeñas."
+ },
+ {
+  "key": "fc490b0f3",
+  "text": "¿Qué dibujo empieza por la eme?"
+ },
+ {
+  "key": "f8c057f44",
+  "text": "Esa es la eme."
+ },
+ {
+  "key": "fa1b1e375",
+  "text": "Busca la eme."
+ },
+ {
+  "key": "fcd457cc7",
+  "text": "Empieza por la eme."
+ },
+ {
+  "key": "f751ebbdc",
+  "text": "¿Dónde está la eme?"
+ },
+ {
+  "key": "ff144f119",
+  "text": "Es la eme."
+ },
+ {
+  "key": "f4cd27000",
+  "text": "Escribe la eme mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f8a82057f",
+  "text": "Ahora la eme minúscula, la pequeña."
+ },
+ {
+  "key": "f24878661",
+  "text": "Escribe la eme mayúscula."
+ },
+ {
+  "key": "f8fd06b92",
+  "text": "Escribe la eme minúscula."
+ },
+ {
+  "key": "f012ece2d",
+  "text": "¡Has aprendido la eme!"
+ },
+ {
+  "key": "f29646019",
+  "text": "Eso es mono."
+ },
+ {
+  "key": "ffaa3dfe6",
+  "text": "¿Con qué letra empieza mono?"
+ },
+ {
+  "key": "f5f4b050e",
+  "text": "Escucha: mono."
+ },
+ {
+  "key": "f642e245b",
+  "text": "ma"
+ },
+ {
+  "key": "f906e5d4d",
+  "text": "¿Dónde pone... ma?"
+ },
+ {
+  "key": "fe9b53525",
+  "text": "Ahí pone ma."
+ },
+ {
+  "key": "f682e2aa7",
+  "text": "me"
+ },
+ {
+  "key": "f10782129",
+  "text": "¿Dónde pone... me?"
+ },
+ {
+  "key": "f89bf2b61",
+  "text": "Ahí pone me."
+ },
+ {
+  "key": "f5c2e17c3",
+  "text": "mi"
+ },
+ {
+  "key": "f9081e505",
+  "text": "¿Dónde pone... mi?"
+ },
+ {
+  "key": "fe9c8bcdd",
+  "text": "Ahí pone mi."
+ },
+ {
+  "key": "f622e2135",
+  "text": "mo"
+ },
+ {
+  "key": "f9090ef8f",
+  "text": "¿Dónde pone... mo?"
+ },
+ {
+  "key": "f69ce038b",
+  "text": "Ahí pone mo."
+ },
+ {
+  "key": "f582e1177",
+  "text": "mu"
+ },
+ {
+  "key": "f909ffa19",
+  "text": "¿Dónde pone... mu?"
+ },
+ {
+  "key": "fe9972011",
+  "text": "Ahí pone mu."
+ },
+ {
+  "key": "f419bf859",
+  "text": "mamá"
+ },
+ {
+  "key": "f6a8c0cd1",
+  "text": "mima"
+ },
+ {
+  "key": "f3627c174",
+  "text": "amo"
+ },
+ {
+  "key": "f648c035f",
+  "text": "mimo"
+ },
+ {
+  "key": "f07476815",
+  "text": "Esta es la pe. Con ella decimos pa, pe, pi. Pe, de pato."
+ },
+ {
+  "key": "f1ce3bb76",
+  "text": "Ahora haz el gesto de la pe, como en el cole."
+ },
+ {
+  "key": "f9cc789ff",
+  "text": "Se llama pe."
+ },
+ {
+  "key": "fb84a21ce",
+  "text": "Toca todas las pe: las grandes y las pequeñas."
+ },
+ {
+  "key": "f49f95fbb",
+  "text": "¿Qué dibujo empieza por la pe?"
+ },
+ {
+  "key": "f2b6bf594",
+  "text": "Esa es la pe."
+ },
+ {
+  "key": "f73aba0e3",
+  "text": "Busca la pe."
+ },
+ {
+  "key": "fddb56409",
+  "text": "Empieza por la pe."
+ },
+ {
+  "key": "f5bf3cebe",
+  "text": "¿Dónde está la pe?"
+ },
+ {
+  "key": "f499f5f0f",
+  "text": "Es la pe."
+ },
+ {
+  "key": "f48000974",
+  "text": "Escribe la pe mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f05803237",
+  "text": "Ahora la pe minúscula, la pequeña."
+ },
+ {
+  "key": "f1e79a4f5",
+  "text": "Escribe la pe mayúscula."
+ },
+ {
+  "key": "f21736c1e",
+  "text": "Escribe la pe minúscula."
+ },
+ {
+  "key": "fbcd05d65",
+  "text": "¡Has aprendido la pe!"
+ },
+ {
+  "key": "fe6ab33c6",
+  "text": "Eso es pato."
+ },
+ {
+  "key": "f7dba2af9",
+  "text": "¿Con qué letra empieza pato?"
+ },
+ {
+  "key": "fce5f7d7d",
+  "text": "Escucha: pato."
+ },
+ {
+  "key": "f504e588a",
+  "text": "pa"
+ },
+ {
+  "key": "f1faab1e2",
+  "text": "¿Dónde pone... pa?"
+ },
+ {
+  "key": "f55fe746a",
+  "text": "Ahí pone pa."
+ },
+ {
+  "key": "f4c4e523e",
+  "text": "pe"
+ },
+ {
+  "key": "f9fb475be",
+  "text": "¿Dónde pone... pe?"
+ },
+ {
+  "key": "fd6083846",
+  "text": "Ahí pone pe."
+ },
+ {
+  "key": "f484e4bf2",
+  "text": "pi"
+ },
+ {
+  "key": "f9fbf031a",
+  "text": "¿Dónde pone... pi?"
+ },
+ {
+  "key": "f76122e82",
+  "text": "Ahí pone pi."
+ },
+ {
+  "key": "f424e4280",
+  "text": "po"
+ },
+ {
+  "key": "f9fc38048",
+  "text": "¿Dónde pone... po?"
+ },
+ {
+  "key": "f562106ac",
+  "text": "Ahí pone po."
+ },
+ {
+  "key": "f5c4e6b6e",
+  "text": "pu"
+ },
+ {
+  "key": "f9f8d664e",
+  "text": "¿Dónde pone... pu?"
+ },
+ {
+  "key": "ff62f7a16",
+  "text": "Ahí pone pu."
+ },
+ {
+  "key": "ff57d71bd",
+  "text": "papá"
+ },
+ {
+  "key": "ffc1d2045",
+  "text": "pipa"
+ },
+ {
+  "key": "fdd7f8470",
+  "text": "mapa"
+ },
+ {
+  "key": "fa22f8308",
+  "text": "puma"
+ },
+ {
+  "key": "f4c7702ca",
+  "text": "Esta es la ele. Suena así: llll. Con ella decimos la, le, li. Ele, de luna."
+ },
+ {
+  "key": "f09cbd59d",
+  "text": "Ahora haz el gesto de la ele, como en el cole."
+ },
+ {
+  "key": "fd2e49b52",
+  "text": "Se llama ele."
+ },
+ {
+  "key": "ffe4b63f5",
+  "text": "Toca todas las ele: las grandes y las pequeñas."
+ },
+ {
+  "key": "f584d962c",
+  "text": "¿Qué dibujo empieza por la ele?"
+ },
+ {
+  "key": "f41233643",
+  "text": "Esa es la ele."
+ },
+ {
+  "key": "f0ca7e68e",
+  "text": "Busca la ele."
+ },
+ {
+  "key": "fb8272ea8",
+  "text": "Empieza por la ele."
+ },
+ {
+  "key": "f620070e3",
+  "text": "¿Dónde está la ele?"
+ },
+ {
+  "key": "ffb73e9e2",
+  "text": "Es la ele."
+ },
+ {
+  "key": "f131afcc9",
+  "text": "Escribe la ele mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f65ba3838",
+  "text": "Ahora la ele minúscula, la pequeña."
+ },
+ {
+  "key": "f7d0822ea",
+  "text": "Escribe la ele mayúscula."
+ },
+ {
+  "key": "f2ef18309",
+  "text": "Escribe la ele minúscula."
+ },
+ {
+  "key": "f8ceba6ce",
+  "text": "¡Has aprendido la ele!"
+ },
+ {
+  "key": "f80dfac5a",
+  "text": "Eso es luna."
+ },
+ {
+  "key": "f0882cecd",
+  "text": "¿Con qué letra empieza luna?"
+ },
+ {
+  "key": "f165e00c5",
+  "text": "Escucha: luna."
+ },
+ {
+  "key": "f4831c9de",
+  "text": "la"
+ },
+ {
+  "key": "f21b0d986",
+  "text": "¿Dónde pone... la?"
+ },
+ {
+  "key": "f53f84cc6",
+  "text": "Ahí pone la."
+ },
+ {
+  "key": "f4c31d02a",
+  "text": "le"
+ },
+ {
+  "key": "fa1a715aa",
+  "text": "¿Dónde pone... le?"
+ },
+ {
+  "key": "fd3ee88ea",
+  "text": "Ahí pone le."
+ },
+ {
+  "key": "f4031bd46",
+  "text": "li"
+ },
+ {
+  "key": "f219d51ce",
+  "text": "¿Dónde pone... li?"
+ },
+ {
+  "key": "f540bd47e",
+  "text": "Ahí pone li."
+ },
+ {
+  "key": "f4231c06c",
+  "text": "lo"
+ },
+ {
+  "key": "f218e4744",
+  "text": "¿Dónde pone... lo?"
+ },
+ {
+  "key": "ff406c030",
+  "text": "Ahí pone lo."
+ },
+ {
+  "key": "f5c31e95a",
+  "text": "lu"
+ },
+ {
+  "key": "f21ceee9a",
+  "text": "¿Dónde pone... lu?"
+ },
+ {
+  "key": "ff415caba",
+  "text": "Ahí pone lu."
+ },
+ {
+  "key": "f08eb3eed",
+  "text": "lupa"
+ },
+ {
+  "key": "f7d4cab09",
+  "text": "pala"
+ },
+ {
+  "key": "fc22ba3b5",
+  "text": "ola"
+ },
+ {
+  "key": "fa24277a0",
+  "text": "mula"
+ },
+ {
+  "key": "f08ede317",
+  "text": "Esta es la ese. Suena así: ssss. Con ella decimos sa, se, si. Ese, de sol."
+ },
+ {
+  "key": "f1a606b52",
+  "text": "Ahora haz el gesto de la ese, como en el cole."
+ },
+ {
+  "key": "fc14504d3",
+  "text": "Se llama ese."
+ },
+ {
+  "key": "fbf3f3e3c",
+  "text": "Toca todas las ese: las grandes y las pequeñas."
+ },
+ {
+  "key": "f84debe19",
+  "text": "¿Qué dibujo empieza por la ese?"
+ },
+ {
+  "key": "f70376ba2",
+  "text": "Esa es la ese."
+ },
+ {
+  "key": "f91bec637",
+  "text": "Busca la ese."
+ },
+ {
+  "key": "fbb4c37e5",
+  "text": "Empieza por la ese."
+ },
+ {
+  "key": "f5053772a",
+  "text": "¿Dónde está la ese?"
+ },
+ {
+  "key": "fceda1d83",
+  "text": "Es la ese."
+ },
+ {
+  "key": "f65fbd25e",
+  "text": "Escribe la ese mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f4ea99e75",
+  "text": "Ahora la ese minúscula, la pequeña."
+ },
+ {
+  "key": "fbcaa8447",
+  "text": "Escribe la ese mayúscula."
+ },
+ {
+  "key": "fbcb74044",
+  "text": "Escribe la ese minúscula."
+ },
+ {
+  "key": "fbd7cd507",
+  "text": "¡Has aprendido la ese!"
+ },
+ {
+  "key": "fbd7fc3ba",
+  "text": "Eso es sol."
+ },
+ {
+  "key": "fde41764d",
+  "text": "¿Con qué letra empieza sol?"
+ },
+ {
+  "key": "fa3f85f97",
+  "text": "Escucha: sol."
+ },
+ {
+  "key": "f38520459",
+  "text": "sa"
+ },
+ {
+  "key": "f335dd33f",
+  "text": "¿Dónde pone... sa?"
+ },
+ {
+  "key": "f928bff9f",
+  "text": "Ahí pone sa."
+ },
+ {
+  "key": "f3c520aa5",
+  "text": "se"
+ },
+ {
+  "key": "fb3540f63",
+  "text": "¿Dónde pone... se?"
+ },
+ {
+  "key": "f3295f5db",
+  "text": "Ahí pone se."
+ },
+ {
+  "key": "f405210f1",
+  "text": "si"
+ },
+ {
+  "key": "f334a4b87",
+  "text": "¿Dónde pone... si?"
+ },
+ {
+  "key": "fb278aa47",
+  "text": "Ahí pone si."
+ },
+ {
+  "key": "f42521417",
+  "text": "so"
+ },
+ {
+  "key": "f333b40fd",
+  "text": "¿Dónde pone... so?"
+ },
+ {
+  "key": "f92878271",
+  "text": "Ahí pone so."
+ },
+ {
+  "key": "f4c5223d5",
+  "text": "su"
+ },
+ {
+  "key": "f332c3673",
+  "text": "¿Dónde pone... su?"
+ },
+ {
+  "key": "f92bd9c6b",
+  "text": "Ahí pone su."
+ },
+ {
+  "key": "fe331a50c",
+  "text": "sopa"
+ },
+ {
+  "key": "faa00cce7",
+  "text": "mesa"
+ },
+ {
+  "key": "fc4206de8",
+  "text": "oso"
+ },
+ {
+  "key": "fa6f1caec",
+  "text": "sapo"
+ },
+ {
+  "key": "fa5935423",
+  "text": "Esta es la te. Con ella decimos ta, te, ti. Te, de tomate."
+ },
+ {
+  "key": "f0f356faa",
+  "text": "Ahora haz el gesto de la te, como en el cole."
+ },
+ {
+  "key": "f8802ea43",
+  "text": "Se llama te."
+ },
+ {
+  "key": "f102fdb1a",
+  "text": "Toca todas las te: las grandes y las pequeñas."
+ },
+ {
+  "key": "f95d327df",
+  "text": "¿Qué dibujo empieza por la te?"
+ },
+ {
+  "key": "fddb59530",
+  "text": "Esa es la te."
+ },
+ {
+  "key": "f086f771f",
+  "text": "Busca la te."
+ },
+ {
+  "key": "f0967ea5d",
+  "text": "Empieza por la te."
+ },
+ {
+  "key": "f29825632",
+  "text": "¿Dónde está la te?"
+ },
+ {
+  "key": "f77558d13",
+  "text": "Es la te."
+ },
+ {
+  "key": "faec95458",
+  "text": "Escribe la te mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "fa6be8d93",
+  "text": "Ahora la te minúscula, la pequeña."
+ },
+ {
+  "key": "f99fdded9",
+  "text": "Escribe la te mayúscula."
+ },
+ {
+  "key": "f3294663a",
+  "text": "Escribe la te minúscula."
+ },
+ {
+  "key": "f30aa6481",
+  "text": "¡Has aprendido la te!"
+ },
+ {
+  "key": "fb7b40514",
+  "text": "Eso es tomate."
+ },
+ {
+  "key": "f166faf67",
+  "text": "¿Con qué letra empieza tomate?"
+ },
+ {
+  "key": "ffad2bbc7",
+  "text": "Escucha: tomate."
+ },
+ {
+  "key": "f38453866",
+  "text": "ta"
+ },
+ {
+  "key": "f6d4d8a8e",
+  "text": "¿Dónde pone... ta?"
+ },
+ {
+  "key": "f0ad604be",
+  "text": "Ahí pone ta."
+ },
+ {
+  "key": "f3c453eb2",
+  "text": "te"
+ },
+ {
+  "key": "f6d42fd32",
+  "text": "¿Dónde pone... te?"
+ },
+ {
+  "key": "faacc7342",
+  "text": "Ahí pone te."
+ },
+ {
+  "key": "f404544fe",
+  "text": "ti"
+ },
+ {
+  "key": "f6d611246",
+  "text": "¿Dónde pone... ti?"
+ },
+ {
+  "key": "f0ac27d06",
+  "text": "Ahí pone ti."
+ },
+ {
+  "key": "f42454824",
+  "text": "to"
+ },
+ {
+  "key": "f6d5207bc",
+  "text": "¿Dónde pone... to?"
+ },
+ {
+  "key": "f8abd3658",
+  "text": "Ahí pone to."
+ },
+ {
+  "key": "f4c4557e2",
+  "text": "tu"
+ },
+ {
+  "key": "fed6ad622",
+  "text": "¿Dónde pone... tu?"
+ },
+ {
+  "key": "f0af419d2",
+  "text": "Ahí pone tu."
+ },
+ {
+  "key": "f878751ef",
+  "text": "pato"
+ },
+ {
+  "key": "f12467974",
+  "text": "moto"
+ },
+ {
+  "key": "f3fa2f581",
+  "text": "tomate"
+ },
+ {
+  "key": "fcb17ff81",
+  "text": "tela"
+ },
+ {
+  "key": "f82df6ce2",
+  "text": "Esta es la ene. Suena así: nnnn. Con ella decimos na, ne, ni. Ene, de nube."
+ },
+ {
+  "key": "fb424acc3",
+  "text": "Ahora haz el gesto de la ene, como en el cole."
+ },
+ {
+  "key": "f99b57088",
+  "text": "Se llama ene."
+ },
+ {
+  "key": "f64f980b7",
+  "text": "Toca todas las ene: las grandes y las pequeñas."
+ },
+ {
+  "key": "f30f1e0ce",
+  "text": "¿Qué dibujo empieza por la ene?"
+ },
+ {
+  "key": "f1a3e4235",
+  "text": "Esa es la ene."
+ },
+ {
+  "key": "f13792084",
+  "text": "Busca la ene."
+ },
+ {
+  "key": "f71558ff2",
+  "text": "Empieza por la ene."
+ },
+ {
+  "key": "fbd0ad34d",
+  "text": "¿Dónde está la ene?"
+ },
+ {
+  "key": "f024523d8",
+  "text": "Es la ene."
+ },
+ {
+  "key": "f13c3e983",
+  "text": "Escribe la ene mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f9519afa2",
+  "text": "Ahora la ene minúscula, la pequeña."
+ },
+ {
+  "key": "f0ca222ac",
+  "text": "Escribe la ene mayúscula."
+ },
+ {
+  "key": "fb5a5c68f",
+  "text": "Escribe la ene minúscula."
+ },
+ {
+  "key": "f398fac2c",
+  "text": "¡Has aprendido la ene!"
+ },
+ {
+  "key": "f691017bc",
+  "text": "Eso es nube."
+ },
+ {
+  "key": "f9c7d476f",
+  "text": "¿Con qué letra empieza nube?"
+ },
+ {
+  "key": "f0621a18f",
+  "text": "Escucha: nube."
+ },
+ {
+  "key": "f543659f0",
+  "text": "na"
+ },
+ {
+  "key": "f488245dc",
+  "text": "¿Dónde pone... na?"
+ },
+ {
+  "key": "f9b67bc3c",
+  "text": "Ahí pone na."
+ },
+ {
+  "key": "f5836603c",
+  "text": "ne"
+ },
+ {
+  "key": "fc88c09b8",
+  "text": "¿Dónde pone... ne?"
+ },
+ {
+  "key": "ffb5dc600",
+  "text": "Ahí pone ne."
+ },
+ {
+  "key": "f5c366688",
+  "text": "ni"
+ },
+ {
+  "key": "fc86df4a4",
+  "text": "¿Dónde pone... ni?"
+ },
+ {
+  "key": "f7b540224",
+  "text": "Ahí pone ni."
+ },
+ {
+  "key": "f62366ffa",
+  "text": "no"
+ },
+ {
+  "key": "fc87cff2e",
+  "text": "¿Dónde pone... no?"
+ },
+ {
+  "key": "f9b4529fa",
+  "text": "Ahí pone no."
+ },
+ {
+  "key": "f4836470c",
+  "text": "nu"
+ },
+ {
+  "key": "f48b3e2a8",
+  "text": "¿Dónde pone... nu?"
+ },
+ {
+  "key": "f9b361f70",
+  "text": "Ahí pone nu."
+ },
+ {
+  "key": "f05033d87",
+  "text": "luna"
+ },
+ {
+  "key": "fcb976d00",
+  "text": "mano"
+ },
+ {
+  "key": "f65d92e55",
+  "text": "nena"
+ },
+ {
+  "key": "ff286ee6a",
+  "text": "mono"
+ },
+ {
+  "key": "f3de6d0ad",
+  "text": "Esta es la de. Con ella decimos da, de, di. De, de dado."
+ },
+ {
+  "key": "f4dfe5fda",
+  "text": "Ahora haz el gesto de la de, como en el cole."
+ },
+ {
+  "key": "f35cfe973",
+  "text": "Se llama de."
+ },
+ {
+  "key": "f075ba90a",
+  "text": "Toca todas las de: las grandes y las pequeñas."
+ },
+ {
+  "key": "f4806bfcf",
+  "text": "¿Qué dibujo empieza por la de?"
+ },
+ {
+  "key": "ff0879500",
+  "text": "Esa es la de."
+ },
+ {
+  "key": "f763c118f",
+  "text": "Busca la de."
+ },
+ {
+  "key": "ff910538d",
+  "text": "Empieza por la de."
+ },
+ {
+  "key": "ff74f87c2",
+  "text": "¿Dónde está la de?"
+ },
+ {
+  "key": "f470eee63",
+  "text": "Es la de."
+ },
+ {
+  "key": "fc2b6f8a8",
+  "text": "Escribe la de mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "fd2ba9823",
+  "text": "Ahora la de minúscula, la pequeña."
+ },
+ {
+  "key": "f32b513c9",
+  "text": "Escribe la de mayúscula."
+ },
+ {
+  "key": "f606f7dca",
+  "text": "Escribe la de minúscula."
+ },
+ {
+  "key": "fc2ddca11",
+  "text": "¡Has aprendido la de!"
+ },
+ {
+  "key": "f143b3b2a",
+  "text": "Eso es dado."
+ },
+ {
+  "key": "f81660d5d",
+  "text": "¿Con qué letra empieza dado?"
+ },
+ {
+  "key": "fbcadcc91",
+  "text": "Escucha: dado."
+ },
+ {
+  "key": "f581cc856",
+  "text": "da"
+ },
+ {
+  "key": "fbb19f29e",
+  "text": "¿Dónde pone... da?"
+ },
+ {
+  "key": "f5b2e004e",
+  "text": "Ahí pone da."
+ },
+ {
+  "key": "f5c1ccea2",
+  "text": "de"
+ },
+ {
+  "key": "f3b102ec2",
+  "text": "¿Dónde pone... de?"
+ },
+ {
+  "key": "fbb240a12",
+  "text": "Ahí pone de."
+ },
+ {
+  "key": "f601cd4ee",
+  "text": "di"
+ },
+ {
+  "key": "fbb2d7a56",
+  "text": "¿Dónde pone... di?"
+ },
+ {
+  "key": "fdb19af16",
+  "text": "Ahí pone di."
+ },
+ {
+  "key": "f621cd814",
+  "text": "do"
+ },
+ {
+  "key": "fbb1e6fcc",
+  "text": "¿Dónde pone... do?"
+ },
+ {
+  "key": "fdb1531e8",
+  "text": "Ahí pone do."
+ },
+ {
+  "key": "f4c1cb572",
+  "text": "du"
+ },
+ {
+  "key": "fbae855d2",
+  "text": "¿Dónde pone... du?"
+ },
+ {
+  "key": "f5afc6382",
+  "text": "Ahí pone du."
+ },
+ {
+  "key": "faee76ee7",
+  "text": "dedo"
+ },
+ {
+  "key": "ffa9a279b",
+  "text": "dado"
+ },
+ {
+  "key": "ffc3550f1",
+  "text": "nido"
+ },
+ {
+  "key": "ff40c7f3b",
+  "text": "moneda"
+ },
+ {
+  "key": "fdddef62b",
+  "text": "Esta es la efe. Suena así: ffff. Con ella decimos fa, fe, fi. Efe, de fresa."
+ },
+ {
+  "key": "fdfdd275b",
+  "text": "Ahora haz el gesto de la efe, como en el cole."
+ },
+ {
+  "key": "f10a3ee40",
+  "text": "Se llama efe."
+ },
+ {
+  "key": "f7d7989bf",
+  "text": "Toca todas las efe: las grandes y las pequeñas."
+ },
+ {
+  "key": "f182761f6",
+  "text": "¿Qué dibujo empieza por la efe?"
+ },
+ {
+  "key": "f61745a7d",
+  "text": "Esa es la efe."
+ },
+ {
+  "key": "f7a10076c",
+  "text": "Busca la efe."
+ },
+ {
+  "key": "f8a200eca",
+  "text": "Empieza por la efe."
+ },
+ {
+  "key": "fa4405475",
+  "text": "¿Dónde está la efe?"
+ },
+ {
+  "key": "fbbae6f50",
+  "text": "Es la efe."
+ },
+ {
+  "key": "fa2bef9cb",
+  "text": "Escribe la efe mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "fa2069ada",
+  "text": "Ahora la efe minúscula, la pequeña."
+ },
+ {
+  "key": "f3cc884f4",
+  "text": "Escribe la efe mayúscula."
+ },
+ {
+  "key": "f56805267",
+  "text": "Escribe la efe minúscula."
+ },
+ {
+  "key": "f30c54684",
+  "text": "¡Has aprendido la efe!"
+ },
+ {
+  "key": "ff8e8f575",
+  "text": "Eso es fresa."
+ },
+ {
+  "key": "fc3a40642",
+  "text": "¿Con qué letra empieza fresa?"
+ },
+ {
+  "key": "fba4ab5ac",
+  "text": "Escucha: fresa."
+ },
+ {
+  "key": "f6422eb68",
+  "text": "fa"
+ },
+ {
+  "key": "fe1eb5ef4",
+  "text": "¿Dónde pone... fa?"
+ },
+ {
+  "key": "f61ff3a44",
+  "text": "Ahí pone fa."
+ },
+ {
+  "key": "f6822f1b4",
+  "text": "fe"
+ },
+ {
+  "key": "f61f522d0",
+  "text": "¿Dónde pone... fe?"
+ },
+ {
+  "key": "f81f4df48",
+  "text": "Ahí pone fe."
+ },
+ {
+  "key": "f5c22ded0",
+  "text": "fi"
+ },
+ {
+  "key": "fe1fee6ac",
+  "text": "¿Dónde pone... fi?"
+ },
+ {
+  "key": "f8212f45c",
+  "text": "Ahí pone fi."
+ },
+ {
+  "key": "f6222e842",
+  "text": "fo"
+ },
+ {
+  "key": "fe20df136",
+  "text": "¿Dónde pone... fo?"
+ },
+ {
+  "key": "f6203b772",
+  "text": "Ahí pone fo."
+ },
+ {
+  "key": "f5822d884",
+  "text": "fu"
+ },
+ {
+  "key": "fe1cd49e0",
+  "text": "¿Dónde pone... fu?"
+ },
+ {
+  "key": "f61cd9d78",
+  "text": "Ahí pone fu."
+ },
+ {
+  "key": "f2267a297",
+  "text": "foto"
+ },
+ {
+  "key": "f5f48da26",
+  "text": "sofá"
+ },
+ {
+  "key": "faeea5d8f",
+  "text": "fila"
+ },
+ {
+  "key": "f383256d6",
+  "text": "foca"
+ },
+ {
+  "key": "f96f63b4a",
+  "text": "Esta es la erre. Suena así: rrrr. Con ella decimos ra, re, ri. Erre, de rana."
+ },
+ {
+  "key": "f0a1ea2b7",
+  "text": "Ahora haz el gesto de la erre, como en el cole."
+ },
+ {
+  "key": "f8f6cb534",
+  "text": "Se llama erre."
+ },
+ {
+  "key": "fee0446bd",
+  "text": "Toca todas las erre: las grandes y las pequeñas."
+ },
+ {
+  "key": "ff97f4cc4",
+  "text": "¿Qué dibujo empieza por la erre?"
+ },
+ {
+  "key": "fc7a360cb",
+  "text": "Esa es la erre."
+ },
+ {
+  "key": "f41fe4d10",
+  "text": "Busca la erre."
+ },
+ {
+  "key": "f90d5a6a6",
+  "text": "Empieza por la erre."
+ },
+ {
+  "key": "fdf31d2e1",
+  "text": "¿Dónde está la erre?"
+ },
+ {
+  "key": "fbe973124",
+  "text": "Es la erre."
+ },
+ {
+  "key": "f3b1b039d",
+  "text": "Escribe la erre mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f4c6b96c0",
+  "text": "Ahora la erre minúscula, la pequeña."
+ },
+ {
+  "key": "f925a669e",
+  "text": "Escribe la erre mayúscula."
+ },
+ {
+  "key": "fd871bac5",
+  "text": "Escribe la erre minúscula."
+ },
+ {
+  "key": "f321d0036",
+  "text": "¡Has aprendido la erre!"
+ },
+ {
+  "key": "f12b5d91c",
+  "text": "Eso es rana."
+ },
+ {
+  "key": "fec27320f",
+  "text": "¿Con qué letra empieza rana?"
+ },
+ {
+  "key": "f2361ba7f",
+  "text": "Escucha: rana."
+ },
+ {
+  "key": "f5c547b9c",
+  "text": "ra"
+ },
+ {
+  "key": "f467c1e38",
+  "text": "¿Dónde pone... ra?"
+ },
+ {
+  "key": "f7d6db180",
+  "text": "Ahí pone ra."
+ },
+ {
+  "key": "f58547550",
+  "text": "re"
+ },
+ {
+  "key": "fc6725a5c",
+  "text": "¿Dónde pone... re?"
+ },
+ {
+  "key": "f1d77a7bc",
+  "text": "Ahí pone re."
+ },
+ {
+  "key": "f64548834",
+  "text": "ri"
+ },
+ {
+  "key": "fc667cd00",
+  "text": "¿Dónde pone... ri?"
+ },
+ {
+  "key": "f9d5a5c28",
+  "text": "Ahí pone ri."
+ },
+ {
+  "key": "f6254850e",
+  "text": "ro"
+ },
+ {
+  "key": "fc6634fd2",
+  "text": "¿Dónde pone... ro?"
+ },
+ {
+  "key": "f9d5ed956",
+  "text": "Ahí pone ro."
+ },
+ {
+  "key": "f48545c20",
+  "text": "ru"
+ },
+ {
+  "key": "fc69969cc",
+  "text": "¿Dónde pone... ru?"
+ },
+ {
+  "key": "ffd5065ec",
+  "text": "Ahí pone ru."
+ },
+ {
+  "key": "faa83961b",
+  "text": "rata"
+ },
+ {
+  "key": "f3c449be1",
+  "text": "ropa"
+ },
+ {
+  "key": "f14421e52",
+  "text": "rosa"
+ },
+ {
+  "key": "f889926e4",
+  "text": "ramo"
+ },
+ {
+  "key": "f2c5db910",
+  "text": "Esta es la ce. Con ella decimos ca, co, cu. Ce, de casa."
+ },
+ {
+  "key": "f6b90c74d",
+  "text": "Ahora haz el gesto de la ce, como en el cole."
+ },
+ {
+  "key": "f4e05cfba",
+  "text": "Se llama ce."
+ },
+ {
+  "key": "f84aeb11f",
+  "text": "Toca todas las ce: las grandes y las pequeñas."
+ },
+ {
+  "key": "f692bf846",
+  "text": "¿Qué dibujo empieza por la ce?"
+ },
+ {
+  "key": "f4c7781d5",
+  "text": "Esa es la ce."
+ },
+ {
+  "key": "f6764b45e",
+  "text": "Busca la ce."
+ },
+ {
+  "key": "f9c8295f8",
+  "text": "Empieza por la ce."
+ },
+ {
+  "key": "f3f3b9f33",
+  "text": "¿Dónde está la ce?"
+ },
+ {
+  "key": "f9f45396a",
+  "text": "Es la ce."
+ },
+ {
+  "key": "f1260c5f7",
+  "text": "Escribe la ce mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f1c02fc8a",
+  "text": "Ahora la ce minúscula, la pequeña."
+ },
+ {
+  "key": "fe9238720",
+  "text": "Escribe la ce mayúscula."
+ },
+ {
+  "key": "ff469e97b",
+  "text": "Escribe la ce minúscula."
+ },
+ {
+  "key": "f08033b34",
+  "text": "¡Has aprendido la ce!"
+ },
+ {
+  "key": "f6f632284",
+  "text": "Eso es casa."
+ },
+ {
+  "key": "ff964c2d7",
+  "text": "¿Con qué letra empieza casa?"
+ },
+ {
+  "key": "fa6b43eb7",
+  "text": "Escucha: casa."
+ },
+ {
+  "key": "f58299449",
+  "text": "ca"
+ },
+ {
+  "key": "f03060a0f",
+  "text": "¿Dónde pone... ca?"
+ },
+ {
+  "key": "fe2e3fb2f",
+  "text": "Ahí pone ca."
+ },
+ {
+  "key": "f6229a407",
+  "text": "co"
+ },
+ {
+  "key": "f02e377cd",
+  "text": "¿Dónde pone... co?"
+ },
+ {
+  "key": "f62deb481",
+  "text": "Ahí pone co."
+ },
+ {
+  "key": "f4c298165",
+  "text": "cu"
+ },
+ {
+  "key": "f03241f23",
+  "text": "¿Dónde pone... cu?"
+ },
+ {
+  "key": "fe2c5e61b",
+  "text": "Ahí pone cu."
+ },
+ {
+  "key": "f9f253efd",
+  "text": "casa"
+ },
+ {
+  "key": "f879af790",
+  "text": "cuna"
+ },
+ {
+  "key": "fd3336fb9",
+  "text": "coco"
+ },
+ {
+  "key": "f9aef1eb7",
+  "text": "cama"
+ },
+ {
+  "key": "fe6d9d488",
+  "text": "Esta es la be. Con ella decimos ba, be, bi. Be, de ballena."
+ },
+ {
+  "key": "f47f164f8",
+  "text": "Ahora haz el gesto de la be, como en el cole."
+ },
+ {
+  "key": "fc3383cb1",
+  "text": "Se llama be."
+ },
+ {
+  "key": "f306df8a0",
+  "text": "Toca todas las be: las grandes y las pequeñas."
+ },
+ {
+  "key": "f55fa2595",
+  "text": "¿Qué dibujo empieza por la be?"
+ },
+ {
+  "key": "f376cbb6e",
+  "text": "Esa es la be."
+ },
+ {
+  "key": "f7d0d4b85",
+  "text": "Busca la be."
+ },
+ {
+  "key": "f323f7e57",
+  "text": "Empieza por la be."
+ },
+ {
+  "key": "fd07e1b6c",
+  "text": "¿Dónde está la be?"
+ },
+ {
+  "key": "f5515dbe1",
+  "text": "Es la be."
+ },
+ {
+  "key": "ff98d7aee",
+  "text": "Escribe la be mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f7b6b4c29",
+  "text": "Ahora la be minúscula, la pequeña."
+ },
+ {
+  "key": "f74c7e437",
+  "text": "Escribe la be mayúscula."
+ },
+ {
+  "key": "f173245d4",
+  "text": "Escribe la be minúscula."
+ },
+ {
+  "key": "fccd1298b",
+  "text": "¡Has aprendido la be!"
+ },
+ {
+  "key": "f725759ab",
+  "text": "Eso es ballena."
+ },
+ {
+  "key": "f15b39158",
+  "text": "¿Con qué letra empieza ballena?"
+ },
+ {
+  "key": "f0795e966",
+  "text": "Escucha: ballena."
+ },
+ {
+  "key": "f3c2ba6cc",
+  "text": "ba"
+ },
+ {
+  "key": "f94488648",
+  "text": "¿Dónde pone... ba?"
+ },
+ {
+  "key": "f4fa17bd0",
+  "text": "Ahí pone ba."
+ },
+ {
+  "key": "f382ba080",
+  "text": "be"
+ },
+ {
+  "key": "f143ec26c",
+  "text": "¿Dónde pone... be?"
+ },
+ {
+  "key": "fafab0d4c",
+  "text": "Ahí pone be."
+ },
+ {
+  "key": "f442bb364",
+  "text": "bi"
+ },
+ {
+  "key": "f9434fe90",
+  "text": "¿Dónde pone... bi?"
+ },
+ {
+  "key": "f2f8dc1b8",
+  "text": "Ahí pone bi."
+ },
+ {
+  "key": "f422bb03e",
+  "text": "bo"
+ },
+ {
+  "key": "f142fb7e2",
+  "text": "¿Dónde pone... bo?"
+ },
+ {
+  "key": "f2f923ee6",
+  "text": "Ahí pone bo."
+ },
+ {
+  "key": "f482bb9b0",
+  "text": "bu"
+ },
+ {
+  "key": "f9416e97c",
+  "text": "¿Dónde pone... bu?"
+ },
+ {
+  "key": "f4fd3189c",
+  "text": "Ahí pone bu."
+ },
+ {
+  "key": "ff381fccd",
+  "text": "bota"
+ },
+ {
+  "key": "f0b53c2fd",
+  "text": "bebé"
+ },
+ {
+  "key": "fc3b10f72",
+  "text": "boca"
+ },
+ {
+  "key": "f369ad9b8",
+  "text": "baño"
+ },
+ {
+  "key": "f7a76210e",
+  "text": "Esta es la uve. Con ella decimos va, ve, vi. Uve, de vaca."
+ },
+ {
+  "key": "ff6db379b",
+  "text": "Ahora haz el gesto de la uve, como en el cole."
+ },
+ {
+  "key": "fad585780",
+  "text": "Se llama uve."
+ },
+ {
+  "key": "f5dcbeb5f",
+  "text": "Toca todas las uve: las grandes y las pequeñas."
+ },
+ {
+  "key": "f973a16b6",
+  "text": "¿Qué dibujo empieza por la uve?"
+ },
+ {
+  "key": "ffdfbae1d",
+  "text": "Esa es la uve."
+ },
+ {
+  "key": "ffafd52ac",
+  "text": "Busca la uve."
+ },
+ {
+  "key": "f26d4780a",
+  "text": "Empieza por la uve."
+ },
+ {
+  "key": "f252d9fb5",
+  "text": "¿Dónde está la uve?"
+ },
+ {
+  "key": "f1efa0610",
+  "text": "Es la uve."
+ },
+ {
+  "key": "f3cb229eb",
+  "text": "Escribe la uve mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "faa46531a",
+  "text": "Ahora la uve minúscula, la pequeña."
+ },
+ {
+  "key": "f8c68fe54",
+  "text": "Escribe la uve mayúscula."
+ },
+ {
+  "key": "fd2a40547",
+  "text": "Escribe la uve minúscula."
+ },
+ {
+  "key": "fafd7fb44",
+  "text": "¡Has aprendido la uve!"
+ },
+ {
+  "key": "f494116c3",
+  "text": "Eso es vaca."
+ },
+ {
+  "key": "f5c1f6c10",
+  "text": "¿Con qué letra empieza vaca?"
+ },
+ {
+  "key": "fc9197500",
+  "text": "Escucha: vaca."
+ },
+ {
+  "key": "f4449c878",
+  "text": "va"
+ },
+ {
+  "key": "f141e2d64",
+  "text": "¿Dónde pone... va?"
+ },
+ {
+  "key": "f51a7a374",
+  "text": "Ahí pone va."
+ },
+ {
+  "key": "f4849cec4",
+  "text": "ve"
+ },
+ {
+  "key": "f9427f140",
+  "text": "¿Dónde pone... ve?"
+ },
+ {
+  "key": "fb19dad38",
+  "text": "Ahí pone ve."
+ },
+ {
+  "key": "f3c49bbe0",
+  "text": "vi"
+ },
+ {
+  "key": "f94327e9c",
+  "text": "¿Dónde pone... vi?"
+ },
+ {
+  "key": "f31baf8cc",
+  "text": "Ahí pone vi."
+ },
+ {
+  "key": "f4249c552",
+  "text": "vo"
+ },
+ {
+  "key": "f1440bfa6",
+  "text": "¿Dónde pone... vo?"
+ },
+ {
+  "key": "f51ac20a2",
+  "text": "Ahí pone vo."
+ },
+ {
+  "key": "f5849e7f4",
+  "text": "vu"
+ },
+ {
+  "key": "f144fca30",
+  "text": "¿Dónde pone... vu?"
+ },
+ {
+  "key": "fd1c4ef08",
+  "text": "Ahí pone vu."
+ },
+ {
+  "key": "f1cd686a0",
+  "text": "vaca"
+ },
+ {
+  "key": "f4799fa89",
+  "text": "uva"
+ },
+ {
+  "key": "f01113d5b",
+  "text": "vela"
+ },
+ {
+  "key": "fad0004b5",
+  "text": "nave"
+ },
+ {
+  "key": "f0cd114f3",
+  "text": "Esta es la ge. Con ella decimos ga, go, gu. Ge, de gato."
+ },
+ {
+  "key": "f87cd0ea1",
+  "text": "Ahora haz el gesto de la ge, como en el cole."
+ },
+ {
+  "key": "f7bbbfdbe",
+  "text": "Se llama ge."
+ },
+ {
+  "key": "fb0abd61b",
+  "text": "Toca todas las ge: las grandes y las pequeñas."
+ },
+ {
+  "key": "fb4deb0fa",
+  "text": "¿Qué dibujo empieza por la ge?"
+ },
+ {
+  "key": "f7ee8fa61",
+  "text": "Esa es la ge."
+ },
+ {
+  "key": "f3c28ef5a",
+  "text": "Busca la ge."
+ },
+ {
+  "key": "f085c907c",
+  "text": "Empieza por la ge."
+ },
+ {
+  "key": "f8a779697",
+  "text": "¿Dónde está la ge?"
+ },
+ {
+  "key": "f0d999cee",
+  "text": "Es la ge."
+ },
+ {
+  "key": "f7ef72f8b",
+  "text": "Escribe la ge mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f1af94c26",
+  "text": "Ahora la ge minúscula, la pequeña."
+ },
+ {
+  "key": "f90548cb4",
+  "text": "Escribe la ge mayúscula."
+ },
+ {
+  "key": "f0bbc1a27",
+  "text": "Escribe la ge minúscula."
+ },
+ {
+  "key": "f1bb59bc0",
+  "text": "¡Has aprendido la ge!"
+ },
+ {
+  "key": "f043bbebb",
+  "text": "Eso es gato."
+ },
+ {
+  "key": "f53e87088",
+  "text": "¿Con qué letra empieza gato?"
+ },
+ {
+  "key": "fc4f7a7d4",
+  "text": "Escucha: gato."
+ },
+ {
+  "key": "f40207425",
+  "text": "ga"
+ },
+ {
+  "key": "f4e2e79bb",
+  "text": "¿Dónde pone... ga?"
+ },
+ {
+  "key": "f171cf143",
+  "text": "Ahí pone ga."
+ },
+ {
+  "key": "f4220774b",
+  "text": "go"
+ },
+ {
+  "key": "fce474821",
+  "text": "¿Dónde pone... go?"
+ },
+ {
+  "key": "f172bfbcd",
+  "text": "Ahí pone go."
+ },
+ {
+  "key": "f4c208709",
+  "text": "gu"
+ },
+ {
+  "key": "f4e601687",
+  "text": "¿Dónde pone... gu?"
+ },
+ {
+  "key": "ff73ad3f7",
+  "text": "Ahí pone gu."
+ },
+ {
+  "key": "f1c60f484",
+  "text": "gato"
+ },
+ {
+  "key": "f0b64c9c9",
+  "text": "goma"
+ },
+ {
+  "key": "f79000e3c",
+  "text": "lago"
+ },
+ {
+  "key": "fffa31fa4",
+  "text": "gota"
+ },
+ {
+  "key": "ff8e493bd",
+  "text": "Esta es la jota. Suena así: jjjj. Con ella decimos ja, je, ji. Jota, de jirafa."
+ },
+ {
+  "key": "f2045f0a9",
+  "text": "Ahora haz el gesto de la jota, como en el cole."
+ },
+ {
+  "key": "fad4127aa",
+  "text": "Se llama jota."
+ },
+ {
+  "key": "f79ccbbef",
+  "text": "Toca todas las jota: las grandes y las pequeñas."
+ },
+ {
+  "key": "fcd9a7db6",
+  "text": "¿Qué dibujo empieza por la jota?"
+ },
+ {
+  "key": "fd2b7140d",
+  "text": "Esa es la jota."
+ },
+ {
+  "key": "fc026b5e6",
+  "text": "Busca la jota."
+ },
+ {
+  "key": "f2c18a1b4",
+  "text": "Empieza por la jota."
+ },
+ {
+  "key": "fe934edcf",
+  "text": "¿Dónde está la jota?"
+ },
+ {
+  "key": "fe2241a7a",
+  "text": "Es la jota."
+ },
+ {
+  "key": "f9727048b",
+  "text": "Escribe la jota mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f4ed6069a",
+  "text": "Ahora la jota minúscula, la pequeña."
+ },
+ {
+  "key": "f2d8e6bb4",
+  "text": "Escribe la jota mayúscula."
+ },
+ {
+  "key": "fa8f5f927",
+  "text": "Escribe la jota minúscula."
+ },
+ {
+  "key": "ffa381e44",
+  "text": "¡Has aprendido la jota!"
+ },
+ {
+  "key": "fb6a683af",
+  "text": "Eso es jirafa."
+ },
+ {
+  "key": "f4384707c",
+  "text": "¿Con qué letra empieza jirafa?"
+ },
+ {
+  "key": "f690bc3d8",
+  "text": "Escucha: jirafa."
+ },
+ {
+  "key": "f6c3f7a14",
+  "text": "ja"
+ },
+ {
+  "key": "ffd59d630",
+  "text": "¿Dónde pone... ja?"
+ },
+ {
+  "key": "fe6902be8",
+  "text": "Ahí pone ja."
+ },
+ {
+  "key": "f683f73c8",
+  "text": "je"
+ },
+ {
+  "key": "f7d501254",
+  "text": "¿Dónde pone... je?"
+ },
+ {
+  "key": "f4699bd64",
+  "text": "Ahí pone je."
+ },
+ {
+  "key": "f643f6d7c",
+  "text": "ji"
+ },
+ {
+  "key": "f7d6e2768",
+  "text": "¿Dónde pone... ji?"
+ },
+ {
+  "key": "fc6a38140",
+  "text": "Ahí pone ji."
+ },
+ {
+  "key": "f623f6a56",
+  "text": "jo"
+ },
+ {
+  "key": "ffd68e0ba",
+  "text": "¿Dónde pone... jo?"
+ },
+ {
+  "key": "f66a8fa4e",
+  "text": "Ahí pone jo."
+ },
+ {
+  "key": "f583f5a98",
+  "text": "ju"
+ },
+ {
+  "key": "ffd283964",
+  "text": "¿Dónde pone... ju?"
+ },
+ {
+  "key": "fe67216d4",
+  "text": "Ahí pone ju."
+ },
+ {
+  "key": "fc431b709",
+  "text": "ojo"
+ },
+ {
+  "key": "fbc1247c2",
+  "text": "jamón"
+ },
+ {
+  "key": "fb2ed05e8",
+  "text": "caja"
+ },
+ {
+  "key": "ff9ffc73c",
+  "text": "jirafa"
+ },
+ {
+  "key": "f6d56c1ac",
+  "text": "Esta es la hache. ¡Es muda, no suena! Como en helado."
+ },
+ {
+  "key": "f8145a76e",
+  "text": "Ahora haz el gesto de la hache, como en el cole."
+ },
+ {
+  "key": "f5237b607",
+  "text": "Se llama hache."
+ },
+ {
+  "key": "fb1ec7794",
+  "text": "Toca todas las hache: las grandes y las pequeñas."
+ },
+ {
+  "key": "f648b1d61",
+  "text": "¿Qué dibujo empieza por la hache?"
+ },
+ {
+  "key": "f98e9b952",
+  "text": "Esa es la hache."
+ },
+ {
+  "key": "f16a07ad3",
+  "text": "Busca la hache."
+ },
+ {
+  "key": "f36abeca1",
+  "text": "Empieza por la hache."
+ },
+ {
+  "key": "fe0edf1c6",
+  "text": "¿Dónde está la hache?"
+ },
+ {
+  "key": "fcf8e5397",
+  "text": "Es la hache."
+ },
+ {
+  "key": "f1ff473de",
+  "text": "Escribe la hache mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f45c3ebcd",
+  "text": "Ahora la hache minúscula, la pequeña."
+ },
+ {
+  "key": "ff179b8c7",
+  "text": "Escribe la hache mayúscula."
+ },
+ {
+  "key": "ff18674c4",
+  "text": "Escribe la hache minúscula."
+ },
+ {
+  "key": "ffcbd98bf",
+  "text": "¡Has aprendido la hache!"
+ },
+ {
+  "key": "fcf824063",
+  "text": "Eso es helado."
+ },
+ {
+  "key": "ff46692d0",
+  "text": "¿Con qué letra empieza helado?"
+ },
+ {
+  "key": "f05b6a480",
+  "text": "Escucha: helado."
+ },
+ {
+  "key": "f603aea02",
+  "text": "ha"
+ },
+ {
+  "key": "f5689335a",
+  "text": "¿Dónde pone... ha?"
+ },
+ {
+  "key": "fa238f632",
+  "text": "Ahí pone ha."
+ },
+ {
+  "key": "f5c3ae3b6",
+  "text": "he"
+ },
+ {
+  "key": "fd692f736",
+  "text": "¿Dónde pone... he?"
+ },
+ {
+  "key": "f4242ec6e",
+  "text": "Ahí pone he."
+ },
+ {
+  "key": "f683af69a",
+  "text": "hi"
+ },
+ {
+  "key": "fd674e222",
+  "text": "¿Dónde pone... hi?"
+ },
+ {
+  "key": "fc225a0da",
+  "text": "Ahí pone hi."
+ },
+ {
+  "key": "f623aed28",
+  "text": "ho"
+ },
+ {
+  "key": "f567a28d0",
+  "text": "¿Dónde pone... ho?"
+ },
+ {
+  "key": "fa2347904",
+  "text": "Ahí pone ho."
+ },
+ {
+  "key": "f4c3aca86",
+  "text": "hu"
+ },
+ {
+  "key": "f566b1e46",
+  "text": "¿Dónde pone... hu?"
+ },
+ {
+  "key": "f221baa9e",
+  "text": "Ahí pone hu."
+ },
+ {
+  "key": "f36cc65d7",
+  "text": "hilo"
+ },
+ {
+  "key": "f6da6b5ba",
+  "text": "humo"
+ },
+ {
+  "key": "fe5ab5889",
+  "text": "hada"
+ },
+ {
+  "key": "fc3d7d4bc",
+  "text": "helado"
+ },
+ {
+  "key": "f96d39a05",
+  "text": "Esta es la eñe. Suena así: ññññ. Con ella decimos ña, ñe, ñi. Como en piña."
+ },
+ {
+  "key": "faf442854",
+  "text": "Ahora haz el gesto de la eñe, como en el cole."
+ },
+ {
+  "key": "f27066b45",
+  "text": "Se llama eñe."
+ },
+ {
+  "key": "fd93f2fba",
+  "text": "Toca todas las eñe: las grandes y las pequeñas."
+ },
+ {
+  "key": "f35dc1bef",
+  "text": "¿Qué dibujo empieza por la eñe?"
+ },
+ {
+  "key": "fe7e7e218",
+  "text": "Esa es la eñe."
+ },
+ {
+  "key": "f77a80599",
+  "text": "Busca la eñe."
+ },
+ {
+  "key": "f6c5d1d73",
+  "text": "Empieza por la eñe."
+ },
+ {
+  "key": "f03dec5b8",
+  "text": "¿Dónde está la eñe?"
+ },
+ {
+  "key": "f349b83f5",
+  "text": "Es la eñe."
+ },
+ {
+  "key": "fb035bc34",
+  "text": "Escribe la eñe mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f7455fb83",
+  "text": "Ahora la eñe minúscula, la pequeña."
+ },
+ {
+  "key": "f31487cb5",
+  "text": "Escribe la eñe mayúscula."
+ },
+ {
+  "key": "ff796ffde",
+  "text": "Escribe la eñe minúscula."
+ },
+ {
+  "key": "f4a79fa31",
+  "text": "¡Has aprendido la eñe!"
+ },
+ {
+  "key": "f88caceeb",
+  "text": "Eso es piña."
+ },
+ {
+  "key": "f3688a738",
+  "text": "¿Con qué letra empieza piña?"
+ },
+ {
+  "key": "ffe507e48",
+  "text": "Escucha: piña."
+ },
+ {
+  "key": "f6b0f1187",
+  "text": "ña"
+ },
+ {
+  "key": "f01c1db29",
+  "text": "¿Dónde pone... ña?"
+ },
+ {
+  "key": "f18612029",
+  "text": "Ahí pone ña."
+ },
+ {
+  "key": "f670f0b3b",
+  "text": "ñe"
+ },
+ {
+  "key": "f81b8174d",
+  "text": "¿Dónde pone... ñe?"
+ },
+ {
+  "key": "f98575c4d",
+  "text": "Ahí pone ñe."
+ },
+ {
+  "key": "f630f04ef",
+  "text": "ñi"
+ },
+ {
+  "key": "f81d62c61",
+  "text": "¿Dónde pone... ñi?"
+ },
+ {
+  "key": "ff84d6611",
+  "text": "Ahí pone ñi."
+ },
+ {
+  "key": "f610f01c9",
+  "text": "ño"
+ },
+ {
+  "key": "f01d0e5b3",
+  "text": "¿Dónde pone... ño?"
+ },
+ {
+  "key": "f183e8de7",
+  "text": "Ahí pone ño."
+ },
+ {
+  "key": "f570ef20b",
+  "text": "ñu"
+ },
+ {
+  "key": "f01dff03d",
+  "text": "¿Dónde pone... ñu?"
+ },
+ {
+  "key": "ff87f02dd",
+  "text": "Ahí pone ñu."
+ },
+ {
+  "key": "f1b170f7c",
+  "text": "niño"
+ },
+ {
+  "key": "f1ee26308",
+  "text": "piña"
+ },
+ {
+  "key": "ff38bca59",
+  "text": "moño"
+ },
+ {
+  "key": "fccaffd47",
+  "text": "Esta es la i griega. Con ella decimos ya, ye, yi. I griega, de yate."
+ },
+ {
+  "key": "fc92902e7",
+  "text": "Ahora haz el gesto de la i griega, como en el cole."
+ },
+ {
+  "key": "fd58a3da0",
+  "text": "Se llama i griega."
+ },
+ {
+  "key": "fb808340d",
+  "text": "Toca todas las i griega: las grandes y las pequeñas."
+ },
+ {
+  "key": "f6dde47b4",
+  "text": "¿Qué dibujo empieza por la i griega?"
+ },
+ {
+  "key": "f5c5fb4d3",
+  "text": "Esa es la i griega."
+ },
+ {
+  "key": "f61ce9384",
+  "text": "Busca la i griega."
+ },
+ {
+  "key": "fd268c476",
+  "text": "Empieza por la i griega."
+ },
+ {
+  "key": "f8b8e87f1",
+  "text": "¿Dónde está la i griega?"
+ },
+ {
+  "key": "f2fe312f0",
+  "text": "Es la i griega."
+ },
+ {
+  "key": "f924cab71",
+  "text": "Escribe la i griega mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f6ec6b210",
+  "text": "Ahora la i griega minúscula, la pequeña."
+ },
+ {
+  "key": "f8ff93952",
+  "text": "Escribe la i griega mayúscula."
+ },
+ {
+  "key": "fdc170d41",
+  "text": "Escribe la i griega minúscula."
+ },
+ {
+  "key": "fb52c68c6",
+  "text": "¡Has aprendido la i griega!"
+ },
+ {
+  "key": "ffc3c9747",
+  "text": "Eso es yate."
+ },
+ {
+  "key": "ff14c2274",
+  "text": "¿Con qué letra empieza yate?"
+ },
+ {
+  "key": "f7b481e3c",
+  "text": "Escucha: yate."
+ },
+ {
+  "key": "f5c5fb48f",
+  "text": "ya"
+ },
+ {
+  "key": "f759db6d1",
+  "text": "¿Dónde pone... ya?"
+ },
+ {
+  "key": "f2523dec1",
+  "text": "Ahí pone ya."
+ },
+ {
+  "key": "f585fae43",
+  "text": "ye"
+ },
+ {
+  "key": "ff593f2f5",
+  "text": "¿Dónde pone... ye?"
+ },
+ {
+  "key": "f8519e885",
+  "text": "Ahí pone ye."
+ },
+ {
+  "key": "f645fc127",
+  "text": "yi"
+ },
+ {
+  "key": "f758a2f19",
+  "text": "¿Dónde pone... yi?"
+ },
+ {
+  "key": "f8537fd99",
+  "text": "Ahí pone yi."
+ },
+ {
+  "key": "f625fbe01",
+  "text": "yo"
+ },
+ {
+  "key": "ff584e86b",
+  "text": "¿Dónde pone... yo?"
+ },
+ {
+  "key": "fa529256f",
+  "text": "Ahí pone yo."
+ },
+ {
+  "key": "f485f9513",
+  "text": "yu"
+ },
+ {
+  "key": "f756c1a05",
+  "text": "¿Dónde pone... yu?"
+ },
+ {
+  "key": "f24f241f5",
+  "text": "Ahí pone yu."
+ },
+ {
+  "key": "f79f90c81",
+  "text": "yoyó"
+ },
+ {
+  "key": "f6da7ff5a",
+  "text": "payaso"
+ },
+ {
+  "key": "fcb69a1cb",
+  "text": "mayo"
+ },
+ {
+  "key": "fa99bc751",
+  "text": "yema"
+ },
+ {
+  "key": "f8781e199",
+  "text": "Esta es la elle. Con ella decimos lla, lle, lli. Elle, de llave."
+ },
+ {
+  "key": "f495dff77",
+  "text": "Ahora haz el gesto de la elle, como en el cole."
+ },
+ {
+  "key": "f003cdb74",
+  "text": "Se llama elle."
+ },
+ {
+  "key": "f27e463d1",
+  "text": "Toca todas las elle: las grandes y las pequeñas."
+ },
+ {
+  "key": "f400f7c90",
+  "text": "¿Qué dibujo empieza por la elle?"
+ },
+ {
+  "key": "f11d87267",
+  "text": "Esa es la elle."
+ },
+ {
+  "key": "fb1474a10",
+  "text": "Busca la elle."
+ },
+ {
+  "key": "f3f2e5e26",
+  "text": "Empieza por la elle."
+ },
+ {
+  "key": "f27c48aa1",
+  "text": "¿Dónde está la elle?"
+ },
+ {
+  "key": "f2897eee4",
+  "text": "Es la elle."
+ },
+ {
+  "key": "f2cf8a181",
+  "text": "Escribe la elle mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f5f365cd4",
+  "text": "Ahora la elle minúscula, la pequeña."
+ },
+ {
+  "key": "f51d44202",
+  "text": "Escribe la elle mayúscula."
+ },
+ {
+  "key": "fd4cea4d1",
+  "text": "Escribe la elle minúscula."
+ },
+ {
+  "key": "f70ad236a",
+  "text": "¡Has aprendido la elle!"
+ },
+ {
+  "key": "f8cbb35fa",
+  "text": "Eso es llave."
+ },
+ {
+  "key": "fe81a370d",
+  "text": "¿Con qué letra empieza llave?"
+ },
+ {
+  "key": "f2b3bf723",
+  "text": "Escucha: llave."
+ },
+ {
+  "key": "f31598a0c",
+  "text": "lla"
+ },
+ {
+  "key": "fbaf50a0e",
+  "text": "¿Dónde pone... lla?"
+ },
+ {
+  "key": "f58786170",
+  "text": "Ahí pone lla."
+ },
+ {
+  "key": "f2d5983c0",
+  "text": "lle"
+ },
+ {
+  "key": "fbaea7cb2",
+  "text": "¿Dónde pone... lle?"
+ },
+ {
+  "key": "f3882bc6c",
+  "text": "Ahí pone lle."
+ },
+ {
+  "key": "f395996a4",
+  "text": "lli"
+ },
+ {
+  "key": "fbb0891c6",
+  "text": "¿Dónde pone... lli?"
+ },
+ {
+  "key": "f3864a758",
+  "text": "Ahí pone lli."
+ },
+ {
+  "key": "f3759937e",
+  "text": "llo"
+ },
+ {
+  "key": "fbaf9873c",
+  "text": "¿Dónde pone... llo?"
+ },
+ {
+  "key": "fb869ee06",
+  "text": "Ahí pone llo."
+ },
+ {
+  "key": "f3d599cf0",
+  "text": "llu"
+ },
+ {
+  "key": "f3b1255a2",
+  "text": "¿Dónde pone... llu?"
+ },
+ {
+  "key": "f58a9fe3c",
+  "text": "Ahí pone llu."
+ },
+ {
+  "key": "f77ac8271",
+  "text": "llave"
+ },
+ {
+  "key": "f65b8a0f5",
+  "text": "pollo"
+ },
+ {
+  "key": "fe4107150",
+  "text": "silla"
+ },
+ {
+  "key": "f11340d24",
+  "text": "calle"
+ },
+ {
+  "key": "fb762cb90",
+  "text": "Esta es la che. Con ella decimos cha, che, chi. Che, de chocolate."
+ },
+ {
+  "key": "ff80bda63",
+  "text": "Ahora haz el gesto de la che, como en el cole."
+ },
+ {
+  "key": "f4f4c71d8",
+  "text": "Se llama che."
+ },
+ {
+  "key": "f6c983c03",
+  "text": "Toca todas las che: las grandes y las pequeñas."
+ },
+ {
+  "key": "f007eb072",
+  "text": "¿Qué dibujo empieza por la che?"
+ },
+ {
+  "key": "f091c9209",
+  "text": "Esa es la che."
+ },
+ {
+  "key": "fe4597564",
+  "text": "Busca la che."
+ },
+ {
+  "key": "f9dfad212",
+  "text": "Empieza por la che."
+ },
+ {
+  "key": "fd063606d",
+  "text": "¿Dónde está la che?"
+ },
+ {
+  "key": "fa44467e8",
+  "text": "Es la che."
+ },
+ {
+  "key": "f04d78f9f",
+  "text": "Escribe la che mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f3b11004e",
+  "text": "Ahora la che minúscula, la pequeña."
+ },
+ {
+  "key": "f1ce9b728",
+  "text": "Escribe la che mayúscula."
+ },
+ {
+  "key": "fed859c73",
+  "text": "Escribe la che minúscula."
+ },
+ {
+  "key": "f311cbac8",
+  "text": "¡Has aprendido la che!"
+ },
+ {
+  "key": "fd431bba2",
+  "text": "Eso es chocolate."
+ },
+ {
+  "key": "f8b0ed035",
+  "text": "¿Con qué letra empieza chocolate?"
+ },
+ {
+  "key": "f6920269f",
+  "text": "Escucha: chocolate."
+ },
+ {
+  "key": "ffd8596fd",
+  "text": "cha"
+ },
+ {
+  "key": "ff8b40949",
+  "text": "¿Dónde pone... cha?"
+ },
+ {
+  "key": "f59d9b857",
+  "text": "Ahí pone cha."
+ },
+ {
+  "key": "ff98590b1",
+  "text": "che"
+ },
+ {
+  "key": "f78aa456d",
+  "text": "¿Dónde pone... che?"
+ },
+ {
+  "key": "fd9e37c33",
+  "text": "Ahí pone che."
+ },
+ {
+  "key": "ff5858a65",
+  "text": "chi"
+ },
+ {
+  "key": "ff8c79101",
+  "text": "¿Dónde pone... chi?"
+ },
+ {
+  "key": "f79ed726f",
+  "text": "Ahí pone chi."
+ },
+ {
+  "key": "fef8580f3",
+  "text": "cho"
+ },
+ {
+  "key": "f78c24a53",
+  "text": "¿Dónde pone... cho?"
+ },
+ {
+  "key": "f59fc4a99",
+  "text": "Ahí pone cho."
+ },
+ {
+  "key": "f0985a9e1",
+  "text": "chu"
+ },
+ {
+  "key": "f78d154dd",
+  "text": "¿Dónde pone... chu?"
+ },
+ {
+  "key": "f79bbd5a3",
+  "text": "Ahí pone chu."
+ },
+ {
+  "key": "f35fb238b",
+  "text": "coche"
+ },
+ {
+  "key": "fa8cf8cd4",
+  "text": "leche"
+ },
+ {
+  "key": "fb90ea5f0",
+  "text": "ducha"
+ },
+ {
+  "key": "f429bb099",
+  "text": "chocolate"
+ },
+ {
+  "key": "f7ff7d20d",
+  "text": "Esta es la zeta. Suena así: zzzz. Con ella decimos za, zo, zu. Zeta, de zapato."
+ },
+ {
+  "key": "f280460cf",
+  "text": "Ahora haz el gesto de la zeta, como en el cole."
+ },
+ {
+  "key": "f09b973f0",
+  "text": "Se llama zeta."
+ },
+ {
+  "key": "f840b2a59",
+  "text": "Toca todas las zeta: las grandes y las pequeñas."
+ },
+ {
+  "key": "fda4318d8",
+  "text": "¿Qué dibujo empieza por la zeta?"
+ },
+ {
+  "key": "f1000791f",
+  "text": "Esa es la zeta."
+ },
+ {
+  "key": "fe07f198c",
+  "text": "Busca la zeta."
+ },
+ {
+  "key": "fc50eae9e",
+  "text": "Empieza por la zeta."
+ },
+ {
+  "key": "fd54c1049",
+  "text": "¿Dónde está la zeta?"
+ },
+ {
+  "key": "f560d8f20",
+  "text": "Es la zeta."
+ },
+ {
+  "key": "fa0d18fd5",
+  "text": "Escribe la zeta mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f530b6fec",
+  "text": "Ahora la zeta minúscula, la pequeña."
+ },
+ {
+  "key": "f95464156",
+  "text": "Escribe la zeta mayúscula."
+ },
+ {
+  "key": "f3b9861cd",
+  "text": "Escribe la zeta minúscula."
+ },
+ {
+  "key": "f1ae0d8e2",
+  "text": "¡Has aprendido la zeta!"
+ },
+ {
+  "key": "faf15ca4d",
+  "text": "Eso es zapato."
+ },
+ {
+  "key": "f318dac9a",
+  "text": "¿Con qué letra empieza zapato?"
+ },
+ {
+  "key": "f9f9f295a",
+  "text": "Escucha: zapato."
+ },
+ {
+  "key": "f4c67ea24",
+  "text": "za"
+ },
+ {
+  "key": "fad130520",
+  "text": "¿Dónde pone... za?"
+ },
+ {
+  "key": "f96383058",
+  "text": "Ahí pone za."
+ },
+ {
+  "key": "f4267da66",
+  "text": "zo"
+ },
+ {
+  "key": "fad220faa",
+  "text": "¿Dónde pone... zo?"
+ },
+ {
+  "key": "f1650febe",
+  "text": "Ahí pone zo."
+ },
+ {
+  "key": "f5867fd08",
+  "text": "zu"
+ },
+ {
+  "key": "fad311a34",
+  "text": "¿Dónde pone... zu?"
+ },
+ {
+  "key": "f9669cd24",
+  "text": "Ahí pone zu."
+ },
+ {
+  "key": "f6bed91f2",
+  "text": "zapato"
+ },
+ {
+  "key": "f0a59f42f",
+  "text": "taza"
+ },
+ {
+  "key": "f72f91f33",
+  "text": "pozo"
+ },
+ {
+  "key": "f5b3261b0",
+  "text": "zumo"
+ },
+ {
+  "key": "fdc9fbd41",
+  "text": "Esta es la cu. Con ella decimos que, qui. Cu, de queso."
+ },
+ {
+  "key": "f99e7311d",
+  "text": "Ahora haz el gesto de la cu, como en el cole."
+ },
+ {
+  "key": "f2dde8dea",
+  "text": "Se llama cu."
+ },
+ {
+  "key": "fc2bb622f",
+  "text": "Toca todas las cu: las grandes y las pequeñas."
+ },
+ {
+  "key": "fe953d136",
+  "text": "¿Qué dibujo empieza por la cu?"
+ },
+ {
+  "key": "fac9f2865",
+  "text": "Esa es la cu."
+ },
+ {
+  "key": "f878bf62e",
+  "text": "Busca la cu."
+ },
+ {
+  "key": "fbca9d7c8",
+  "text": "Empieza por la cu."
+ },
+ {
+  "key": "fbf637823",
+  "text": "¿Dónde está la cu?"
+ },
+ {
+  "key": "fbf6c7b3a",
+  "text": "Es la cu."
+ },
+ {
+  "key": "f4da84ca7",
+  "text": "Escribe la cu mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "feb76339a",
+  "text": "Ahora la cu minúscula, la pequeña."
+ },
+ {
+  "key": "fa1b7a770",
+  "text": "Escribe la cu mayúscula."
+ },
+ {
+  "key": "fca81042b",
+  "text": "Escribe la cu minúscula."
+ },
+ {
+  "key": "f682ae1c4",
+  "text": "¡Has aprendido la cu!"
+ },
+ {
+  "key": "ff905f941",
+  "text": "Eso es queso."
+ },
+ {
+  "key": "f0c09b4ae",
+  "text": "¿Con qué letra empieza queso?"
+ },
+ {
+  "key": "f4edc5d80",
+  "text": "Escucha: queso."
+ },
+ {
+  "key": "fede148aa",
+  "text": "que"
+ },
+ {
+  "key": "f5ed7baf0",
+  "text": "¿Dónde pone... que?"
+ },
+ {
+  "key": "f16575046",
+  "text": "Ahí pone que."
+ },
+ {
+  "key": "fe1e135c6",
+  "text": "qui"
+ },
+ {
+  "key": "fdee17ecc",
+  "text": "¿Dónde pone... qui?"
+ },
+ {
+  "key": "fb6614682",
+  "text": "Ahí pone qui."
+ },
+ {
+  "key": "f0ed0d71c",
+  "text": "queso"
+ },
+ {
+  "key": "f40db9908",
+  "text": "paquete"
+ },
+ {
+  "key": "f2390d742",
+  "text": "raqueta"
+ },
+ {
+  "key": "fd5073ebe",
+  "text": "Esta es la ka. Con ella decimos ka, ke, ki. Ka, de kiwi."
+ },
+ {
+  "key": "f221d2581",
+  "text": "Ahora haz el gesto de la ka, como en el cole."
+ },
+ {
+  "key": "f97217a9e",
+  "text": "Se llama ka."
+ },
+ {
+  "key": "f349f5723",
+  "text": "Toca todas las ka: las grandes y las pequeñas."
+ },
+ {
+  "key": "f828b4d82",
+  "text": "¿Qué dibujo empieza por la ka?"
+ },
+ {
+  "key": "f93b69479",
+  "text": "Esa es la ka."
+ },
+ {
+  "key": "f4df1d76a",
+  "text": "Busca la ka."
+ },
+ {
+  "key": "fb5f572ec",
+  "text": "Empieza por la ka."
+ },
+ {
+  "key": "f25dc49f7",
+  "text": "¿Dónde está la ka?"
+ },
+ {
+  "key": "f2684b0ce",
+  "text": "Es la ka."
+ },
+ {
+  "key": "f22a35a6b",
+  "text": "Escribe la ka mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f8cfdbefe",
+  "text": "Ahora la ka minúscula, la pequeña."
+ },
+ {
+  "key": "fc80effd4",
+  "text": "Escribe la ka mayúscula."
+ },
+ {
+  "key": "fb903fcc7",
+  "text": "Escribe la ka minúscula."
+ },
+ {
+  "key": "ff9625178",
+  "text": "¡Has aprendido la ka!"
+ },
+ {
+  "key": "f76152608",
+  "text": "Eso es kiwi."
+ },
+ {
+  "key": "fc7240a3b",
+  "text": "¿Con qué letra empieza kiwi?"
+ },
+ {
+  "key": "f0c190e83",
+  "text": "Escucha: kiwi."
+ },
+ {
+  "key": "f483d02d1",
+  "text": "ka"
+ },
+ {
+  "key": "f699cf0f7",
+  "text": "¿Dónde pone... ka?"
+ },
+ {
+  "key": "ffbae7a07",
+  "text": "Ahí pone ka."
+ },
+ {
+  "key": "f4c3d091d",
+  "text": "ke"
+ },
+ {
+  "key": "fe9932d1b",
+  "text": "¿Dónde pone... ke?"
+ },
+ {
+  "key": "f7bb83de3",
+  "text": "Ahí pone ke."
+ },
+ {
+  "key": "f403cf639",
+  "text": "ki"
+ },
+ {
+  "key": "fe9b1422f",
+  "text": "¿Dónde pone... ki?"
+ },
+ {
+  "key": "fdbc1cf5f",
+  "text": "Ahí pone ki."
+ },
+ {
+  "key": "f423cf95f",
+  "text": "ko"
+ },
+ {
+  "key": "fe9a237a5",
+  "text": "¿Dónde pone... ko?"
+ },
+ {
+  "key": "ffbd10c49",
+  "text": "Ahí pone ko."
+ },
+ {
+  "key": "f5c3d224d",
+  "text": "ku"
+ },
+ {
+  "key": "f69bb060b",
+  "text": "¿Dónde pone... ku?"
+ },
+ {
+  "key": "fdbdfe473",
+  "text": "Ahí pone ku."
+ },
+ {
+  "key": "fc20f40e0",
+  "text": "kilo"
+ },
+ {
+  "key": "fbffdf499",
+  "text": "kiwi"
+ },
+ {
+  "key": "f85bb2c19",
+  "text": "koala"
+ },
+ {
+  "key": "f452a3d5a",
+  "text": "Esta es la uve doble. Como en kiwi."
+ },
+ {
+  "key": "f53ae41cd",
+  "text": "Ahora haz el gesto de la uve doble, como en el cole."
+ },
+ {
+  "key": "f5e182656",
+  "text": "Se llama uve doble."
+ },
+ {
+  "key": "f7952ff1d",
+  "text": "Toca todas las uve doble: las grandes y las pequeñas."
+ },
+ {
+  "key": "f15f2ac74",
+  "text": "¿Qué dibujo empieza por la uve doble?"
+ },
+ {
+  "key": "f53b2dc2b",
+  "text": "Esa es la uve doble."
+ },
+ {
+  "key": "f2e2d0cd2",
+  "text": "Busca la uve doble."
+ },
+ {
+  "key": "f51983e48",
+  "text": "Empieza por la uve doble."
+ },
+ {
+  "key": "fa09ce753",
+  "text": "¿Dónde está la uve doble?"
+ },
+ {
+  "key": "f95886a66",
+  "text": "Es la uve doble."
+ },
+ {
+  "key": "fbdae2cb5",
+  "text": "Escribe la uve doble mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "f4c1c6e10",
+  "text": "Ahora la uve doble minúscula, la pequeña."
+ },
+ {
+  "key": "f898eb176",
+  "text": "Escribe la uve doble mayúscula."
+ },
+ {
+  "key": "fd619c9ed",
+  "text": "Escribe la uve doble minúscula."
+ },
+ {
+  "key": "f2a310186",
+  "text": "¡Has aprendido la uve doble!"
+ },
+ {
+  "key": "f1711efce",
+  "text": "wafle"
+ },
+ {
+  "key": "f7522345d",
+  "text": "Esta es la equis. Como en taxi."
+ },
+ {
+  "key": "fde520f38",
+  "text": "Ahora haz el gesto de la equis, como en el cole."
+ },
+ {
+  "key": "f267a6935",
+  "text": "Se llama equis."
+ },
+ {
+  "key": "fcc8ac326",
+  "text": "Toca todas las equis: las grandes y las pequeñas."
+ },
+ {
+  "key": "fc21dd2c3",
+  "text": "¿Qué dibujo empieza por la equis?"
+ },
+ {
+  "key": "f7bf354bc",
+  "text": "Esa es la equis."
+ },
+ {
+  "key": "fe5714029",
+  "text": "Busca la equis."
+ },
+ {
+  "key": "f55e77137",
+  "text": "Empieza por la equis."
+ },
+ {
+  "key": "f17655dac",
+  "text": "¿Dónde está la equis?"
+ },
+ {
+  "key": "f9e3b97a5",
+  "text": "Es la equis."
+ },
+ {
+  "key": "fe4b479bc",
+  "text": "Escribe la equis mayúscula con el dedo. Rellena toda la letra."
+ },
+ {
+  "key": "fe4d3346f",
+  "text": "Ahora la equis minúscula, la pequeña."
+ },
+ {
+  "key": "f3dababbd",
+  "text": "Escribe la equis mayúscula."
+ },
+ {
+  "key": "f80927bf6",
+  "text": "Escribe la equis minúscula."
+ },
+ {
+  "key": "f6e506d9d",
+  "text": "¡Has aprendido la equis!"
+ },
+ {
+  "key": "f480f4948",
+  "text": "Eso es taxi."
+ },
+ {
+  "key": "f6d93191b",
+  "text": "¿Con qué letra empieza taxi?"
+ },
+ {
+  "key": "f8c0322b3",
+  "text": "Escucha: taxi."
+ },
+ {
+  "key": "f0e5e77a9",
+  "text": "taxi"
+ },
+ {
+  "key": "f9bbb3d32",
+  "text": "éxito"
+ },
+ {
+  "key": "f654cb86e",
+  "text": "boxeo"
+ },
+ {
+  "key": "f65fe3bae",
+  "text": "¡Increíble! Has acertado 0 de 8."
+ },
+ {
+  "key": "f4a45882a",
+  "text": "Has acertado 0."
+ },
+ {
+  "key": "f08f751a5",
+  "text": "¡Increíble! Has acertado 1 de 8."
+ },
+ {
+  "key": "f6c47fc47",
+  "text": "Has acertado 1."
+ },
+ {
+  "key": "f0544cd14",
+  "text": "¡Increíble! Has acertado 2 de 8."
+ },
+ {
+  "key": "f4a4a0558",
+  "text": "Has acertado 2."
+ },
+ {
+  "key": "ff063bf13",
+  "text": "¡Increíble! Has acertado 3 de 8."
+ },
+ {
+  "key": "f6c4c7975",
+  "text": "Has acertado 3."
+ },
+ {
+  "key": "fed68d71a",
+  "text": "¡Increíble! Has acertado 4 de 8."
+ },
+ {
+  "key": "fca4f4c06",
+  "text": "Has acertado 4."
+ },
+ {
+  "key": "fcff40491",
+  "text": "¡Increíble! Has acertado 5 de 8."
+ },
+ {
+  "key": "fec51c023",
+  "text": "Has acertado 5."
+ },
+ {
+  "key": "f6204a7e0",
+  "text": "¡Increíble! Has acertado 6 de 8."
+ },
+ {
+  "key": "fea53fb94",
+  "text": "Has acertado 6."
+ },
+ {
+  "key": "f598187ff",
+  "text": "¡Increíble! Has acertado 7 de 8."
+ },
+ {
+  "key": "f4c56d471",
+  "text": "Has acertado 7."
+ },
+ {
+  "key": "f82040766",
+  "text": "¡Increíble! Has acertado 8 de 8."
+ },
+ {
+  "key": "f6a594242",
+  "text": "Has acertado 8."
+ }
+]
