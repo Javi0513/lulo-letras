@@ -96,6 +96,38 @@
   "text": "¡Pegatina nueva!"
  },
  {
+  "key": "f8320345f",
+  "text": "¡Has completado el dibujo!"
+ },
+ {
+  "key": "f3f295098",
+  "text": "¡Casi lo completas! La próxima vez lo terminas."
+ },
+ {
+  "key": "f1e48e8a3",
+  "text": "¿Y esta palabra? Léela despacio."
+ },
+ {
+  "key": "fbf820014",
+  "text": "¡Última prueba! Pulsa el micrófono y lee esta frase."
+ },
+ {
+  "key": "f4978f737",
+  "text": "¡Mira todos tus dibujos!"
+ },
+ {
+  "key": "fcf6a98d8",
+  "text": "Aprende letras para completar dibujos."
+ },
+ {
+  "key": "fa35c2d4d",
+  "text": "Lee esta palabra despacio."
+ },
+ {
+  "key": "f11828dad",
+  "text": "Tómate tu tiempo. Te escucho."
+ },
+ {
   "key": "f71e1072a",
   "text": "Toma una pegatina nueva."
  },
@@ -612,6 +644,18 @@
   "text": "mimo"
  },
  {
+  "key": "ff286ee6a",
+  "text": "mono"
+ },
+ {
+  "key": "fcb976d00",
+  "text": "mano"
+ },
+ {
+  "key": "f7f8ac522",
+  "text": "ema"
+ },
+ {
   "key": "f07476815",
   "text": "Esta es la pe. Con ella decimos pa, pe, pi. Pe, de pato."
  },
@@ -758,6 +802,18 @@
  {
   "key": "fa22f8308",
   "text": "puma"
+ },
+ {
+  "key": "fb8f4bd31",
+  "text": "pepa"
+ },
+ {
+  "key": "fa6726f41",
+  "text": "pupa"
+ },
+ {
+  "key": "f20511cda",
+  "text": "mopa"
  },
  {
   "key": "f4c7702ca",
@@ -908,6 +964,22 @@
   "text": "mula"
  },
  {
+  "key": "fe0eacff6",
+  "text": "loma"
+ },
+ {
+  "key": "f874cbac7",
+  "text": "palo"
+ },
+ {
+  "key": "f08253a73",
+  "text": "ala"
+ },
+ {
+  "key": "feb9daf8e",
+  "text": "malo"
+ },
+ {
   "key": "f08ede317",
   "text": "Esta es la ese. Suena así: ssss. Con ella decimos sa, se, si. Ese, de sol."
  },
@@ -1054,6 +1126,22 @@
  {
   "key": "fa6f1caec",
   "text": "sapo"
+ },
+ {
+  "key": "fed774edb",
+  "text": "masa"
+ },
+ {
+  "key": "fd2f2a788",
+  "text": "peso"
+ },
+ {
+  "key": "fb50e630a",
+  "text": "sala"
+ },
+ {
+  "key": "f877a85fc",
+  "text": "paso"
  },
  {
   "key": "fa5935423",
@@ -1204,6 +1292,22 @@
   "text": "tela"
  },
  {
+  "key": "fe64ab0f9",
+  "text": "tapa"
+ },
+ {
+  "key": "f8d875b61",
+  "text": "pata"
+ },
+ {
+  "key": "f81fe4f58",
+  "text": "meta"
+ },
+ {
+  "key": "f86db536d",
+  "text": "lata"
+ },
+ {
   "key": "f82df6ce2",
   "text": "Esta es la ene. Suena así: nnnn. Con ella decimos na, ne, ni. Ene, de nube."
  },
@@ -1340,16 +1444,24 @@
   "text": "luna"
  },
  {
-  "key": "fcb976d00",
-  "text": "mano"
- },
- {
   "key": "f65d92e55",
   "text": "nena"
  },
  {
-  "key": "ff286ee6a",
-  "text": "mono"
+  "key": "f9cfb6e57",
+  "text": "nata"
+ },
+ {
+  "key": "f8d9a05f1",
+  "text": "nota"
+ },
+ {
+  "key": "f1e5dfd21",
+  "text": "pino"
+ },
+ {
+  "key": "f52713ec3",
+  "text": "tono"
  },
  {
   "key": "f3de6d0ad",
@@ -1500,6 +1612,22 @@
   "text": "moneda"
  },
  {
+  "key": "f59021a73",
+  "text": "lado"
+ },
+ {
+  "key": "f3259077d",
+  "text": "todo"
+ },
+ {
+  "key": "fbd22b027",
+  "text": "nada"
+ },
+ {
+  "key": "ff5aa84c1",
+  "text": "día"
+ },
+ {
   "key": "fdddef62b",
   "text": "Esta es la efe. Suena así: ffff. Con ella decimos fa, fe, fi. Efe, de fresa."
  },
@@ -1646,6 +1774,22 @@
  {
   "key": "f383256d6",
   "text": "foca"
+ },
+ {
+  "key": "f295c931a",
+  "text": "fama"
+ },
+ {
+  "key": "fca02bbc1",
+  "text": "feo"
+ },
+ {
+  "key": "fb4f0772f",
+  "text": "fino"
+ },
+ {
+  "key": "ffb902613",
+  "text": "faro"
  },
  {
   "key": "f96f63b4a",
@@ -1796,6 +1940,22 @@
   "text": "ramo"
  },
  {
+  "key": "fe92b872c",
+  "text": "risa"
+ },
+ {
+  "key": "fa69b94b5",
+  "text": "rana"
+ },
+ {
+  "key": "f341b4142",
+  "text": "roca"
+ },
+ {
+  "key": "f30421a67",
+  "text": "ruta"
+ },
+ {
   "key": "f2c5db910",
   "text": "Esta es la ce. Con ella decimos ca, co, cu. Ce, de casa."
  },
@@ -1918,6 +2078,22 @@
  {
   "key": "f9aef1eb7",
   "text": "cama"
+ },
+ {
+  "key": "fed62f6dc",
+  "text": "copa"
+ },
+ {
+  "key": "f83275180",
+  "text": "cara"
+ },
+ {
+  "key": "fe544d530",
+  "text": "cola"
+ },
+ {
+  "key": "f3308be7c",
+  "text": "café"
  },
  {
   "key": "fe6d9d488",
@@ -2068,6 +2244,22 @@
   "text": "baño"
  },
  {
+  "key": "fe396fe55",
+  "text": "bola"
+ },
+ {
+  "key": "f39cb456b",
+  "text": "bata"
+ },
+ {
+  "key": "fef81f681",
+  "text": "bote"
+ },
+ {
+  "key": "f3db1b3d1",
+  "text": "baba"
+ },
+ {
   "key": "f7a76210e",
   "text": "Esta es la uve. Con ella decimos va, ve, vi. Uve, de vaca."
  },
@@ -2216,6 +2408,22 @@
   "text": "nave"
  },
  {
+  "key": "f20660791",
+  "text": "ave"
+ },
+ {
+  "key": "fcda2a057",
+  "text": "vida"
+ },
+ {
+  "key": "f4aae2c9a",
+  "text": "vaso"
+ },
+ {
+  "key": "f8c23d08e",
+  "text": "verano"
+ },
+ {
   "key": "f0cd114f3",
   "text": "Esta es la ge. Con ella decimos ga, go, gu. Ge, de gato."
  },
@@ -2338,6 +2546,22 @@
  {
   "key": "fffa31fa4",
   "text": "gota"
+ },
+ {
+  "key": "feba8e881",
+  "text": "mago"
+ },
+ {
+  "key": "faf18a732",
+  "text": "gusano"
+ },
+ {
+  "key": "fb50e7261",
+  "text": "gafas"
+ },
+ {
+  "key": "f403f14ec",
+  "text": "amigo"
  },
  {
   "key": "ff8e493bd",
@@ -2488,6 +2712,22 @@
   "text": "jirafa"
  },
  {
+  "key": "f1603b8b9",
+  "text": "rojo"
+ },
+ {
+  "key": "ff1fa5a94",
+  "text": "joya"
+ },
+ {
+  "key": "f88573026",
+  "text": "jugo"
+ },
+ {
+  "key": "f36348d67",
+  "text": "ajo"
+ },
+ {
   "key": "f6d56c1ac",
   "text": "Esta es la hache. ¡Es muda, no suena! Como en helado."
  },
@@ -2636,6 +2876,22 @@
   "text": "helado"
  },
  {
+  "key": "fb2c65197",
+  "text": "hola"
+ },
+ {
+  "key": "f56bd8dad",
+  "text": "hijo"
+ },
+ {
+  "key": "f0b9f6bd6",
+  "text": "huevo"
+ },
+ {
+  "key": "f43ad69e0",
+  "text": "hacha"
+ },
+ {
   "key": "f96d39a05",
   "text": "Esta es la eñe. Suena así: ññññ. Con ella decimos ña, ñe, ñi. Como en piña."
  },
@@ -2778,6 +3034,22 @@
  {
   "key": "ff38bca59",
   "text": "moño"
+ },
+ {
+  "key": "f945de36b",
+  "text": "caña"
+ },
+ {
+  "key": "f17a9e818",
+  "text": "año"
+ },
+ {
+  "key": "f48ca6316",
+  "text": "uña"
+ },
+ {
+  "key": "f211718ee",
+  "text": "niña"
  },
  {
   "key": "fccaffd47",
@@ -2928,6 +3200,22 @@
   "text": "yema"
  },
  {
+  "key": "f4e77100c",
+  "text": "yate"
+ },
+ {
+  "key": "f58a50d75",
+  "text": "yogur"
+ },
+ {
+  "key": "fb67b5a3a",
+  "text": "raya"
+ },
+ {
+  "key": "fa8e69584",
+  "text": "hoyo"
+ },
+ {
   "key": "f8781e199",
   "text": "Esta es la elle. Con ella decimos lla, lle, lli. Elle, de llave."
  },
@@ -3074,6 +3362,22 @@
  {
   "key": "f11340d24",
   "text": "calle"
+ },
+ {
+  "key": "f836e2c96",
+  "text": "llama"
+ },
+ {
+  "key": "f2a3f8920",
+  "text": "lluvia"
+ },
+ {
+  "key": "fae1de82d",
+  "text": "gallina"
+ },
+ {
+  "key": "fa370d085",
+  "text": "caballo"
  },
  {
   "key": "fb762cb90",
@@ -3224,6 +3528,22 @@
   "text": "chocolate"
  },
  {
+  "key": "ffa97f2a7",
+  "text": "chico"
+ },
+ {
+  "key": "f334bb4d6",
+  "text": "ocho"
+ },
+ {
+  "key": "f1a0d5ec4",
+  "text": "noche"
+ },
+ {
+  "key": "f3efcc23a",
+  "text": "techo"
+ },
+ {
   "key": "f7ff7d20d",
   "text": "Esta es la zeta. Suena así: zzzz. Con ella decimos za, zo, zu. Zeta, de zapato."
  },
@@ -3348,6 +3668,18 @@
   "text": "zumo"
  },
  {
+  "key": "fddd0d5ff",
+  "text": "zorro"
+ },
+ {
+  "key": "f9113dfd2",
+  "text": "cazo"
+ },
+ {
+  "key": "f58cc0079",
+  "text": "lazo"
+ },
+ {
   "key": "fdc9fbd41",
   "text": "Esta es la cu. Con ella decimos que, qui. Cu, de queso."
  },
@@ -3454,6 +3786,18 @@
  {
   "key": "f2390d742",
   "text": "raqueta"
+ },
+ {
+  "key": "ff517889d",
+  "text": "parque"
+ },
+ {
+  "key": "f99f428fb",
+  "text": "maqueta"
+ },
+ {
+  "key": "ff35a111b",
+  "text": "quito"
  },
  {
   "key": "fd5073ebe",
@@ -3598,6 +3942,10 @@
  {
   "key": "f85bb2c19",
   "text": "koala"
+ },
+ {
+  "key": "f9f980de3",
+  "text": "karate"
  },
  {
   "key": "f452a3d5a",
@@ -3746,6 +4094,126 @@
  {
   "key": "f654cb86e",
   "text": "boxeo"
+ },
+ {
+  "key": "fb39ebce1",
+  "text": "examen"
+ },
+ {
+  "key": "fae6b4f2d",
+  "text": "Mamá ama a Ana."
+ },
+ {
+  "key": "f3c1aff67",
+  "text": "Ella es Eva."
+ },
+ {
+  "key": "f58f56c67",
+  "text": "Mira mi isla."
+ },
+ {
+  "key": "fd4884af6",
+  "text": "Oso, ola, ojo."
+ },
+ {
+  "key": "f3ccce5fb",
+  "text": "Una uva."
+ },
+ {
+  "key": "f45915cab",
+  "text": "Mi mamá me mima."
+ },
+ {
+  "key": "ff7200f3f",
+  "text": "Papá pela una pipa."
+ },
+ {
+  "key": "f5567c101",
+  "text": "Lola mira la luna."
+ },
+ {
+  "key": "fe834499f",
+  "text": "Susi mira el sol."
+ },
+ {
+  "key": "fdaed8de5",
+  "text": "Tomás toma té."
+ },
+ {
+  "key": "fa872637b",
+  "text": "Nina mira la luna."
+ },
+ {
+  "key": "f3cb4bd79",
+  "text": "Dani toca el dado."
+ },
+ {
+  "key": "fa31e0aad",
+  "text": "Fede mira la foto."
+ },
+ {
+  "key": "f0b3d8c38",
+  "text": "La rana se ríe."
+ },
+ {
+  "key": "f6357e548",
+  "text": "Coco come en casa."
+ },
+ {
+  "key": "f50293e91",
+  "text": "El bebé bota la bola."
+ },
+ {
+  "key": "fdbe748a9",
+  "text": "La vaca ve la uva."
+ },
+ {
+  "key": "f153dc16d",
+  "text": "El gato toma la goma."
+ },
+ {
+  "key": "ffec287e2",
+  "text": "Juan come jamón."
+ },
+ {
+  "key": "f75e613b5",
+  "text": "El hada come helado."
+ },
+ {
+  "key": "f9004e3fa",
+  "text": "El niño come piña."
+ },
+ {
+  "key": "fe6e3fdd1",
+  "text": "Yo tengo un yoyó."
+ },
+ {
+  "key": "f7d3442c8",
+  "text": "La llave está en la silla."
+ },
+ {
+  "key": "f38373c6a",
+  "text": "El chico toma leche."
+ },
+ {
+  "key": "f37350bb1",
+  "text": "El zorro bebe zumo."
+ },
+ {
+  "key": "f8aa3aeb8",
+  "text": "Quique come queso."
+ },
+ {
+  "key": "fcd19aa97",
+  "text": "Kiko come kiwi."
+ },
+ {
+  "key": "feab00a9c",
+  "text": "Walter come kiwi."
+ },
+ {
+  "key": "fc04019fd",
+  "text": "El taxi es amarillo."
  },
  {
   "key": "f65fe3bae",
