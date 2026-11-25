@@ -268,15 +268,110 @@ h1.h{font-size:32px;margin:0;line-height:1.1}
   .floaty,.cloud,.sun{animation:none!important}
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+/* ===== v6: Lulo reacciona ===== */
+.lulo{cursor:pointer}
+.lulo.giggle{animation:giggle .16s ease-in-out 6 alternate}
+@keyframes giggle{from{transform:rotate(-7deg) scale(1.04)}to{transform:rotate(7deg) scale(1.08,0.96)}}
+.lulo.giggle .eyes{animation:none;transform:scaleY(.25)}
+.lulo.giggle .mouth{animation:talk .16s infinite alternate}
+.lulo.yawn{animation:yawnbody 2.6s ease-in-out}
+@keyframes yawnbody{30%,60%{transform:scale(1.04,1.07) translateY(-4px)}}
+.lulo.yawn .mouth{animation:yawn 2.6s ease-in-out}
+@keyframes yawn{0%,100%{transform:none}30%,62%{transform:scale(.8,2.6)}}
+.lulo.yawn .eyes{animation:none;transform:scaleY(.12)}
+.zzz{position:fixed;z-index:60;pointer-events:none;font-family:var(--font-ui);font-weight:800;color:var(--grape);font-size:var(--s,30px);animation:zzz 2.4s ease-out forwards}
+@keyframes zzz{from{transform:translate(0,0) scale(.5);opacity:0}25%{opacity:1}to{transform:translate(40px,-90px) scale(1.2);opacity:0}}
+.lulo .mopen{display:none;transform-box:fill-box;transform-origin:center}
+.lulo.hungry .mopen,.lulo.chomp .mopen{display:inline}
+.lulo.hungry .mouth,.lulo.chomp .mouth{display:none}
+.lulo.hungry .mopen{animation:breathe 1.2s ease-in-out infinite}
+.lulo.chomp .mopen{animation:chomp .13s 6 alternate}
+@keyframes chomp{from{transform:none}to{transform:scaleY(.12)}}
+.lulo.yuck{animation:yuck .55s ease-in-out}
+@keyframes yuck{20%,60%{transform:rotate(-10deg)}40%,80%{transform:rotate(10deg)}}
+.lulo.yuck .eyes{animation:none;transform:scaleY(.5)}
+@media (prefers-reduced-motion: reduce){.lulo.giggle,.lulo.yawn,.lulo.yuck{animation:none}.zzz{animation-duration:.01s}}
+
+/* ===== v6: arrastrar ===== */
+.drag{touch-action:none;user-select:none;-webkit-user-select:none;cursor:grab;position:relative;z-index:2}
+.drag.dragging{z-index:50;cursor:grabbing;box-shadow:0 14px 24px rgba(43,33,64,.25)!important}
+.drag.placed{visibility:hidden}
+.forma{display:flex;flex-direction:column;align-items:center;gap:18px;width:100%}
+.fpic{font-size:clamp(70px,18vw,110px);line-height:1;animation:hop 1.6s ease-in-out infinite;background:none;border:0}
+.fpic.ear{width:96px;height:96px;border-radius:50%;background:var(--surface);box-shadow:0 5px 0 var(--line);font-size:46px;display:flex;align-items:center;justify-content:center;animation:none}
+.slots{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;background:var(--surface);border-radius:var(--r-lg);box-shadow:var(--shadow);padding:14px 16px}
+.slot{min-width:clamp(92px,22vw,140px);height:clamp(92px,22vw,128px);border:4px dashed var(--line);border-radius:22px;display:flex;align-items:center;justify-content:center;font-family:var(--font-letter);font-weight:700;font-size:clamp(50px,12vw,80px);line-height:1;transition:border-color .2s,background .2s}
+.slot.next{border-color:var(--sun);background:#FFF8E1;animation:breathe 1.6s ease-in-out infinite}
+.slot.filled{border-style:solid;border-color:transparent;animation:popIn .4s cubic-bezier(.2,1.5,.4,1)}
+.slot.s1{color:var(--coral)} .slot.s2{color:var(--teal)}
+.tray{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;min-height:100px}
+.tile-s{min-width:clamp(92px,22vw,130px);min-height:clamp(88px,20vw,112px);padding:0 14px;border-radius:24px;background:#fff;box-shadow:0 7px 0 var(--line);font-family:var(--font-letter);font-weight:700;font-size:clamp(48px,11vw,72px);line-height:1;color:var(--ink)}
+.tile-s.wrong,.food.wrong{animation:shake .45s}
+.feed{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%}
+.feed-lulo{width:min(46vw,30vh,230px);position:relative}
+.feed-lulo.over .lulo{transform:scale(1.08);transition:transform .15s}
+.foods{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.food{width:clamp(84px,21vw,112px);height:clamp(84px,21vw,112px);border-radius:50%;font-family:var(--font-letter);font-weight:700;font-size:clamp(46px,11vw,66px);line-height:1;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:inset 0 -8px 0 rgba(0,0,0,.15),0 6px 0 rgba(43,33,64,.18)}
+.food.eat{transition:transform .35s ease-in,opacity .35s;opacity:0}
+.hint-hand{font-size:16px;color:var(--muted);font-weight:700}
+
+/* ===== v6: perfiles ===== */
+.who{display:flex;flex-direction:column;align-items:center;gap:16px;flex:1;justify-content:center}
+.who .home-lulo{width:min(36vw,22vh,170px)}
+.kids{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;max-width:720px}
+.kid{display:flex;flex-direction:column;align-items:center;gap:6px;width:136px;padding:14px 8px 12px;border-radius:var(--r-lg);background:var(--surface);box-shadow:0 6px 0 var(--line);font-weight:800;font-size:22px;color:var(--ink);transition:transform .08s,box-shadow .08s}
+.kid:active{transform:translateY(5px);box-shadow:0 1px 0 var(--line)}
+.kid .av{width:84px;height:84px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-letter);font-weight:700;font-size:50px;color:#fff}
+.kid .nm{max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kid.add .av{background:var(--bg2);color:var(--muted);font-size:44px}
+.reg{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;max-width:560px;margin:0 auto;flex:1;justify-content:center}
+.reg label{font-weight:800;font-size:26px;text-align:center}
+.reg input{width:100%;font-family:var(--font-letter);font-weight:700;font-size:40px;text-align:center;padding:10px 16px;border-radius:22px;border:4px solid var(--line);background:#fff;color:var(--ink)}
+.reg input:focus{outline:none;border-color:var(--teal)}
+.ages{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.age{width:72px;height:72px;border-radius:50%;background:var(--surface);box-shadow:0 5px 0 var(--line);font-size:34px;font-weight:800;color:var(--ink)}
+.age.on{background:var(--teal);color:#fff;box-shadow:0 5px 0 var(--teal-d)}
+.reg .err{color:var(--coral-d);font-weight:700;min-height:1.4em;margin:0}
+.me{margin-right:10px;display:inline-flex;align-items:center;gap:8px;background:var(--surface);border-radius:32px;padding:4px 14px 4px 4px;box-shadow:0 4px 0 var(--line);font-weight:800;font-size:20px;min-height:52px;color:var(--ink)}
+.me .av{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-letter);font-weight:700;font-size:26px;color:#fff}
+.prof-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:8px 0;border-bottom:2px solid var(--bg2)}
+.prof-row input{flex:1;min-width:120px;font-size:20px;padding:8px 12px;border-radius:12px;border:2px solid var(--line)}
+.prof-row select{font-size:20px;padding:8px;border-radius:12px;border:2px solid var(--line)}
 </style>
 </head>
 <body>
+
+<!-- ¿QUIÉN JUEGA? -->
+<section id="who" class="screen" aria-label="¿Quién juega?">
+  <div class="who">
+    <div class="home-lulo" data-lulo id="whoLulo"></div>
+    <h1 class="title">¿Quién <span>juega</span>?</h1>
+    <div class="kids" id="kids"></div>
+  </div>
+</section>
+
+<!-- REGISTRO (nombre y edad; se guarda solo en este aparato) -->
+<section id="reg" class="screen" aria-label="Nuevo jugador">
+  <div class="bar"><button class="round" id="regBack" aria-label="Volver"><span data-i="home"></span></button></div>
+  <div class="reg">
+    <div class="home-lulo" data-lulo style="width:min(32vw,18vh,150px)"></div>
+    <label for="regName">¿Cómo te llamas?</label>
+    <input type="text" id="regName" maxlength="16" autocomplete="off" autocapitalize="words" spellcheck="false" enterkeyhint="done">
+    <label>¿Cuántos años tienes?</label>
+    <div class="ages" id="regAges" role="group" aria-label="Edad"></div>
+    <p class="err" id="regErr" role="alert"></p>
+    <button class="btn leaf btn-go" id="regOk"><span data-i="check"></span>¡A jugar!</button>
+    <p class="note" style="text-align:center;color:var(--muted);margin:0">El nombre y la edad se guardan solo en este aparato.</p>
+  </div>
+</section>
 
 <!-- INICIO -->
 <section id="home" class="screen" aria-label="Inicio">
   <div class="bar">
     <span class="pill" aria-label="Estrellas"><span data-i="star"></span><span class="starN">0</span></span>
     <span class="grow"></span>
+    <button class="me" id="meBtn" aria-label="Cambiar de jugador"></button>
     <button class="parent-btn" id="gate" aria-label="Zona de padres: mantén pulsado"><span class="ring"></span><span data-i="lock"></span></button>
   </div>
   <div class="home-lulo" data-lulo></div>
@@ -333,8 +428,9 @@ h1.h{font-size:32px;margin:0;line-height:1.1}
       <h1>Zona de padres</h1>
     </div>
     <div class="card">
-      <label for="pName">Nombre del niño o la niña (Lulo lo dirá al felicitar)</label>
-      <input type="text" id="pName" maxlength="20" autocomplete="off">
+      <h2>Jugadores</h2>
+      <p class="note">Cada niño tiene su propio progreso. El nombre y la edad se guardan solo en este aparato y no se envían a ningún sitio. Lulo escribe el nombre en el bocadillo al felicitar.</p>
+      <div id="pKids"></div>
     </div>
     <div class="card">
       <label class="switch"><input type="checkbox" id="pMic"> Usar el micrófono para comprobar si lo dice bien</label>
@@ -350,7 +446,7 @@ h1.h{font-size:32px;margin:0;line-height:1.1}
     </div>
     <div class="card">
       <h2>Empezar de cero</h2>
-      <p class="note">Borra estrellas, dibujos y progreso (no borra los gestos ni el nombre).</p>
+      <p class="note">Borra las estrellas, los dibujos y el progreso del jugador actual (no borra los gestos ni el nombre).</p>
       <p><button class="btn ghost small" id="pReset">Borrar progreso</button></p>
     </div>
   </div>
@@ -448,13 +544,32 @@ const wait = ms => new Promise(r=>setTimeout(r,ms));
 const plain = w => w.replace(/-/g,'');
 
 /* ================== Estado guardado ================== */
-const KEY='lulo-v2';
-function defState(){ return {done:{},score:{},stars:0,stickers:[],album:[],recentPics:[],name:'',mic:true,adultOk:false,gestos:{}}; }
+/* Todo se guarda solo en este aparato (localStorage). Nada se envía fuera.
+   lulo-perfiles: lista de jugadores {id,name,age,col}; lulo-p-<id>: progreso de cada uno;
+   lulo-ajustes: micrófono, adulto y gestos (comunes). lulo-v2: versión antigua (un solo jugador), se migra. */
+const KEY='lulo-v2', PKEY='lulo-perfiles', GKEY='lulo-ajustes';
+const AVCOL=['#E84A2A','#13877F','#7048E8','#2F7FD8','#2E9E45','#D98200','#E0457B'];
+const lsGet=(k,d)=>{ try{ const v=JSON.parse(localStorage.getItem(k)||'null'); return v==null?d:v; }catch(e){ return d; } };
+const lsSet=(k,v)=>{ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} };
+function defState(){ return {done:{},score:{},stars:0,stickers:[],album:[],recentPics:[],name:''}; }
+let G = Object.assign({mic:true,adultOk:false,gestos:{}}, lsGet(GKEY,{}));
+let PROF = lsGet(PKEY, null);
+if(!PROF){ /* migración desde la versión de un solo jugador */
+  PROF={list:[],cur:null}; const old=lsGet(KEY,null);
+  if(old){ if('mic' in old) G.mic=old.mic; if('adultOk' in old) G.adultOk=old.adultOk; if(old.gestos) G.gestos=old.gestos; lsSet(GKEY,G);
+    if(Object.keys(old.done||{}).length || old.stars || (old.name||'').trim()){
+      const id='p'+Date.now().toString(36); PROF.list.push({id,name:(old.name||'').trim(),age:0,col:AVCOL[0]}); PROF.cur=id;
+      lsSet('lulo-p-'+id, Object.assign(defState(), old)); } }
+  lsSet(PKEY, PROF);
+}
+const curKid = () => PROF.list.find(k=>k.id===PROF.cur) || null;
 let S = defState();
-try{ S = Object.assign(defState(), JSON.parse(localStorage.getItem(KEY)||'{}')); }catch(e){}
-function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
+function loadKid(id){ PROF.cur=id; lsSet(PKEY,PROF); const k=curKid(); S = Object.assign(defState(), k? lsGet('lulo-p-'+k.id,{}) : {}); S.name = k? k.name : ''; }
+if(curKid()) loadKid(PROF.cur);
+function save(){ const k=curKid(); if(k) lsSet('lulo-p-'+k.id, S); lsSet(GKEY, G); }
+const saveProf = () => lsSet(PKEY, PROF);
 const mastered = ch => !!S.done[ch] && (S.score[ch]||0) >= 3;
-const gestureOf = ch => (S.gestos[ch]||GESTOS_BASE[ch]||'').trim();
+const gestureOf = ch => (G.gestos[ch]||GESTOS_BASE[ch]||'').trim();
 function nextLetter(){ return ORDER.find(c=>!S.done[c]) || null; }
 
 /* ================== Voz de Lulo ================== */
@@ -472,7 +587,8 @@ function pickVoice(){
 }
 if('speechSynthesis' in window){ pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
 let lastSaid='';
-function talk(on){ document.querySelectorAll('.lulo').forEach(l=>l.classList.toggle('talk',on)); }
+let talking=false, listening=false;
+function talk(on){ talking=on; document.querySelectorAll('.lulo').forEach(l=>l.classList.toggle('talk',on)); }
 /* Audios pregrabados: audio/<clave>.mp3, listados en audio/manifest.js (window.LULO_AUDIO).
    Si una frase no tiene audio, se usa la voz del aparato. */
 function clipKey(t){ let h=0x811c9dc5; for(const ch of t.normalize('NFC')){ h^=ch.codePointAt(0); h=Math.imul(h,0x01000193)>>>0; } return 'f'+h.toString(16).padStart(8,'0'); }
@@ -525,10 +641,12 @@ function hush(){ sayToken++; try{ speechSynthesis.cancel(); }catch(e){} if(curAu
 /* ================== Micrófono ================== */
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
 let micBlocked=false;
-const micOK = () => !!SR && S.mic && !micBlocked;
+const micOK = () => !!SR && G.mic && !micBlocked;
 function listen(ms=14000, quiet=2600, early=null){
+  const kid=curKid(); if(kid && kid.age && kid.age<=5) quiet+=900; /* a los más pequeños, más tiempo */
   return new Promise(res=>{
     let r; try{ r=new SR(); }catch(e){ res(null); return; }
+    listening=true; const res0=res; res=v=>{ listening=false; noteActivity(); res0(v); };
     r.lang='es-ES'; r.interimResults=true; r.maxAlternatives=5; r.continuous=true;
     let alts=[], joined='', last=0, ended=false, iv=0; const started=Date.now();
     const finish=()=>{ if(ended) return; ended=true; clearInterval(iv); try{ r.stop(); }catch(e){} res(micBlocked && !joined ? null : (joined ? [joined, ...alts] : [])); };
@@ -613,6 +731,8 @@ function tick(){ fxc.clearRect(0,0,fx.width,fx.height);
 }
 function bumpStars(){ document.querySelectorAll('.starN').forEach(e=>{ e.textContent=S.stars; const p=e.closest('.pill'); if(p){ p.classList.remove('bump'); void p.offsetWidth; p.classList.add('bump'); } }); }
 function jumpLulo(){ document.querySelectorAll('.lulo').forEach(l=>{ l.classList.remove('jump'); void l.getBoundingClientRect(); l.classList.add('jump'); }); }
+const RISAS = ['¡Jijiji! ¡Me haces cosquillas!','¡Jajaja! ¡Qué cosquillas!','¡Ay, ay, que me río!'];
+const BOSTEZOS = ['¡Uaaah! ¡Qué sueño! ¿Seguimos jugando?','¡Uaaah! Me estoy durmiendo... ¿Jugamos?'];
 const PRAISE = ['¡Muy bien!','¡Genial!','¡Fenomenal!','¡Lo has hecho fenomenal!','¡Bravo!','¡Qué bien lo has dicho!','¡Estupendo!','¡Eres un crack!'];
 function praise(){
   S.stars++; save(); bumpStars(); sfx.ok(); confetti(45); sparkles(); jumpLulo();
@@ -623,6 +743,11 @@ function praise(){
 /* ===== Todas las frases que dice Lulo (fijas, para poder grabarlas) ===== */
 const T = {
   hola:'¡Hola! Soy Lulo. ¿Jugamos?',
+  quien:'¿Quién va a jugar? Toca tu nombre.', reg:'¡Hola! Soy Lulo. ¿Cómo te llamas? Pide a un mayor que escriba tu nombre y toca cuántos años tienes.',
+  regOk:'¡Encantado de conocerte! ¡Vamos a jugar!',
+  forma:'Forma la palabra. Arrastra las sílabas en orden.', formaNo:'Esa no va ahí. ¿Cuál va ahora?',
+  comer1:'¡Tengo hambre!', nam:'¡Ñam, ñam! ¡Qué rica!', otra:'¡Dame otra!', puaj:'¡Puaj! Esa no me gusta.',
+  animo:'¡Ánimo! Tú puedes.',
   noMic:'No puedo usar el micrófono. Dilo en voz alta y que un mayor pulse el botón verde.',
   casi:'¡Casi! Escucha bien y prueba otra vez.', noOido:'No te he oído. Pulsa el micrófono y habla fuerte.',
   dilo:'¿Cómo se llama esta letra? Pulsa el micrófono y dilo.',
@@ -636,19 +761,19 @@ const T = {
   otraPalabra:'¿Y esta palabra? Léela despacio.', frase:'¡Última prueba! Pulsa el micrófono y lee esta frase.', albMira:'¡Mira todos tus dibujos!', albNada:'Aprende letras para completar dibujos.', leePal:'Lee esta palabra despacio.', tiempo:'Tómate tu tiempo. Te escucho.', tomaPeg:'Toma una pegatina nueva.', seguimos:'¡Seguimos practicando y lo harás genial!',
   intro:D=>introSpeech(D), gesto:D=>`Ahora haz el gesto de la ${D.name}, como en el cole.`,
   seLlama:D=>`Se llama ${D.name}.`, tocaTodas:D=>`Toca todas las ${D.name}: las grandes y las pequeñas.`,
-  queDibujo:D=>`¿Qué dibujo empieza por la ${D.name}?`, esaEs:D=>`Esa es la ${D.name}.`, busca:D=>`Busca la ${D.name}.`,
+  queDibujo:D=>`¿Qué dibujo empieza por la ${D.name}?`, esaEs:D=>`Esa es la ${D.name}.`, comer:D=>`Dale de comer a Lulo la ${D.name}. Arrástrala hasta su boca.`, busca:D=>`Busca la ${D.name}.`,
   empiezaPor:D=>`Empieza por la ${D.name}.`, donde:D=>`¿Dónde está la ${D.name}?`, esLa:D=>`Es la ${D.name}.`,
-  traceMay:D=>`Escribe la ${D.name} mayúscula con el dedo. Rellena toda la letra.`, traceMin:D=>`Ahora la ${D.name} minúscula, la pequeña.`,
+  traceMay:D=>`Escribe la ${D.name} mayúscula con el dedo. Empieza en el punto verde.`, traceMin:D=>`Ahora la ${D.name} minúscula, la pequeña.`,
   escMay:D=>`Escribe la ${D.name} mayúscula.`, escMin:D=>`Escribe la ${D.name} minúscula.`, aprendido:D=>`¡Has aprendido la ${D.name}!`,
   esoEs:w=>`Eso es ${w}.`, conQue:w=>`¿Con qué letra empieza ${w}?`, escucha:w=>`Escucha: ${w}.`,
   dondePone:s=>`¿Dónde pone... ${s}?`, ahiPone:s=>`Ahí pone ${s}.`,
   acertado8:n=>`¡Increíble! Has acertado ${n} de 8.`, acertado:n=>`Has acertado ${n}.`
 };
 function allPhrases(){
-  const out=new Set([...PRAISE]); const add=x=>out.add(x);
+  const out=new Set([...PRAISE, ...RISAS, ...BOSTEZOS]); const add=x=>out.add(x);
   Object.values(T).forEach(v=>{ if(typeof v==='string') add(v); });
   const L=Object.values(LET);
-  L.forEach(D=>{ ['intro','gesto','seLlama','tocaTodas','queDibujo','esaEs','busca','empiezaPor','donde','esLa','traceMay','traceMin','escMay','escMin','aprendido'].forEach(k=>add(T[k](D)));
+  L.forEach(D=>{ ['intro','gesto','seLlama','comer','tocaTodas','queDibujo','esaEs','busca','empiezaPor','donde','esLa','traceMay','traceMin','escMay','escMin','aprendido'].forEach(k=>add(T[k](D)));
     ['esoEs','conQue','escucha'].forEach(k=>add(T[k](D.pw)));
     (D.syl||[]).forEach(x=>{ add(x); add(T.dondePone(x)); add(T.ahiPone(x)); });
     (D.words||[]).forEach(w=>add(plain(w))); });
@@ -687,8 +812,8 @@ function setScene(screenId, ch, pool){
     fillScene(sc, items, 12);
   }
 }
-function homeScene(){
-  const scr=document.getElementById('home'); if(scr.querySelector('.scene')) return;
+function homeScene(id='home'){
+  const scr=document.getElementById(id); if(scr.querySelector('.scene')) return;
   const sc=document.createElement('div'); sc.className='scene'; sc.setAttribute('aria-hidden','true'); scr.prepend(sc);
   sc.innerHTML='<div class="sun"></div>'+[0,1,2].map(i=>`<div class="cloud" style="--y:${8+i*14}%;--w:${120+i*50}px;--d:${38+i*14}s;--dl:${-i*15}s"></div>`).join('');
   fillScene(sc, ['A','e','M','s','O','p','L','u','T','i'].map(t=>({t,letter:1})).concat(['🎈','⭐','🌈','🦋'].map(t=>({t}))), 14);
@@ -701,6 +826,35 @@ function sparkles(n=14){
     s.style.cssText=`--s:${26+Math.random()*26}px;--tx:${Math.cos(a)*d}px;--ty:${Math.sin(a)*d}px;--r:${Math.random()*360-180}deg;animation-delay:${Math.random()*.15}s`;
     document.body.appendChild(s); setTimeout(()=>s.remove(),1300); }
 }
+/* ===== Lulo reacciona: risa al tocarlo, bostezo si nadie juega ===== */
+function luloAnim(el, cls, ms){ if(!el) return; el.classList.remove(cls); void el.getBoundingClientRect(); el.classList.add(cls); setTimeout(()=>el.classList.remove(cls), ms); }
+const visibleLulos = () => [...document.querySelectorAll('.screen.on .lulo')];
+function giggleSfx(){ tones([784,988,784,1175,988],.07,'sine',.07,.12); }
+function tickle(el, speak=true){
+  luloAnim(el,'giggle',1000); giggleSfx(); noteActivity();
+  if(speak && !listening) say(rand(RISAS));
+}
+let lastAct=Date.now(), idleN=0;
+function noteActivity(){ lastAct=Date.now(); idleN=0; }
+addEventListener('pointerdown', noteActivity, {capture:true, passive:true});
+addEventListener('keydown', noteActivity, {capture:true});
+async function yawn(){
+  const ls=visibleLulos(); if(!ls.length) return;
+  const bubble=document.getElementById('bubble'), prevText=bubble?bubble.textContent:'', prev=lastSaid, my=run, scr=document.querySelector('.screen.on').id;
+  ls.forEach(l=>luloAnim(l,'yawn',2700));
+  const r=ls[0].getBoundingClientRect();
+  if(!reduceMotion) [0,1,2].forEach(i=>setTimeout(()=>{ const z=document.createElement('span'); z.className='zzz'; z.textContent='z'; z.style.cssText=`left:${r.right-r.width*.2}px;top:${r.top+r.height*.1}px;--s:${22+i*8}px`; document.body.appendChild(z); setTimeout(()=>z.remove(),2500); }, 300+i*450));
+  const b=rand(BOSTEZOS);
+  await say(S.name? b.replace('?', `, ${S.name}?`).replace('¿', '¿') : b, b);
+  if(my===run && scr==='play-screen' && prev && prev.length) say(prevText, prev);
+}
+setInterval(()=>{
+  if(document.hidden || talking || listening){ if(talking||listening) lastAct=Date.now(); return; }
+  const on=document.querySelector('.screen.on'); if(!on || !['home','play-screen','map','stickers','who'].includes(on.id)) return;
+  if(!interacted || document.querySelector('.piece-pop') || document.querySelector('.drag.dragging')) return;
+  if(idleN<2 && Date.now()-lastAct > (idleN?70000:40000)){ idleN++; lastAct=Date.now(); yawn(); }
+}, 1000);
+
 function danceLulo(){ document.querySelectorAll('.lulo').forEach(l=>{ l.classList.remove('dance'); void l.getBoundingClientRect(); l.classList.add('dance'); setTimeout(()=>l.classList.remove('dance'),3200); }); }
 
 
@@ -827,11 +981,48 @@ let interacted=false;
 addEventListener('pointerdown', ()=>{ if(!interacted){ interacted=true; if(AC&&AC.state==='suspended') AC.resume(); } }, {once:false, passive:true});
 
 /* ---------- Inicio ---------- */
-function goHome(){
-  const my=show('home'); homeScene(); const n=nextLetter();
-  document.getElementById('nextHint').innerHTML = n ? `Hoy toca la letra <b>${up(n)} ${n}</b>` : '¡Ya conoces todas las letras! Vamos a repasar.';
-  if(interacted) setTimeout(()=>{ if(my===run) say(`¡Hola${S.name?' '+S.name:''}! Soy Lulo. ¿Jugamos?`, T.hola); }, 300);
+const esc = t => String(t).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const avHTML = k => `<span class="av" style="background:${k.col}" aria-hidden="true">${esc((k.name||'?').charAt(0).toUpperCase())}</span>`;
+function goWho(){
+  const my=show('who'); homeScene('who');
+  const kids=document.getElementById('kids');
+  kids.innerHTML = PROF.list.map(k=>`<button class="kid" data-id="${k.id}">${avHTML(k)}<span class="nm">${esc(k.name||'Sin nombre')}</span></button>`).join('')
+    + `<button class="kid add" id="kidAdd"><span class="av" aria-hidden="true">+</span><span class="nm">Nuevo</span></button>`;
+  kids.querySelectorAll('[data-id]').forEach(b=>b.onclick=()=>{ interacted=true; sfx.pop(); const k=PROF.list.find(x=>x.id===b.dataset.id); loadKid(k.id); if(!k.name) goReg(k.id); else goHome(); });
+  document.getElementById('kidAdd').onclick=()=>{ interacted=true; sfx.pop(); goReg(null); };
+  if(interacted) say(T.quien);
 }
+let regAge=0;
+function goReg(editId){
+  const my=show('reg'); const k=editId? PROF.list.find(x=>x.id===editId) : null;
+  const nm=document.getElementById('regName'), err=document.getElementById('regErr'), ages=document.getElementById('regAges');
+  nm.value = k? k.name : ''; regAge = k? (k.age||0) : 0; err.textContent='';
+  ages.innerHTML=[3,4,5,6,7,8,9].map(a=>`<button class="age${a===regAge?' on':''}" data-a="${a}" aria-pressed="${a===regAge}">${a}</button>`).join('');
+  ages.querySelectorAll('.age').forEach(b=>b.onclick=()=>{ sfx.pop(); regAge=+b.dataset.a; ages.querySelectorAll('.age').forEach(x=>{ x.classList.toggle('on', x===b); x.setAttribute('aria-pressed', x===b); }); err.textContent=''; });
+  document.getElementById('regBack').onclick=()=>{ sfx.pop(); PROF.list.length ? goWho() : goReg(null); };
+  document.getElementById('regBack').classList.toggle('hidden', !PROF.list.some(x=>x.name));
+  const ok=()=>{
+    const name=nm.value.replace(/\s+/g,' ').trim();
+    if(!name){ err.textContent='Escribe el nombre'; nm.focus(); return; }
+    if(!regAge){ err.textContent='Toca cuántos años tiene'; return; }
+    interacted=true; sfx.win();
+    if(k){ k.name=name; k.age=regAge; saveProf(); loadKid(k.id); }
+    else { const id='p'+Date.now().toString(36)+Math.random().toString(36).slice(2,5);
+      PROF.list.push({id,name,age:regAge,col:AVCOL[PROF.list.length%AVCOL.length]}); saveProf(); loadKid(id); }
+    confetti(80); goHome(true);
+  };
+  document.getElementById('regOk').onclick=ok;
+  nm.onkeydown=e=>{ if(e.key==='Enter'){ e.preventDefault(); nm.blur(); } };
+  if(interacted) say(T.reg);
+}
+function goHome(nuevo){
+  if(!curKid()){ PROF.list.length ? goWho() : goReg(null); return; }
+  const my=show('home'); homeScene(); const n=nextLetter();
+  const k=curKid(); document.getElementById('meBtn').innerHTML = avHTML(k)+`<span>${esc(k.name)}</span>`;
+  document.getElementById('nextHint').innerHTML = n ? `Hoy toca la letra <b>${up(n)} ${n}</b>` : '¡Ya conoces todas las letras! Vamos a repasar.';
+  if(interacted) setTimeout(()=>{ if(my===run) nuevo===true ? say(`¡Encantado de conocerte, ${S.name}! ¡Vamos a jugar!`, T.regOk) : say(`¡Hola, ${S.name}! Soy Lulo. ¿Jugamos?`, T.hola); }, 300);
+}
+document.getElementById('meBtn').addEventListener('click', ()=>{ sfx.pop(); goWho(); });
 document.getElementById('play').addEventListener('click', ()=>{ interacted=true; sfx.pop(); if(micOK()) ensureMic(); const n=nextLetter(); n ? lesson(n) : goReview(); });
 
 /* ---------- Zona de padres (mantener pulsado 2 s) ---------- */
@@ -850,7 +1041,8 @@ const stage = document.getElementById('stage');
 function setDots(n, i){ const d=document.getElementById('dots'); d.classList.remove('hidden'); document.getElementById('prog').classList.add('hidden');
   d.innerHTML = Array.from({length:n},(_,k)=>`<i class="${k<i?'done':k===i?'now':''}"></i>`).join(''); }
 function setProg(f){ document.getElementById('dots').classList.add('hidden'); const p=document.getElementById('prog'); p.classList.remove('hidden'); p.firstElementChild.style.width=(f*100)+'%'; }
-document.getElementById('miniLulo').addEventListener('click', ()=>{ if(lastSaid) say(document.getElementById('bubble').textContent, lastSaid); });
+document.getElementById('miniLulo').addEventListener('click', e=>{ const l=e.currentTarget.querySelector('.lulo'); luloAnim(l,'giggle',1000); giggleSfx(); if(lastSaid) say(document.getElementById('bubble').textContent, lastSaid); });
+document.querySelectorAll('.home-lulo').forEach(h=>{ h.setAttribute('role','button'); h.setAttribute('aria-label','Hacer cosquillas a Lulo'); h.addEventListener('click', ()=>{ interacted=true; tickle(h.querySelector('.lulo')); }); });
 document.getElementById('bubble').addEventListener('click', ()=>{ if(lastSaid) say(document.getElementById('bubble').textContent, lastSaid); });
 
 /* Tarea de voz: pulsa el micro, lo dice, Lulo comprueba.
@@ -886,9 +1078,10 @@ function voiceTask(area, {check, help, label='Dilo en voz alta', auto=true}){
       if(heard.length && check(heard)){ finish(); return; }
       if(!heard.length){ silent++; if(silent<2 && auto){ lab.textContent='Tómate tu tiempo...'; attempt(); return; } silent=0; lab.textContent='Pulsa el micrófono y dilo'; say(T.noOido); return; }
       fails++; sfx.no(); busy=true;
-      await say(T.casi); if(my!==run) return;
+      if(fails===2) await say(S.name? `¡Ánimo, ${S.name}! Tú puedes.` : T.animo, T.animo); else await say(T.casi);
+      if(my!==run) return;
       await help(); busy=false;
-      if(S.adultOk && fails>=3) adult.classList.remove('hidden');
+      if(G.adultOk && fails>=3) adult.classList.remove('hidden');
       if(my===run && !done){ if(auto) attempt(); else lab.textContent=label; }
     };
     mic.onclick=()=>attempt();
@@ -971,6 +1164,101 @@ function findTask(area, ch, targets=4, total=9){
   });
 }
 
+/* ===== Arrastrar con el dedo (también vale tocar, o Intro con teclado) =====
+   onDrop(x, y, moved) devuelve true si la pieza se queda donde la han soltado. */
+function dragify(el, onDrop){
+  el.classList.add('drag');
+  let id=null, sx=0, sy=0, moved=false;
+  el.addEventListener('pointerdown', e=>{ if(id!==null || el.classList.contains('placed') || el.disabled) return; e.preventDefault(); id=e.pointerId; try{ el.setPointerCapture(id); }catch(_){}
+    sx=e.clientX; sy=e.clientY; moved=false; el.style.transition='none'; el.classList.add('dragging'); });
+  el.addEventListener('pointermove', e=>{ if(e.pointerId!==id) return; const dx=e.clientX-sx, dy=e.clientY-sy;
+    if(Math.hypot(dx,dy)>10) moved=true; el.style.transform=`translate(${dx}px,${dy}px) scale(1.12)`; el._over && el._over(e.clientX,e.clientY); });
+  const end=e=>{ if(e.pointerId!==id) return; id=null; el.classList.remove('dragging');
+    const kept = e.type==='pointerup' ? onDrop(e.clientX, e.clientY, moved) : false;
+    el._over && el._over(-1,-1);
+    if(!kept){ el.style.transition='transform .4s cubic-bezier(.2,1.4,.4,1)'; el.style.transform=''; } };
+  el.addEventListener('pointerup', end); el.addEventListener('pointercancel', end);
+  el.addEventListener('keydown', e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); onDrop(null,null,false); } });
+}
+const inRect=(el,x,y,pad=18)=>{ if(x==null) return false; const r=el.getBoundingClientRect(); return x>=r.left-pad && x<=r.right+pad && y>=r.top-pad && y<=r.bottom+pad; };
+
+/* Forma la palabra: arrastra las sílabas a los huecos, en orden. Devuelve los fallos. */
+function formaTask(area, w, extra){
+  const my=run;
+  return new Promise(resolve=>{
+    const syl=w.split('-'), pw=plain(w), pic=WORDPIC[pw];
+    const tiles=shuffle(syl.concat(extra && !syl.includes(extra) ? [extra] : []));
+    area.innerHTML = `<div class="forma">
+      ${pic?`<button class="fpic" aria-label="Escuchar la palabra">${pic}</button>`:`<button class="fpic ear" aria-label="Escuchar la palabra">${ICONS.ear}</button>`}
+      <div class="slots" aria-label="Huecos de la palabra">${syl.map((_,i)=>`<div class="slot${i===0?' next':''}"></div>`).join('')}</div>
+      <div class="tray">${tiles.map(t=>`<button class="tile-s" aria-label="Sílaba ${t}">${t}</button>`).join('')}</div>
+      <div class="hint-hand">Arrastra cada sílaba a su hueco</div></div>`;
+    const slots=[...area.querySelectorAll('.slot')], box=area.querySelector('.slots'); let next=0, fails=0, busy=false;
+    area.querySelector('.fpic').onclick=()=>say(pw);
+    area.querySelectorAll('.tile-s').forEach(t=>dragify(t,(x,y,moved)=>{
+      if(my!==run || busy || next>=syl.length) return false;
+      if(moved && !inRect(box,x,y)) return false;      /* soltada fuera: vuelve a su sitio */
+      if(t.textContent===syl[next]){
+        const sl=slots[next]; sl.textContent=t.textContent; sl.classList.remove('next'); sl.classList.add('filled','s'+(next%2+1));
+        t.classList.add('placed'); t.style.transform=''; sfx.pop(); next++;
+        if(slots[next]) slots[next].classList.add('next');
+        if(next===syl.length){ busy=true; area.querySelectorAll('.tile-s:not(.placed)').forEach(x=>x.disabled=true);
+          (async()=>{ await say(`¡${up(pw)}!`, pw); if(my!==run) return; await praise(); resolve(fails); })(); }
+        return true;
+      }
+      fails++; t.classList.remove('wrong'); void t.offsetWidth; t.classList.add('wrong'); sfx.no(); say(T.formaNo);
+      return false;
+    }));
+  });
+}
+
+/* Dale de comer a Lulo: arrastra la letra correcta a su boca. Devuelve los fallos. */
+function comerTask(area, ch, rounds=3){
+  const my=run, D=LET[ch];
+  return new Promise(async resolve=>{
+    let fails=0;
+    area.innerHTML = `<div class="feed"><div class="feed-lulo" aria-label="Lulo con la boca abierta">${LULO_SVG}</div><div class="foods"></div><div class="hint-hand">Arrastra la letra hasta la boca de Lulo</div></div>`;
+    const fl=area.querySelector('.feed-lulo'), lulo=fl.querySelector('.lulo'), foods=area.querySelector('.foods');
+    lulo.insertAdjacentHTML('beforeend','<g class="mopen"><ellipse cx="100" cy="148" rx="26" ry="21" fill="#5A1A28"/><ellipse cx="100" cy="160" rx="15" ry="7" fill="#FF7A8A"/></g>');
+    lulo.classList.add('hungry');
+    lulo.addEventListener('click', ()=>{ if(!document.querySelector('.drag.dragging')) tickle(lulo); });
+    const others=shuffle(ORDER.filter(c=>c!==ch && LET[c] && up(c)!==up(ch) && !(SIMILAR[ch]||'').includes(c)));
+    for(let r=0;r<rounds;r++){
+      if(my!==run) return;
+      const form = r%2 ? up(ch) : ch;
+      const opts = shuffle([{c:ch,s:form}].concat(shuffle(others).slice(0,3).map(c=>({c, s: r%2?up(c):c}))));
+      const cols=shuffle(AVCOL);
+      foods.innerHTML = opts.map((o,i)=>`<button class="food" style="background:${cols[i%cols.length]}" data-k="${i}" aria-label="Letra ${LET[o.c].name}">${o.s}</button>`).join('');
+      if(r>0) await say(T.otra);
+      await new Promise(next=>{
+        let busy=false;
+        foods.querySelectorAll('.food').forEach(b=>{
+          b._over=(x,y)=>fl.classList.toggle('over', inRect(fl,x,y,0));
+          dragify(b,(x,y,moved)=>{
+            if(my!==run || busy) return false;
+            if(moved && !inRect(fl,x,y,10)) return false;
+            const o=opts[+b.dataset.k];
+            if(o.c===ch){ busy=true;
+              const lr=lulo.getBoundingClientRect(), br=b.getBoundingClientRect();
+              const tx=lr.left+lr.width/2-(br.left+br.width/2), ty=lr.top+lr.height*.72-(br.top+br.height/2);
+              const cur=b.style.transform.match(/translate\(([-\d.]+)px,\s*([-\d.]+)px\)/); const ox=cur?+cur[1]:0, oy=cur?+cur[2]:0;
+              b.style.transition='transform .35s ease-in, opacity .35s'; b.style.transform=`translate(${ox+tx}px,${oy+ty}px) scale(.2)`; b.style.opacity='0';
+              setTimeout(()=>{ lulo.classList.remove('hungry'); luloAnim(lulo,'chomp',900); sfx.ok(); }, 300);
+              (async()=>{ await wait(350); await say(T.nam); if(my!==run) return; lulo.classList.add('hungry'); next(); })();
+              return true; }
+            fails++; b.classList.remove('wrong'); void b.offsetWidth; b.classList.add('wrong'); sfx.no(); luloAnim(lulo,'yuck',600);
+            say(`${T.puaj} ${T.busca(D)}`, [T.puaj, T.busca(D)]);
+            return false;
+          });
+        });
+      });
+    }
+    if(my!==run) return;
+    lulo.classList.remove('hungry');
+    await praise(); resolve(fails);
+  });
+}
+
 /* Elegir entre varias opciones. Devuelve true si acierta a la primera. */
 function choiceTask(area, options, correct, onWrong, cls=''){
   const my=run;
@@ -1019,6 +1307,20 @@ const STEP = {
     stage.innerHTML = `<div id="fa" style="width:100%;display:flex;justify-content:center"></div>`;
     say(T.tocaTodas(D));
     await findTask(stage.querySelector('#fa'), ch);
+  },
+  async comer(ch,D,my){
+    stage.innerHTML = `<div id="ca" style="width:100%"></div>`;
+    say(`${T.comer1} ${T.comer(D)}`, [T.comer1, T.comer(D)]);
+    await comerTask(stage.querySelector('#ca'), ch, 3);
+  },
+  async forma(ch,D,my){
+    const ws=D.words.filter(w=>w.split('-').length>=2 && w.split('-').length<=3);
+    const withPic=ws.filter(w=>WORDPIC[plain(w)]);
+    const w=rand(withPic.length?withPic:ws);
+    stage.innerHTML = `<p class="sub">Forma la palabra</p><div id="fo" style="width:100%"></div>`;
+    say(T.forma);
+    const extra=rand((D.syl||[]).filter(x=>!w.split('-').includes(x)));
+    await formaTask(stage.querySelector('#fo'), w, extra);
   },
   async empieza(ch,D,my){
     const others = shuffle(ORDER.filter(c=>c!==ch && LET[c].ini && LET[c].pic!==D.pic && fold(LET[c].pw)[0]!==fold(D.pw)[0])).slice(0,2);
@@ -1085,10 +1387,10 @@ async function traceStep(ch, text, msg, my){
   await praise(); await wait(300);
 }
 function buildSteps(D){
-  const s=['conoce','dilo','mayus','minus','encuentra'];
+  const s=['conoce','dilo','mayus','minus','encuentra','comer'];
   if(D.ini) s.push('empieza');
   if(D.syl) s.push('silabas');
-  if(D.words && !D.vowel) s.push('palabra');
+  if(D.words && !D.vowel){ s.push('forma'); s.push('palabra'); }
   s.push('frase');
   s.push('premio'); return s;
 }
@@ -1127,7 +1429,7 @@ async function goReview(){
     const weights = pool.map(c=>4-Math.min(3,S.score[c]||0)); let r=Math.random()*weights.reduce((a,b)=>a+b,0), ch=pool[0];
     for(let i=0;i<pool.length;i++){ r-=weights[i]; if(r<=0){ ch=pool[i]; break; } }
     const D=LET[ch];
-    const types=['escucha','escucha','lee','escribe']; if(D.ini && pool.length>=1) types.push('empieza'); if(D.syl) types.push('silaba','leesil'); if(D.words && !D.vowel) types.push('leepal','leepal');
+    const types=['escucha','escucha','lee','escribe']; if(D.ini && pool.length>=1) types.push('empieza'); if(D.syl) types.push('silaba','leesil'); if(D.words && !D.vowel) types.push('leepal','leepal','forma'); types.push('comer');
     const type=rand(types);
     const ok = await QUIZ[type](ch,D,my);
     if(my!==run) return;
@@ -1148,6 +1450,17 @@ async function goReview(){
 }
 const learnedOthers = (ch,n) => shuffle(ORDER.filter(c=>c!==ch && (S.done[c] || ORDER.indexOf(c)<ORDER.indexOf(ch)+4))).slice(0,n);
 const QUIZ = {
+  async comer(ch,D,my){
+    stage.innerHTML = `<div id="ca" style="width:100%"></div>`;
+    say(T.comer(D));
+    return (await comerTask(stage.querySelector('#ca'), ch, 1))===0;
+  },
+  async forma(ch,D,my){
+    const ws=D.words.filter(w=>w.split('-').length>=2 && w.split('-').length<=3); const w=rand(ws.length?ws:D.words);
+    stage.innerHTML = `<div id="fo" style="width:100%"></div>`;
+    say(T.forma);
+    return (await formaTask(stage.querySelector('#fo'), w, null))===0;
+  },
   async escucha(ch,D,my){
     const opts = shuffle([ch, ...learnedOthers(ch,2)]).map(c=>({c, label:LET[c].name, html: Math.random()<.5?c:up(c)}));
     stage.innerHTML = `<button class="round hear" aria-label="Escuchar otra vez" style="width:84px;height:84px;font-size:40px">${ICONS.ear}</button><div id="qa" style="width:100%;display:flex;justify-content:center"></div>`;
@@ -1236,22 +1549,36 @@ function goStickers(){
 /* ================== Zona de padres ================== */
 function goParents(){
   show('parents');
-  const nm=document.getElementById('pName'); nm.value=S.name; nm.oninput=()=>{ S.name=nm.value.trim(); save(); };
-  const mic=document.getElementById('pMic'); mic.checked=S.mic; mic.onchange=()=>{ S.mic=mic.checked; save(); };
-  const ad=document.getElementById('pAdult'); ad.checked=!!S.adultOk; ad.onchange=()=>{ S.adultOk=ad.checked; save(); };
+  const pk=document.getElementById('pKids');
+  pk.innerHTML = PROF.list.map(k=>`<div class="prof-row" data-id="${k.id}">${avHTML(k)}
+      <input type="text" maxlength="16" value="${esc(k.name)}" aria-label="Nombre">
+      <select aria-label="Edad">${[0,3,4,5,6,7,8,9].map(a=>`<option value="${a}"${a===(k.age||0)?' selected':''}>${a?a+' años':'Edad'}</option>`).join('')}</select>
+      <button class="btn ghost small del">Borrar</button></div>`).join('') || '<p class="note">Todavía no hay jugadores.</p>';
+  pk.querySelectorAll('.prof-row').forEach(row=>{ const k=PROF.list.find(x=>x.id===row.dataset.id);
+    row.querySelector('input').oninput=e=>{ const v=e.target.value.replace(/\s+/g,' ').trim(); if(v){ k.name=v; saveProf(); if(k.id===PROF.cur) S.name=v; } };
+    row.querySelector('select').onchange=e=>{ k.age=+e.target.value; saveProf(); };
+    const del=row.querySelector('.del'); let arm=false;
+    del.onclick=()=>{ if(!arm){ arm=true; del.textContent='¿Seguro? Pulsa otra vez'; setTimeout(()=>{ arm=false; del.textContent='Borrar'; },4000); return; }
+      PROF.list=PROF.list.filter(x=>x.id!==k.id); try{ localStorage.removeItem('lulo-p-'+k.id); }catch(e){}
+      if(PROF.cur===k.id){ PROF.cur=PROF.list[0]?PROF.list[0].id:null; if(PROF.cur) loadKid(PROF.cur); else S=defState(); }
+      saveProf(); goParents(); };
+  });
+  const mic=document.getElementById('pMic'); mic.checked=G.mic; mic.onchange=()=>{ G.mic=mic.checked; save(); };
+  const ad=document.getElementById('pAdult'); ad.checked=!!G.adultOk; ad.onchange=()=>{ G.adultOk=ad.checked; save(); };
   document.getElementById('pVoice').textContent = voice ? `Voz de Lulo: ${voice.name}${NATURAL?' (natural)':''}.` + (NATURAL?'':' Para una voz más natural en el ordenador, abre el juego con Microsoft Edge; en el móvil, instala las voces de Google en español.') : 'No hay voz en español instalada en este dispositivo.';
   document.getElementById('pMicNote').textContent = SR ? 'Este navegador puede usar el micrófono. El audio no se guarda en el juego.' : 'Este navegador no permite reconocer la voz (usa Chrome). Mientras, un adulto confirmará si lo dice bien.';
   document.getElementById('pList').innerHTML = ORDER.map(c=>`<div class="prow"><div class="pl">${up(c)}${c}</div><div>
     <small>${S.done[c]?'Lección hecha':'Lección sin hacer'} · Aciertos en repaso: ${Math.min(3,S.score[c]||0)} de 3 ${mastered(c)?'· <b>Aprendida</b>':''}</small>
-    <textarea data-g="${c}" placeholder="Gesto de la ${LET[c].name} (por ejemplo, cómo se mueve la mano)">${(S.gestos[c]||'').replace(/</g,'&lt;')}</textarea></div></div>`).join('');
-  document.querySelectorAll('[data-g]').forEach(t=>t.oninput=()=>{ S.gestos[t.dataset.g]=t.value; save(); });
+    <textarea data-g="${c}" placeholder="Gesto de la ${LET[c].name} (por ejemplo, cómo se mueve la mano)">${(G.gestos[c]||'').replace(/</g,'&lt;')}</textarea></div></div>`).join('');
+  document.querySelectorAll('[data-g]').forEach(t=>t.oninput=()=>{ G.gestos[t.dataset.g]=t.value; save(); });
   const rb=document.getElementById('pReset'); rb.textContent='Borrar progreso'; let armed=false;
   rb.onclick=()=>{ if(!armed){ armed=true; rb.textContent='Pulsa otra vez para confirmar'; setTimeout(()=>{ armed=false; rb.textContent='Borrar progreso'; },4000); return; }
+    if(!curKid()) return;
     S.done={}; S.score={}; S.stars=0; S.stickers=[]; S.album=[]; save(); rb.textContent='Progreso borrado'; armed=false; goParents(); };
 }
 
 paintIcons();
-goHome();
+PROF.list.some(k=>k.name) ? goWho() : goReg(PROF.list[0] ? PROF.list[0].id : null);
 </script>
 </body>
 </html>

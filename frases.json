@@ -32,8 +32,68 @@
   "text": "¡Eres un crack!"
  },
  {
+  "key": "f667d3932",
+  "text": "¡Jijiji! ¡Me haces cosquillas!"
+ },
+ {
+  "key": "f16ec57e7",
+  "text": "¡Jajaja! ¡Qué cosquillas!"
+ },
+ {
+  "key": "f2c4b49ca",
+  "text": "¡Ay, ay, que me río!"
+ },
+ {
+  "key": "fc436e26d",
+  "text": "¡Uaaah! ¡Qué sueño! ¿Seguimos jugando?"
+ },
+ {
+  "key": "f8364dfb0",
+  "text": "¡Uaaah! Me estoy durmiendo... ¿Jugamos?"
+ },
+ {
   "key": "fa345dd3a",
   "text": "¡Hola! Soy Lulo. ¿Jugamos?"
+ },
+ {
+  "key": "fc4bf7499",
+  "text": "¿Quién va a jugar? Toca tu nombre."
+ },
+ {
+  "key": "fdba9b120",
+  "text": "¡Hola! Soy Lulo. ¿Cómo te llamas? Pide a un mayor que escriba tu nombre y toca cuántos años tienes."
+ },
+ {
+  "key": "f43892af9",
+  "text": "¡Encantado de conocerte! ¡Vamos a jugar!"
+ },
+ {
+  "key": "f8c452ec0",
+  "text": "Forma la palabra. Arrastra las sílabas en orden."
+ },
+ {
+  "key": "f91827aed",
+  "text": "Esa no va ahí. ¿Cuál va ahora?"
+ },
+ {
+  "key": "f38a9aae5",
+  "text": "¡Tengo hambre!"
+ },
+ {
+  "key": "ff0379be3",
+  "text": "¡Ñam, ñam! ¡Qué rica!"
+ },
+ {
+  "key": "f29abdba0",
+  "text": "¡Dame otra!"
+ },
+ {
+  "key": "f801fc401",
+  "text": "¡Puaj! Esa no me gusta."
+ },
+ {
+  "key": "f334a0539",
+  "text": "¡Ánimo! Tú puedes."
  },
  {
   "key": "fd17087c6",
@@ -148,6 +208,10 @@
   "text": "Se llama a."
  },
  {
+  "key": "fe4ee3f44",
+  "text": "Dale de comer a Lulo la a. Arrástrala hasta su boca."
+ },
+ {
   "key": "fc2af4f94",
   "text": "Toca todas las a: las grandes y las pequeñas."
  },
@@ -176,8 +240,8 @@
   "text": "Es la a."
  },
  {
-  "key": "f3ad51e5a",
-  "text": "Escribe la a mayúscula con el dedo. Rellena toda la letra."
+  "key": "f3c4bb7d9",
+  "text": "Escribe la a mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f3769ec8d",
@@ -220,6 +284,10 @@
   "text": "Se llama e."
  },
  {
+  "key": "f8ae664c8",
+  "text": "Dale de comer a Lulo la e. Arrástrala hasta su boca."
+ },
+ {
   "key": "f56f83300",
   "text": "Toca todas las e: las grandes y las pequeñas."
  },
@@ -248,8 +316,8 @@
   "text": "Es la e."
  },
  {
-  "key": "fe63909ce",
-  "text": "Escribe la e mayúscula con el dedo. Rellena toda la letra."
+  "key": "f6627cfd5",
+  "text": "Escribe la e mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "fa70f3c39",
@@ -292,6 +360,10 @@
   "text": "Se llama i."
  },
  {
+  "key": "f65e496bc",
+  "text": "Dale de comer a Lulo la i. Arrástrala hasta su boca."
+ },
+ {
   "key": "fb32ab19c",
   "text": "Toca todas las i: las grandes y las pequeñas."
  },
@@ -320,8 +392,8 @@
   "text": "Es la i."
  },
  {
-  "key": "f163b9722",
-  "text": "Escribe la i mayúscula con el dedo. Rellena toda la letra."
+  "key": "f7c8ecfb1",
+  "text": "Escribe la i mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f3ac40665",
@@ -364,6 +436,10 @@
   "text": "Se llama o."
  },
  {
+  "key": "fdadf895e",
+  "text": "Dale de comer a Lulo la o. Arrástrala hasta su boca."
+ },
+ {
   "key": "f8fbd6d2e",
   "text": "Toca todas las o: las grandes y las pequeñas."
  },
@@ -392,8 +468,8 @@
   "text": "Es la o."
  },
  {
-  "key": "fda7366d4",
-  "text": "Escribe la o mayúscula con el dedo. Rellena toda la letra."
+  "key": "f6990a4cb",
+  "text": "Escribe la o mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "fff05b137",
@@ -436,6 +512,10 @@
   "text": "Se llama u."
  },
  {
+  "key": "fd25c4d78",
+  "text": "Dale de comer a Lulo la u. Arrástrala hasta su boca."
+ },
+ {
   "key": "f678e45f0",
   "text": "Toca todas las u: las grandes y las pequeñas."
  },
@@ -464,8 +544,8 @@
   "text": "Es la u."
  },
  {
-  "key": "f64ec56de",
-  "text": "Escribe la u mayúscula con el dedo. Rellena toda la letra."
+  "key": "fb53755c5",
+  "text": "Escribe la u mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f017a5649",
@@ -508,6 +588,10 @@
   "text": "Se llama eme."
  },
  {
+  "key": "f35c09eea",
+  "text": "Dale de comer a Lulo la eme. Arrástrala hasta su boca."
+ },
+ {
   "key": "f62f80ed6",
   "text": "Toca todas las eme: las grandes y las pequeñas."
  },
@@ -536,8 +620,8 @@
   "text": "Es la eme."
  },
  {
-  "key": "f4cd27000",
-  "text": "Escribe la eme mayúscula con el dedo. Rellena toda la letra."
+  "key": "f01d28f2f",
+  "text": "Escribe la eme mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f8a82057f",
@@ -668,6 +752,10 @@
   "text": "Se llama pe."
  },
  {
+  "key": "f35069010",
+  "text": "Dale de comer a Lulo la pe. Arrástrala hasta su boca."
+ },
+ {
   "key": "fb84a21ce",
   "text": "Toca todas las pe: las grandes y las pequeñas."
  },
@@ -696,8 +784,8 @@
   "text": "Es la pe."
  },
  {
-  "key": "f48000974",
-  "text": "Escribe la pe mayúscula con el dedo. Rellena toda la letra."
+  "key": "f1bf540eb",
+  "text": "Escribe la pe mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f05803237",
@@ -828,6 +916,10 @@
   "text": "Se llama ele."
  },
  {
+  "key": "f2fb430d1",
+  "text": "Dale de comer a Lulo la ele. Arrástrala hasta su boca."
+ },
+ {
   "key": "ffe4b63f5",
   "text": "Toca todas las ele: las grandes y las pequeñas."
  },
@@ -856,8 +948,8 @@
   "text": "Es la ele."
  },
  {
-  "key": "f131afcc9",
-  "text": "Escribe la ele mayúscula con el dedo. Rellena toda la letra."
+  "key": "f040e56ce",
+  "text": "Escribe la ele mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f65ba3838",
@@ -992,6 +1084,10 @@
   "text": "Se llama ese."
  },
  {
+  "key": "f44434d84",
+  "text": "Dale de comer a Lulo la ese. Arrástrala hasta su boca."
+ },
+ {
   "key": "fbf3f3e3c",
   "text": "Toca todas las ese: las grandes y las pequeñas."
  },
@@ -1020,8 +1116,8 @@
   "text": "Es la ese."
  },
  {
-  "key": "f65fbd25e",
-  "text": "Escribe la ese mayúscula con el dedo. Rellena toda la letra."
+  "key": "fd0a30945",
+  "text": "Escribe la ese mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f4ea99e75",
@@ -1156,6 +1252,10 @@
   "text": "Se llama te."
  },
  {
+  "key": "fe56053f4",
+  "text": "Dale de comer a Lulo la te. Arrástrala hasta su boca."
+ },
+ {
   "key": "f102fdb1a",
   "text": "Toca todas las te: las grandes y las pequeñas."
  },
@@ -1184,8 +1284,8 @@
   "text": "Es la te."
  },
  {
-  "key": "faec95458",
-  "text": "Escribe la te mayúscula con el dedo. Rellena toda la letra."
+  "key": "f5d18ce77",
+  "text": "Escribe la te mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "fa6be8d93",
@@ -1320,6 +1420,10 @@
   "text": "Se llama ene."
  },
  {
+  "key": "f56b65047",
+  "text": "Dale de comer a Lulo la ene. Arrástrala hasta su boca."
+ },
+ {
   "key": "f64f980b7",
   "text": "Toca todas las ene: las grandes y las pequeñas."
  },
@@ -1348,8 +1452,8 @@
   "text": "Es la ene."
  },
  {
-  "key": "f13c3e983",
-  "text": "Escribe la ene mayúscula con el dedo. Rellena toda la letra."
+  "key": "f02988cf8",
+  "text": "Escribe la ene mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f9519afa2",
@@ -1476,6 +1580,10 @@
   "text": "Se llama de."
  },
  {
+  "key": "f5b4d92a4",
+  "text": "Dale de comer a Lulo la de. Arrástrala hasta su boca."
+ },
+ {
   "key": "f075ba90a",
   "text": "Toca todas las de: las grandes y las pequeñas."
  },
@@ -1504,8 +1612,8 @@
   "text": "Es la de."
  },
  {
-  "key": "fc2b6f8a8",
-  "text": "Escribe la de mayúscula con el dedo. Rellena toda la letra."
+  "key": "f5e67aa67",
+  "text": "Escribe la de mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "fd2ba9823",
@@ -1640,6 +1748,10 @@
   "text": "Se llama efe."
  },
  {
+  "key": "fdc037cff",
+  "text": "Dale de comer a Lulo la efe. Arrástrala hasta su boca."
+ },
+ {
   "key": "f7d7989bf",
   "text": "Toca todas las efe: las grandes y las pequeñas."
  },
@@ -1668,8 +1780,8 @@
   "text": "Es la efe."
  },
  {
-  "key": "fa2bef9cb",
-  "text": "Escribe la efe mayúscula con el dedo. Rellena toda la letra."
+  "key": "fbe107e90",
+  "text": "Escribe la efe mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "fa2069ada",
@@ -1804,6 +1916,10 @@
   "text": "Se llama erre."
  },
  {
+  "key": "f35accdb3",
+  "text": "Dale de comer a Lulo la erre. Arrástrala hasta su boca."
+ },
+ {
   "key": "fee0446bd",
   "text": "Toca todas las erre: las grandes y las pequeñas."
  },
@@ -1832,8 +1948,8 @@
   "text": "Es la erre."
  },
  {
-  "key": "f3b1b039d",
-  "text": "Escribe la erre mayúscula con el dedo. Rellena toda la letra."
+  "key": "ff0ac91ca",
+  "text": "Escribe la erre mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f4c6b96c0",
@@ -1968,6 +2084,10 @@
   "text": "Se llama ce."
  },
  {
+  "key": "f16afe099",
+  "text": "Dale de comer a Lulo la ce. Arrástrala hasta su boca."
+ },
+ {
   "key": "f84aeb11f",
   "text": "Toca todas las ce: las grandes y las pequeñas."
  },
@@ -1996,8 +2116,8 @@
   "text": "Es la ce."
  },
  {
-  "key": "f1260c5f7",
-  "text": "Escribe la ce mayúscula con el dedo. Rellena toda la letra."
+  "key": "f0aef26a4",
+  "text": "Escribe la ce mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f1c02fc8a",
@@ -2108,6 +2228,10 @@
   "text": "Se llama be."
  },
  {
+  "key": "f851d1512",
+  "text": "Dale de comer a Lulo la be. Arrástrala hasta su boca."
+ },
+ {
   "key": "f306df8a0",
   "text": "Toca todas las be: las grandes y las pequeñas."
  },
@@ -2136,8 +2260,8 @@
   "text": "Es la be."
  },
  {
-  "key": "ff98d7aee",
-  "text": "Escribe la be mayúscula con el dedo. Rellena toda la letra."
+  "key": "fbb181c75",
+  "text": "Escribe la be mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f7b6b4c29",
@@ -2272,6 +2396,10 @@
   "text": "Se llama uve."
  },
  {
+  "key": "f0ddec83f",
+  "text": "Dale de comer a Lulo la uve. Arrástrala hasta su boca."
+ },
+ {
   "key": "f5dcbeb5f",
   "text": "Toca todas las uve: las grandes y las pequeñas."
  },
@@ -2300,8 +2428,8 @@
   "text": "Es la uve."
  },
  {
-  "key": "f3cb229eb",
-  "text": "Escribe la uve mayúscula con el dedo. Rellena toda la letra."
+  "key": "f3d17bfb0",
+  "text": "Escribe la uve mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "faa46531a",
@@ -2436,6 +2564,10 @@
   "text": "Se llama ge."
  },
  {
+  "key": "f1f355a3d",
+  "text": "Dale de comer a Lulo la ge. Arrástrala hasta su boca."
+ },
+ {
   "key": "fb0abd61b",
   "text": "Toca todas las ge: las grandes y las pequeñas."
  },
@@ -2464,8 +2596,8 @@
   "text": "Es la ge."
  },
  {
-  "key": "f7ef72f8b",
-  "text": "Escribe la ge mayúscula con el dedo. Rellena toda la letra."
+  "key": "fe7b0d7d0",
+  "text": "Escribe la ge mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f1af94c26",
@@ -2576,6 +2708,10 @@
   "text": "Se llama jota."
  },
  {
+  "key": "fcc870ac9",
+  "text": "Dale de comer a Lulo la jota. Arrástrala hasta su boca."
+ },
+ {
   "key": "f79ccbbef",
   "text": "Toca todas las jota: las grandes y las pequeñas."
  },
@@ -2604,8 +2740,8 @@
   "text": "Es la jota."
  },
  {
-  "key": "f9727048b",
-  "text": "Escribe la jota mayúscula con el dedo. Rellena toda la letra."
+  "key": "fe448fcd0",
+  "text": "Escribe la jota mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f4ed6069a",
@@ -2740,6 +2876,10 @@
   "text": "Se llama hache."
  },
  {
+  "key": "f2f0584d8",
+  "text": "Dale de comer a Lulo la hache. Arrástrala hasta su boca."
+ },
+ {
   "key": "fb1ec7794",
   "text": "Toca todas las hache: las grandes y las pequeñas."
  },
@@ -2768,8 +2908,8 @@
   "text": "Es la hache."
  },
  {
-  "key": "f1ff473de",
-  "text": "Escribe la hache mayúscula con el dedo. Rellena toda la letra."
+  "key": "f1be442c5",
+  "text": "Escribe la hache mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f45c3ebcd",
@@ -2904,6 +3044,10 @@
   "text": "Se llama eñe."
  },
  {
+  "key": "f9bc046c6",
+  "text": "Dale de comer a Lulo la eñe. Arrástrala hasta su boca."
+ },
+ {
   "key": "fd93f2fba",
   "text": "Toca todas las eñe: las grandes y las pequeñas."
  },
@@ -2932,8 +3076,8 @@
   "text": "Es la eñe."
  },
  {
-  "key": "fb035bc34",
-  "text": "Escribe la eñe mayúscula con el dedo. Rellena toda la letra."
+  "key": "f67154b2b",
+  "text": "Escribe la eñe mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f7455fb83",
@@ -3064,6 +3208,10 @@
   "text": "Se llama i griega."
  },
  {
+  "key": "f3bd29fdf",
+  "text": "Dale de comer a Lulo la i griega. Arrástrala hasta su boca."
+ },
+ {
   "key": "fb808340d",
   "text": "Toca todas las i griega: las grandes y las pequeñas."
  },
@@ -3092,8 +3240,8 @@
   "text": "Es la i griega."
  },
  {
-  "key": "f924cab71",
-  "text": "Escribe la i griega mayúscula con el dedo. Rellena toda la letra."
+  "key": "ff9eee866",
+  "text": "Escribe la i griega mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f6ec6b210",
@@ -3228,6 +3376,10 @@
   "text": "Se llama elle."
  },
  {
+  "key": "ff7a2c5f3",
+  "text": "Dale de comer a Lulo la elle. Arrástrala hasta su boca."
+ },
+ {
   "key": "f27e463d1",
   "text": "Toca todas las elle: las grandes y las pequeñas."
  },
@@ -3256,8 +3408,8 @@
   "text": "Es la elle."
  },
  {
-  "key": "f2cf8a181",
-  "text": "Escribe la elle mayúscula con el dedo. Rellena toda la letra."
+  "key": "ff02fed16",
+  "text": "Escribe la elle mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f5f365cd4",
@@ -3392,6 +3544,10 @@
   "text": "Se llama che."
  },
  {
+  "key": "ff8693077",
+  "text": "Dale de comer a Lulo la che. Arrástrala hasta su boca."
+ },
+ {
   "key": "f6c983c03",
   "text": "Toca todas las che: las grandes y las pequeñas."
  },
@@ -3420,8 +3576,8 @@
   "text": "Es la che."
  },
  {
-  "key": "f04d78f9f",
-  "text": "Escribe la che mayúscula con el dedo. Rellena toda la letra."
+  "key": "fab652f5c",
+  "text": "Escribe la che mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f3b11004e",
@@ -3556,6 +3712,10 @@
   "text": "Se llama zeta."
  },
  {
+  "key": "f357870ef",
+  "text": "Dale de comer a Lulo la zeta. Arrástrala hasta su boca."
+ },
+ {
   "key": "f840b2a59",
   "text": "Toca todas las zeta: las grandes y las pequeñas."
  },
@@ -3584,8 +3744,8 @@
   "text": "Es la zeta."
  },
  {
-  "key": "fa0d18fd5",
-  "text": "Escribe la zeta mayúscula con el dedo. Rellena toda la letra."
+  "key": "f973c8f32",
+  "text": "Escribe la zeta mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f530b6fec",
@@ -3692,6 +3852,10 @@
   "text": "Se llama cu."
  },
  {
+  "key": "fcc6a6009",
+  "text": "Dale de comer a Lulo la cu. Arrástrala hasta su boca."
+ },
+ {
   "key": "fc2bb622f",
   "text": "Toca todas las cu: las grandes y las pequeñas."
  },
@@ -3720,8 +3884,8 @@
   "text": "Es la cu."
  },
  {
-  "key": "f4da84ca7",
-  "text": "Escribe la cu mayúscula con el dedo. Rellena toda la letra."
+  "key": "f34677c74",
+  "text": "Escribe la cu mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "feb76339a",
@@ -3812,6 +3976,10 @@
   "text": "Se llama ka."
  },
  {
+  "key": "fba28f95d",
+  "text": "Dale de comer a Lulo la ka. Arrástrala hasta su boca."
+ },
+ {
   "key": "f349f5723",
   "text": "Toca todas las ka: las grandes y las pequeñas."
  },
@@ -3840,8 +4008,8 @@
   "text": "Es la ka."
  },
  {
-  "key": "f22a35a6b",
-  "text": "Escribe la ka mayúscula con el dedo. Rellena toda la letra."
+  "key": "f330b7830",
+  "text": "Escribe la ka mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f8cfdbefe",
@@ -3960,6 +4128,10 @@
   "text": "Se llama uve doble."
  },
  {
+  "key": "ff455d8f5",
+  "text": "Dale de comer a Lulo la uve doble. Arrástrala hasta su boca."
+ },
+ {
   "key": "f7952ff1d",
   "text": "Toca todas las uve doble: las grandes y las pequeñas."
  },
@@ -3988,8 +4160,8 @@
   "text": "Es la uve doble."
  },
  {
-  "key": "fbdae2cb5",
-  "text": "Escribe la uve doble mayúscula con el dedo. Rellena toda la letra."
+  "key": "ff3913f92",
+  "text": "Escribe la uve doble mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "f4c1c6e10",
@@ -4024,6 +4196,10 @@
   "text": "Se llama equis."
  },
  {
+  "key": "f37f9f096",
+  "text": "Dale de comer a Lulo la equis. Arrástrala hasta su boca."
+ },
+ {
   "key": "fcc8ac326",
   "text": "Toca todas las equis: las grandes y las pequeñas."
  },
@@ -4052,8 +4228,8 @@
   "text": "Es la equis."
  },
  {
-  "key": "fe4b479bc",
-  "text": "Escribe la equis mayúscula con el dedo. Rellena toda la letra."
+  "key": "f9c6df8c3",
+  "text": "Escribe la equis mayúscula con el dedo. Empieza en el punto verde."
  },
  {
   "key": "fe4d3346f",
