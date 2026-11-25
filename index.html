@@ -338,6 +338,85 @@ h1.h{font-size:32px;margin:0;line-height:1.1}
 .prof-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:8px 0;border-bottom:2px solid var(--bg2)}
 .prof-row input{flex:1;min-width:120px;font-size:20px;padding:8px 12px;border-radius:12px;border:2px solid var(--line)}
 .prof-row select{font-size:20px;padding:8px;border-radius:12px;border:2px solid var(--line)}
+
+/* ===== v7 ===== */
+.home-nav{grid-template-columns:repeat(3,minmax(0,1fr))}
+.home-nav .tile{min-height:96px}
+.tile.c4 svg{color:var(--coral)} .tile.c5 svg{color:var(--sky)} .tile.c6 svg{color:var(--leaf)}
+.tile{position:relative}
+.tile .dot{position:absolute;top:8px;right:10px;width:16px;height:16px;border-radius:50%;background:var(--coral);box-shadow:0 0 0 3px #fff;animation:breathe 1.4s infinite}
+.pill.streak{color:#E8590C}
+.lulo{overflow:visible}
+.gmenu{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;width:100%;max-width:620px;margin:16px auto}
+.gcard{display:flex;flex-direction:column;align-items:center;gap:6px;padding:18px 10px;border-radius:var(--r-lg);background:var(--surface);box-shadow:0 6px 0 var(--line);font-weight:800;font-size:22px;color:var(--ink);transition:transform .08s,box-shadow .08s}
+.gcard:active{transform:translateY(5px);box-shadow:0 1px 0 var(--line)}
+.gcard .em{font-size:64px;line-height:1;animation:hop 2s ease-in-out infinite}
+.gcard small{font-size:15px;color:var(--muted);font-weight:700;text-align:center}
+.gcard .done-mark{color:var(--sun-d);font-size:22px}
+.sky,.pond{position:relative;width:100%;flex:1;min-height:52vh;overflow:hidden;border-radius:var(--r-lg);box-shadow:var(--shadow)}
+.sky{background:linear-gradient(#9AD8FF,#E6F6FF)}
+.gw{position:absolute;bottom:-150px;left:calc((100% - 92px) * var(--x) + 3px);animation:rise var(--d) linear infinite;animation-delay:var(--dl)}
+@keyframes rise{to{transform:translateY(calc(-1 * var(--h,52vh) - 300px))}}
+.globo{width:86px;height:104px;border-radius:50% 50% 47% 47%;background:radial-gradient(circle at 32% 28%,rgba(255,255,255,.6) 0 12%,transparent 13%),var(--c);color:#fff;font-family:var(--font-letter);font-weight:700;font-size:52px;line-height:1;display:flex;align-items:center;justify-content:center;position:relative;text-shadow:0 2px 0 rgba(0,0,0,.18)}
+.globo::after{content:"";position:absolute;bottom:-34px;left:50%;width:2px;height:34px;background:#8A7FA0}
+.globo.pop{animation:popb .32s ease-out forwards}
+@keyframes popb{60%{transform:scale(1.35);opacity:.8}100%{transform:scale(.1);opacity:0}}
+.globo.wrong,.fish.wrong{animation:shake .45s}
+.pond{background:linear-gradient(#7FD3F0,#2F8FC8)}
+.fw{position:absolute;left:-130px;top:var(--y);animation:swim var(--d) linear infinite;animation-delay:var(--dl)}
+.fw.rev{animation-name:swimr;left:auto;right:-130px}
+@keyframes swim{to{transform:translateX(calc(100vw + 260px))}}
+@keyframes swimr{to{transform:translateX(calc(-100vw - 260px))}}
+.fish{width:120px;height:80px;position:relative;display:flex;align-items:center;justify-content:center;background:none;border:0}
+.fish .fe{font-size:84px;line-height:1;display:block}
+.fw.rev .fe{transform:scaleX(-1)}
+.fish b{position:absolute;left:50%;top:50%;width:54px;height:54px;margin:-27px 0 0 -27px;border-radius:50%;background:#fff;box-shadow:0 3px 0 rgba(0,0,0,.2);display:flex;align-items:center;justify-content:center;font-family:var(--font-letter);font-weight:700;font-size:36px;line-height:1;color:var(--ink)}
+.fish.caught{animation:catch .6s ease-in forwards}
+@keyframes catch{40%{transform:translateY(-60px) rotate(-20deg)}100%{transform:translateY(-260px) scale(.3);opacity:0}}
+.bucket{position:absolute;top:10px;right:12px;z-index:3;background:#fff;border-radius:999px;padding:4px 14px;font-weight:800;font-size:22px;box-shadow:0 4px 0 rgba(0,0,0,.12)}
+.match{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;width:100%;max-width:560px;align-items:center}
+.mpic{min-height:104px;border-radius:var(--r-md);background:var(--surface);box-shadow:0 6px 0 var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:58px;line-height:1;border:4px dashed transparent;transition:border-color .2s}
+.mpic small{font-family:var(--font-letter);font-weight:700;font-size:26px;color:var(--teal);min-height:1.1em}
+.mpic.ok{border-color:var(--leaf);border-style:solid}
+.mpic.over{border-color:var(--sun)}
+.mword{min-height:84px;border-radius:22px;background:#fff;box-shadow:0 6px 0 var(--line);font-family:var(--font-letter);font-weight:700;font-size:clamp(30px,8vw,44px);color:var(--ink);padding:0 10px}
+.mword.sel{outline:5px solid var(--sun)}
+.eco{display:flex;flex-direction:column;align-items:center;gap:16px}
+.btn-rec{width:132px;height:132px;border-radius:50%;background:var(--coral);color:#fff;box-shadow:0 8px 0 var(--coral-d);font-size:56px;display:flex;align-items:center;justify-content:center}
+.btn-rec.on{animation:listen 1s infinite;background:#C92A2A}
+.eco-row{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+.scene-box{width:min(100%,560px);min-height:140px;background:linear-gradient(#DFF3FF,#FFF6D6);border-radius:var(--r-lg);box-shadow:var(--shadow);display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:4px;font-size:clamp(52px,13vw,80px);padding:12px;line-height:1.1}
+.scene-box span{animation:bounceIn .7s cubic-bezier(.2,1.5,.4,1) both;display:inline-block}
+.frase.small{font-size:clamp(30px,7.5vw,54px)}
+.big-emo{font-size:110px;line-height:1;animation:hop 1.4s ease-in-out infinite}
+.stgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:14px;width:100%;max-width:760px;margin:12px auto}
+.sttile{display:flex;flex-direction:column;align-items:center;gap:4px;padding:14px 6px;border-radius:var(--r-md);background:var(--surface);box-shadow:0 6px 0 var(--line);font-weight:800;color:var(--ink)}
+.sttile .em{font-size:48px;line-height:1}
+.sttile .lt{font-family:var(--font-letter);font-size:30px;color:var(--coral)}
+.sttile.read{box-shadow:0 6px 0 var(--sun)}
+.corner{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;max-width:640px;margin:0 auto}
+.corner-lulo{width:min(54vw,32vh,250px);margin-top:20px}
+.accs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;width:100%}
+.acc-b{display:flex;flex-direction:column;align-items:center;gap:2px;padding:10px 4px;border-radius:var(--r-md);background:var(--surface);box-shadow:0 5px 0 var(--line);font-weight:800;font-size:15px;color:var(--ink);border:4px solid transparent}
+.acc-b .em{font-size:40px;line-height:1.1}
+.acc-b.lock{opacity:.55}
+.acc-b.lock .em{filter:grayscale(1)}
+.acc-b.on{border-color:var(--teal)}
+.acc-b .need{display:inline-flex;align-items:center;gap:2px;color:var(--sun-d)}
+.acc-b .need svg{font-size:16px}
+.turnbar{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:20px;background:var(--surface);border-radius:999px;padding:4px 14px 4px 4px;box-shadow:0 4px 0 var(--line)}
+.turnbar .av,.score .av{width:40px;height:40px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:#fff;font-family:var(--font-letter);font-weight:700;font-size:24px}
+.scores{display:flex;flex-direction:column;gap:10px;width:min(100%,420px)}
+.score{display:flex;align-items:center;gap:10px;background:var(--surface);border-radius:var(--r-md);box-shadow:var(--shadow);padding:10px 16px;font-weight:800;font-size:22px}
+.score .pts{margin-left:auto;display:inline-flex;align-items:center;gap:4px;color:var(--sun-d)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0}
+.chip{min-height:48px;padding:0 16px;border-radius:999px;background:var(--bg2);font-weight:800;font-size:18px;color:var(--ink);border:3px solid transparent}
+.chip.on{background:var(--teal-soft);border-color:var(--teal)}
+.hard{display:flex;align-items:center;gap:12px;padding:8px 0;border-bottom:2px solid var(--bg2)}
+.hard .pl{font-family:var(--font-letter);font-weight:700;font-size:30px;width:70px;color:var(--coral)}
+.hard .bar2{flex:1;height:12px;border-radius:6px;background:var(--bg2);overflow:hidden}
+.hard .bar2 i{display:block;height:100%;background:var(--coral)}
+@media (prefers-reduced-motion: reduce){.gw{animation-duration:calc(var(--d) * 1.6)}.fw{animation-duration:calc(var(--d) * 1.6)}}
 </style>
 </head>
 <body>
@@ -370,6 +449,7 @@ h1.h{font-size:32px;margin:0;line-height:1.1}
 <section id="home" class="screen" aria-label="Inicio">
   <div class="bar">
     <span class="pill" aria-label="Estrellas"><span data-i="star"></span><span class="starN">0</span></span>
+    <span class="pill streak hidden" id="streakPill" aria-label="Días seguidos jugando"><span data-i="flame"></span><span id="streakN">0</span></span>
     <span class="grow"></span>
     <button class="me" id="meBtn" aria-label="Cambiar de jugador"></button>
     <button class="parent-btn" id="gate" aria-label="Zona de padres: mantén pulsado"><span class="ring"></span><span data-i="lock"></span></button>
@@ -382,6 +462,9 @@ h1.h{font-size:32px;margin:0;line-height:1.1}
     <button class="tile c1" data-go="map"><span data-i="grid"></span>Letras</button>
     <button class="tile c2" data-go="review"><span data-i="target"></span>Repaso</button>
     <button class="tile c3" data-go="stickers"><span data-i="star"></span>Dibujos</button>
+    <button class="tile c4" data-go="games"><span data-i="gamepad"></span>Juegos</button>
+    <button class="tile c5" data-go="stories"><span data-i="book"></span>Cuentos</button>
+    <button class="tile c6" data-go="corner" id="cornerTile"><span data-i="gift"></span>Rincón</button>
   </nav>
 </section>
 
@@ -402,12 +485,51 @@ h1.h{font-size:32px;margin:0;line-height:1.1}
     <div class="dots" id="dots"></div>
     <div class="progress hidden" id="prog"><b></b></div>
     <div class="pzmini hidden" id="pzMini" aria-label="Dibujo que estás completando"></div>
+    <div class="turnbar hidden" id="turnBar" aria-live="polite"></div>
     <span class="pill"><span data-i="star"></span><span class="starN">0</span></span>
   </div>
   <div class="stage" id="stage"></div>
   <div class="talkrow">
     <div data-lulo id="miniLulo" role="button" aria-label="Repetir lo que dice Lulo"></div>
     <div class="bubble" id="bubble" role="status" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- JUEGOS -->
+<section id="games" class="screen" aria-label="Juegos">
+  <div class="bar">
+    <button class="round" data-go="home" aria-label="Volver al inicio"><span data-i="home"></span></button>
+    <div class="grow"><h1 class="h">Juegos</h1><p class="sub">Elige un juego</p></div>
+    <span class="pill"><span data-i="star"></span><span class="starN">0</span></span>
+  </div>
+  <div class="gmenu">
+    <button class="gcard" data-game="globos"><span class="em" aria-hidden="true">🎈</span>Globos<small>Explota los globos de la letra</small></button>
+    <button class="gcard" data-game="pesca"><span class="em" aria-hidden="true">🐟</span>Pesca<small>Pesca los peces de la letra</small></button>
+    <button class="gcard" data-game="empareja"><span class="em" aria-hidden="true">🧩</span>Empareja<small>Une dibujo y palabra</small></button>
+    <button class="gcard" data-game="eco"><span class="em" aria-hidden="true">🎙️</span>Eco<small>Grábate y escúchate con Lulo</small></button>
+  </div>
+</section>
+
+<!-- CUENTOS -->
+<section id="stories" class="screen" aria-label="Cuentos">
+  <div class="bar">
+    <button class="round" data-go="home" aria-label="Volver al inicio"><span data-i="home"></span></button>
+    <div class="grow"><h1 class="h">Cuentos</h1><p class="sub" id="storySub"></p></div>
+    <span class="pill"><span data-i="star"></span><span class="starN">0</span></span>
+  </div>
+  <div class="stgrid" id="storyGrid"></div>
+</section>
+
+<!-- RINCÓN DE LULO -->
+<section id="corner" class="screen" aria-label="El rincón de Lulo">
+  <div class="bar">
+    <button class="round" data-go="home" aria-label="Volver al inicio"><span data-i="home"></span></button>
+    <div class="grow"><h1 class="h">El rincón de Lulo</h1><p class="sub" id="cornerSub"></p></div>
+    <span class="pill"><span data-i="star"></span><span class="starN">0</span></span>
+  </div>
+  <div class="corner">
+    <div class="corner-lulo" data-lulo role="button" aria-label="Hacer cosquillas a Lulo"></div>
+    <div class="accs" id="accs"></div>
   </div>
 </section>
 
@@ -440,6 +562,18 @@ h1.h{font-size:32px;margin:0;line-height:1.1}
       <p class="note" id="pVoice"></p>
     </div>
     <div class="card">
+      <h2>Letras que más le cuestan</h2>
+      <p class="note">Cuenta los fallos de cada letra en lecciones, repasos y juegos del jugador actual.</p>
+      <div id="pHard"></div>
+    </div>
+    <div class="card">
+      <h2>Jugar por turnos</h2>
+      <p class="note">Elige quién juega (también papá o mamá) y os iréis turnando preguntas de las letras aprendidas. Se contestan tocando, sin micrófono.</p>
+      <div class="chips" id="pTurn"></div>
+      <p><button class="btn teal small" id="pTurnGo"><span data-i="users"></span> Empezar por turnos</button></p>
+      <p class="note" id="pTurnMsg"></p>
+    </div>
+    <div class="card">
       <h2>Progreso y gestos de cada letra</h2>
       <p class="note">Una letra queda <b>aprendida</b> cuando ha hecho su lección y la ha acertado 3 veces a la primera en el Repaso. Escribe aquí el gesto del cole de cada letra y Lulo se lo recordará en la lección.</p>
       <div id="pList"></div>
@@ -459,6 +593,13 @@ h1.h{font-size:32px;margin:0;line-height:1.1}
 "use strict";
 /* ================== Iconos (SVG, estilo Lucide, licencia ISC) ================== */
 const ICONS = {
+  gamepad:'<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="6"/><path d="M6.5 12h4M8.5 10v4"/><circle cx="15.5" cy="11" r="1.3" fill="currentColor"/><circle cx="18" cy="13.6" r="1.3" fill="currentColor"/></svg>',
+  book:'<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M3 5a1.5 1.5 0 0 1 1.5-1.5H11V20H4.5A1.5 1.5 0 0 0 3 21.5z"/><path d="M21 5a1.5 1.5 0 0 0-1.5-1.5H13V20h6.5a1.5 1.5 0 0 1 1.5 1.5z"/></svg>',
+  gift:'<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="5" rx="1"/><path d="M12 8v13M5 13v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7"/><path d="M12 8S10.5 3 8 3a2.5 2.5 0 0 0 0 5M12 8s1.5-5 4-5a2.5 2.5 0 0 1 0 5"/></svg>',
+  flame:'<svg class="i" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2s6 5 6 11a6 6 0 0 1-12 0c0-2.4 1.2-4.2 2.4-5.4 0 2.4 1.2 3.6 2.4 3.6C10.8 7.6 9.6 5.2 12 2z"/></svg>',
+  rec:'<svg class="i" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="7"/></svg>',
+  stop:'<svg class="i" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>',
+  users:'<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.8"/><path d="M16 14.2A5.5 5.5 0 0 1 21.5 20"/></svg>',
   star:'<svg class="i" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.2 1.3-6.6L2.5 9.3l6.6-.8z"/></svg>',
   play:'<svg class="i" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12-7.5a1 1 0 0 0 0-1.72l-12-7.5A1 1 0 0 0 7 4.5z"/></svg>',
   home:'<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>',
@@ -535,6 +676,8 @@ const WORDPIC = {'pupa':'🩹','mopa':'🧹','loma':'⛰️','palo':'🪵','masa
 const STICKERS = ['🦊','🐼','🦁','🐯','🐨','🐸','🐵','🦄','🐙','🦋','🐢','🐬','🦉','🐧','🐞','🦩','🐳','🦔','🐰','🦜','🐮','🐷','🐻','🐶','🐱','🦖','🐝','🌈','🚀','🎈','🍭','🌟','🎠','🧸','🪁','🍉'];
 /* Frase final de cada lección (contiene la letra) */
 const FRASES = {"a": "Mamá ama a Ana.", "e": "Ella es Eva.", "i": "Mira mi isla.", "o": "Oso, ola, ojo.", "u": "Una uva.", "m": "Mi mamá me mima.", "p": "Papá pela una pipa.", "l": "Lola mira la luna.", "s": "Susi mira el sol.", "t": "Tomás toma té.", "n": "Nina mira la luna.", "d": "Dani toca el dado.", "f": "Fede mira la foto.", "r": "La rana se ríe.", "c": "Coco come en casa.", "b": "El bebé bota la bola.", "v": "La vaca ve la uva.", "g": "El gato toma la goma.", "j": "Juan come jamón.", "h": "El hada come helado.", "ñ": "El niño come piña.", "y": "Yo tengo un yoyó.", "ll": "La llave está en la silla.", "ch": "El chico toma leche.", "z": "El zorro bebe zumo.", "q": "Quique come queso.", "k": "Kiko come kiwi.", "w": "Walter come kiwi.", "x": "El taxi es amarillo."};
+/* Cuentos: 3 frases por letra; cada frase leída añade dibujos a la escena */
+const CUENTOS = {"a": [["Ana tiene una abeja.", "👧🐝"], ["La abeja vuela alto.", "☁️"], ["Ana y la abeja se van a casa.", "🏠"]], "e": [["Eva ve un elefante.", "👧🐘"], ["El elefante es enorme.", "🌳"], ["Eva le da agua al elefante.", "💧"]], "i": [["Isa va a la isla.", "👧🏝️"], ["En la isla hay un pino.", "🌲"], ["Isa mira el mar.", "🌊"]], "o": [["El oso tiene sueño.", "🐻"], ["El oso ve una ola.", "🌊"], ["El oso come miel y se duerme.", "🍯"]], "u": [["Una uva cae al suelo.", "🍇"], ["Una niña ve la uva.", "👧"], ["La niña se come la uva.", "😋"]], "m": [["Mi mamá mira la luna.", "👩🌙"], ["Un mono come una manzana.", "🐒🍎"], ["Mamá y el mono se ríen.", "😄"]], "p": [["Papá tiene un pato.", "👨🦆"], ["El pato nada en el lago.", "🌊"], ["Papá le da pan al pato.", "🍞"]], "l": [["Lola lee un libro.", "👧📖"], ["La luna sale de noche.", "🌙"], ["Lola se duerme con la luz de la luna.", "⭐"]], "s": [["Susi sale al sol.", "👧☀️"], ["Ve un sapo en una seta.", "🐸🍄"], ["El sapo salta y se va.", "💨"]], "t": [["Tomás tiene un tomate.", "👦🍅"], ["Pone el tomate en la mesa.", "🍽️"], ["Su tía hace una tortilla.", "👩🍳"]], "n": [["Nina ve una nube.", "👧☁️"], ["La nube tapa la luna.", "🌙"], ["Nina dice: ¡No, nube, no!", "😮"]], "d": [["Dani tiene un dado.", "👦🎲"], ["Dani tira el dado y sale un dos.", "✌️"], ["Dani da saltos de alegría.", "🎉"]], "f": [["Fede tiene una foto.", "👦📷"], ["En la foto hay una foca.", "🦭"], ["La foca come fresas.", "🍓"]], "r": [["La rana Rita está en el río.", "🐸🌊"], ["Rita ve una rosa roja.", "🌹"], ["Rita se ríe y salta.", "😄"]], "c": [["Coco come en casa.", "👦🏠"], ["Come caldo con una cuchara.", "🥣"], ["Luego juega con su coche.", "🚗"]], "b": [["El bebé tiene una bota.", "👶👢"], ["El bebé bota la bola.", "⚽"], ["La bola cae en el barco.", "⛵"]], "v": [["La vaca vive en el campo.", "🐄🌾"], ["La vaca ve una uva.", "🍇"], ["La vaca se va a dormir.", "🌙"]], "g": [["El gato Gus tiene una goma.", "🐱"], ["Gus juega con la goma.", "🎈"], ["La goma sale volando.", "💨"]], "j": [["La jirafa Juana es muy alta.", "🦒"], ["Juana come hojas.", "🌳"], ["Juana juega con un niño.", "👦"]], "h": [["El hada tiene un helado.", "🧚🍦"], ["El helado se derrite al sol.", "☀️"], ["El hada hace magia y sale otro helado.", "✨"]], "ñ": [["El niño tiene una piña.", "👦🍍"], ["El niño y la niña se bañan.", "🛁"], ["Después comen piña juntos.", "😋"]], "y": [["Yo tengo un yoyó.", "🪀"], ["Mi yoyó sube y baja.", "⬆️"], ["Mi yegua mira mi yoyó.", "🐴"]], "ll": [["La llave está en la silla.", "🔑🪑"], ["Llueve mucho en la calle.", "🌧️"], ["Llevo la llave a casa.", "🏠"]], "ch": [["El chico toma leche.", "👦🥛"], ["Luego come chocolate.", "🍫"], ["Se va en coche a la playa.", "🚗"]], "z": [["El zorro tiene zapatos.", "🦊👟"], ["El zorro bebe zumo.", "🧃"], ["El zorro baila en la plaza.", "💃"]], "q": [["Quique quiere queso.", "👦🧀"], ["El queso está en el paquete.", "📦"], ["Quique se come el queso.", "😋"]], "k": [["Kiko tiene un kiwi.", "👦🥝"], ["Kiko hace kárate.", "🥋"], ["Un koala mira a Kiko.", "🐨"]], "w": [["Walter tiene un kiwi.", "👦🥝"], ["Walter ve la web de su cole.", "💻"], ["Su perro dice: ¡guau!", "🐶"]], "x": [["El taxi es amarillo.", "🚕"], ["En el taxi va un saxofón.", "🎷"], ["El taxista toca el saxofón.", "🎶"]]};
 const SIMILAR = {b:'dpvq',d:'bpq',p:'qbd',q:'pdb',m:'nwu',n:'mñu',u:'nvo',a:'oeg',e:'ac',i:'jlt',l:'tif',o:'aec',t:'lfi',f:'tl',v:'bu',ñ:'nm',ll:'ly',y:'vll',g:'qj',j:'ig',c:'eo',ch:'cll',s:'zc',z:'s',k:'h',h:'kn',r:'n',w:'vm',x:'k'};
 
 const up = ch => ch.charAt(0).toUpperCase()+ch.slice(1);
@@ -551,7 +694,7 @@ const KEY='lulo-v2', PKEY='lulo-perfiles', GKEY='lulo-ajustes';
 const AVCOL=['#E84A2A','#13877F','#7048E8','#2F7FD8','#2E9E45','#D98200','#E0457B'];
 const lsGet=(k,d)=>{ try{ const v=JSON.parse(localStorage.getItem(k)||'null'); return v==null?d:v; }catch(e){ return d; } };
 const lsSet=(k,v)=>{ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} };
-function defState(){ return {done:{},score:{},stars:0,stickers:[],album:[],recentPics:[],name:''}; }
+function defState(){ return {done:{},score:{},stars:0,stickers:[],album:[],recentPics:[],name:'',miss:{},hit:{},days:[],wear:{},cuentos:{},rachaDicha:''}; }
 let G = Object.assign({mic:true,adultOk:false,gestos:{}}, lsGet(GKEY,{}));
 let PROF = lsGet(PKEY, null);
 if(!PROF){ /* migración desde la versión de un solo jugador */
@@ -714,7 +857,9 @@ function tones(freqs, dur=.14, type='triangle', gap=.09, vol=.22){
       o.connect(g); g.connect(AC.destination); o.start(s); o.stop(s+dur+.05); });
   }catch(e){}
 }
-const sfx = { ok:()=>tones([660,880,1320],.2), no:()=>tones([330,262],.2,'sine',.12,.15), pop:()=>tones([880],.08), win:()=>tones([523,659,784,1047,1319],.3,'triangle',.11) };
+const sfx0 = { ok:()=>tones([660,880,1320],.2), no:()=>tones([330,262],.2,'sine',.12,.15), pop:()=>tones([880],.08), win:()=>tones([523,659,784,1047,1319],.3,'triangle',.11) };
+const sfx = Object.assign({}, sfx0, { no:()=>{ sfx0.no(); noteMiss(); } });
+function noteMiss(){ if(curLetter && !turnMode && curKid()){ S.miss[curLetter]=(S.miss[curLetter]||0)+1; save(); } }
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const fx = document.getElementById('fx'), fxc = fx.getContext('2d'); let parts=[], fxOn=false;
 function sizeFx(){ fx.width=innerWidth; fx.height=innerHeight; } sizeFx(); addEventListener('resize', sizeFx);
@@ -735,10 +880,39 @@ const RISAS = ['¡Jijiji! ¡Me haces cosquillas!','¡Jajaja! ¡Qué cosquillas!'
 const BOSTEZOS = ['¡Uaaah! ¡Qué sueño! ¿Seguimos jugando?','¡Uaaah! Me estoy durmiendo... ¿Jugamos?'];
 const PRAISE = ['¡Muy bien!','¡Genial!','¡Fenomenal!','¡Lo has hecho fenomenal!','¡Bravo!','¡Qué bien lo has dicho!','¡Estupendo!','¡Eres un crack!'];
 function praise(){
-  S.stars++; save(); bumpStars(); sfx.ok(); confetti(45); sparkles(); jumpLulo();
-  const n = S.name ? (Math.random()<.6 ? ', '+S.name : '') : '';
+  let gift=false;
+  if(!turnMode && curKid()){ const before=unlockedN(); S.stars++; if(curLetter) S.hit[curLetter]=(S.hit[curLetter]||0)+1; markDay(); gift=unlockedN()>before; save(); }
+  bumpStars(); sfx.ok(); confetti(45); sparkles(); jumpLulo();
+  const n = S.name && !turnMode ? (Math.random()<.6 ? ', '+S.name : '') : '';
   const p = rand(PRAISE);
+  if(gift){ sfx.win(); confetti(120); return say(p.replace(/!$/, n+'!')+' '+T.regalo, [p, T.regalo]); }
   return say(p.replace(/!$/, n+'!'), p);
+}
+/* ===== Racha: días seguidos jugando ===== */
+const today = () => { const d=new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
+function markDay(){ const t=today(); S.days=S.days||[]; if(!S.days.includes(t)){ S.days.push(t); S.days=S.days.slice(-60); } }
+function streak(){ const set=new Set(S.days||[]); const d=new Date(); if(!set.has(today())) d.setDate(d.getDate()-1); let n=0;
+  for(;;){ const k=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); if(!set.has(k)) break; n++; d.setDate(d.getDate()-1); } return n; }
+
+/* ===== Rincón de Lulo: regalos que se desbloquean con estrellas (no se gastan) ===== */
+const ACCS=[
+ {id:'flor',slot:'cabeza',name:'Flor',em:'🌸',need:5,svg:'<g transform="translate(150 60)"><circle cx="0" cy="-11" r="9" fill="#FF8FB1"/><circle cx="11" cy="-3" r="9" fill="#FF8FB1"/><circle cx="7" cy="10" r="9" fill="#FF8FB1"/><circle cx="-7" cy="10" r="9" fill="#FF8FB1"/><circle cx="-11" cy="-3" r="9" fill="#FF8FB1"/><circle r="7" fill="#FFD93D"/></g>'},
+ {id:'gafas',slot:'ojos',name:'Gafas',em:'🕶️',need:10,svg:'<rect x="54" y="92" width="40" height="26" rx="11" fill="#2B2140"/><rect x="106" y="92" width="40" height="26" rx="11" fill="#2B2140"/><path d="M94 102 H106" stroke="#2B2140" stroke-width="5"/><path d="M62 98 l10 0" stroke="#fff" stroke-width="3" opacity=".6"/><path d="M114 98 l10 0" stroke="#fff" stroke-width="3" opacity=".6"/>'},
+ {id:'pajarita',slot:'cuello',name:'Pajarita',em:'🎀',need:15,svg:'<path d="M100 184 L76 170 L76 198Z M100 184 L124 170 L124 198Z" fill="#E84A2A"/><circle cx="100" cy="184" r="7" fill="#B8361B"/>'},
+ {id:'gorro',slot:'cabeza',name:'Gorro de fiesta',em:'🥳',need:20,svg:'<path d="M100 -2 L76 52 L124 52Z" fill="#FF5D8F"/><path d="M84 34 L116 34 M90 20 L110 20" stroke="#FFD93D" stroke-width="5"/><circle cx="100" cy="-4" r="8" fill="#FFD93D"/>'},
+ {id:'bufanda',slot:'cuello',name:'Bufanda',em:'🧣',need:30,svg:'<path d="M42 166 Q100 196 158 166 L160 182 Q100 212 40 182Z" fill="#2F7FD8"/><path d="M128 184 L138 214 L120 216 L114 188Z" fill="#215EA3"/>'},
+ {id:'cascos',slot:'cabeza',name:'Cascos',em:'🎧',need:40,svg:'<path d="M36 112 Q36 38 100 38 Q164 38 164 112" stroke="#2B2140" stroke-width="9" fill="none"/><rect x="22" y="98" width="24" height="38" rx="10" fill="#E84A2A"/><rect x="154" y="98" width="24" height="38" rx="10" fill="#E84A2A"/>'},
+ {id:'corona',slot:'cabeza',name:'Corona',em:'👑',need:60,svg:'<path d="M66 52 L70 18 L86 36 L100 10 L114 36 L130 18 L134 52Z" fill="#FFC83D" stroke="#D99A00" stroke-width="3" stroke-linejoin="round"/><circle cx="100" cy="40" r="5" fill="#E84A2A"/><circle cx="82" cy="44" r="4" fill="#2F7FD8"/><circle cx="118" cy="44" r="4" fill="#2E9E45"/>'},
+ {id:'mago',slot:'cabeza',name:'Sombrero de mago',em:'🧙',need:80,svg:'<path d="M100 -12 L70 52 L130 52Z" fill="#7048E8"/><ellipse cx="100" cy="52" rx="44" ry="9" fill="#5233B8"/><path d="M96 20 l3 -7 l3 7 l7 1 l-5 5 l1 7 l-6 -3 l-6 3 l1 -7 l-5 -5Z" fill="#FFD93D"/>'}
+];
+const unlockedN = () => ACCS.filter(a=>S.stars>=a.need).length;
+function dressLulos(){
+  const order=['cuello','ojos','cabeza'];
+  document.querySelectorAll('svg.lulo').forEach(sv=>{
+    sv.querySelectorAll('.acc').forEach(g=>g.remove());
+    if(sv.closest('#turnBar')) return;
+    order.forEach(sl=>{ const id=(S.wear||{})[sl]; const a=ACCS.find(x=>x.id===id && x.slot===sl); if(a && S.stars>=a.need) sv.insertAdjacentHTML('beforeend', `<g class="acc">${a.svg}</g>`); });
+  });
 }
 /* ===== Todas las frases que dice Lulo (fijas, para poder grabarlas) ===== */
 const T = {
@@ -748,6 +922,12 @@ const T = {
   forma:'Forma la palabra. Arrastra las sílabas en orden.', formaNo:'Esa no va ahí. ¿Cuál va ahora?',
   comer1:'¡Tengo hambre!', nam:'¡Ñam, ñam! ¡Qué rica!', otra:'¡Dame otra!', puaj:'¡Puaj! Esa no me gusta.',
   animo:'¡Ánimo! Tú puedes.',
+  juegos:'¡Elige un juego!', juegoFin:'¡Juego terminado! ¡Lo has hecho genial!',
+  empareja:'Une cada dibujo con su palabra. Arrastra la palabra hasta su dibujo.', emparejaL:'Une cada dibujo con la letra por la que empieza.', noEs:'Ese no es su dibujo. Prueba otra vez.',
+  eco1:'Escucha a Lulo. Luego pulsa el botón rojo y dilo tú.', ecoLulo:'Así lo dice Lulo.', ecoTu:'¡Y así lo dices tú!', ecoNo:'Este aparato no deja grabar. Repítelo en voz alta.',
+  fin:'¡Fin! ¡Has leído un cuento entero!', cuentosNada:'Aprende letras para abrir sus cuentos.', cuentosElige:'¿Qué cuento leemos?',
+  rincon:'¡Este es mi rincón! Toca un regalo para ponérmelo.', regalo:'¡Has conseguido un regalo nuevo para Lulo! Míralo en su rincón.', bloqueado:'Consigue más estrellas para desbloquearlo.',
+  teToca:'¡Te toca!', finTurnos:'¡Muy bien jugado! ¡Habéis aprendido un montón!',
   noMic:'No puedo usar el micrófono. Dilo en voz alta y que un mayor pulse el botón verde.',
   casi:'¡Casi! Escucha bien y prueba otra vez.', noOido:'No te he oído. Pulsa el micrófono y habla fuerte.',
   dilo:'¿Cómo se llama esta letra? Pulsa el micrófono y dilo.',
@@ -761,7 +941,7 @@ const T = {
   otraPalabra:'¿Y esta palabra? Léela despacio.', frase:'¡Última prueba! Pulsa el micrófono y lee esta frase.', albMira:'¡Mira todos tus dibujos!', albNada:'Aprende letras para completar dibujos.', leePal:'Lee esta palabra despacio.', tiempo:'Tómate tu tiempo. Te escucho.', tomaPeg:'Toma una pegatina nueva.', seguimos:'¡Seguimos practicando y lo harás genial!',
   intro:D=>introSpeech(D), gesto:D=>`Ahora haz el gesto de la ${D.name}, como en el cole.`,
   seLlama:D=>`Se llama ${D.name}.`, tocaTodas:D=>`Toca todas las ${D.name}: las grandes y las pequeñas.`,
-  queDibujo:D=>`¿Qué dibujo empieza por la ${D.name}?`, esaEs:D=>`Esa es la ${D.name}.`, comer:D=>`Dale de comer a Lulo la ${D.name}. Arrástrala hasta su boca.`, busca:D=>`Busca la ${D.name}.`,
+  queDibujo:D=>`¿Qué dibujo empieza por la ${D.name}?`, esaEs:D=>`Esa es la ${D.name}.`, globo:D=>`Explota los globos de la ${D.name}.`, pesca:D=>`Pesca los peces de la ${D.name}.`, cuento:D=>`El cuento de la ${D.name}. Lee cada frase y verás qué pasa.`, racha:n=>`¡Llevas ${n} días seguidos jugando!`, comer:D=>`Dale de comer a Lulo la ${D.name}. Arrástrala hasta su boca.`, busca:D=>`Busca la ${D.name}.`,
   empiezaPor:D=>`Empieza por la ${D.name}.`, donde:D=>`¿Dónde está la ${D.name}?`, esLa:D=>`Es la ${D.name}.`,
   traceMay:D=>`Escribe la ${D.name} mayúscula con el dedo. Empieza en el punto verde.`, traceMin:D=>`Ahora la ${D.name} minúscula, la pequeña.`,
   escMay:D=>`Escribe la ${D.name} mayúscula.`, escMin:D=>`Escribe la ${D.name} minúscula.`, aprendido:D=>`¡Has aprendido la ${D.name}!`,
@@ -773,11 +953,14 @@ function allPhrases(){
   const out=new Set([...PRAISE, ...RISAS, ...BOSTEZOS]); const add=x=>out.add(x);
   Object.values(T).forEach(v=>{ if(typeof v==='string') add(v); });
   const L=Object.values(LET);
-  L.forEach(D=>{ ['intro','gesto','seLlama','comer','tocaTodas','queDibujo','esaEs','busca','empiezaPor','donde','esLa','traceMay','traceMin','escMay','escMin','aprendido'].forEach(k=>add(T[k](D)));
+  L.forEach(D=>{ ['intro','gesto','seLlama','comer','globo','pesca','cuento','tocaTodas','queDibujo','esaEs','busca','empiezaPor','donde','esLa','traceMay','traceMin','escMay','escMin','aprendido'].forEach(k=>add(T[k](D)));
     ['esoEs','conQue','escucha'].forEach(k=>add(T[k](D.pw)));
     (D.syl||[]).forEach(x=>{ add(x); add(T.dondePone(x)); add(T.ahiPone(x)); });
     (D.words||[]).forEach(w=>add(plain(w))); });
   Object.values(FRASES).forEach(add);
+  Object.values(CUENTOS).forEach(c=>c.forEach(x=>add(x[0])));
+  L.forEach(D=>{ if(D.vowel) add(D.name); });
+  for(let n=2;n<=30;n++) add(T.racha(n));
   for(let n=0;n<=8;n++){ add(T.acertado8(n)); add(T.acertado(n)); }
   return [...out].map(t=>({key:clipKey(t), text:t}));
 }
@@ -966,16 +1149,19 @@ function saveToAlbum(){ if(!curPuzzle) return; S.album=S.album||[]; S.album.push
 
 /* ================== Navegación ================== */
 let run=0;
+let curLetter=null, turnMode=false;
 function show(id){
-  run++; hush();
+  run++; hush(); curLetter=null; turnMode=false;
+  const tb=document.getElementById('turnBar'); if(tb) tb.classList.add('hidden');
   document.querySelectorAll('.screen').forEach(s=>s.classList.toggle('on', s.id===id));
   document.querySelectorAll('.starN').forEach(e=>e.textContent=S.stars);
+  dressLulos();
   return run;
 }
 document.addEventListener('click', e=>{
   const b=e.target.closest('[data-go]'); if(!b) return;
   const g=b.dataset.go; sfx.pop();
-  if(g==='home') goHome(); else if(g==='map') goMap(); else if(g==='review') goReview(); else if(g==='stickers') goStickers();
+  if(g==='home') goHome(); else if(g==='map') goMap(); else if(g==='review') goReview(); else if(g==='stickers') goStickers(); else if(g==='games') goGames(); else if(g==='stories') goStories(); else if(g==='corner') goCorner();
 });
 let interacted=false;
 addEventListener('pointerdown', ()=>{ if(!interacted){ interacted=true; if(AC&&AC.state==='suspended') AC.resume(); } }, {once:false, passive:true});
@@ -1019,8 +1205,12 @@ function goHome(nuevo){
   if(!curKid()){ PROF.list.length ? goWho() : goReg(null); return; }
   const my=show('home'); homeScene(); const n=nextLetter();
   const k=curKid(); document.getElementById('meBtn').innerHTML = avHTML(k)+`<span>${esc(k.name)}</span>`;
+  const st=streak(); document.getElementById('streakPill').classList.toggle('hidden', st<2); document.getElementById('streakN').textContent=st;
+  const ct=document.getElementById('cornerTile'); ct.querySelector('.dot')?.remove(); if(unlockedN()>(S.seenAcc||0)) ct.insertAdjacentHTML('beforeend','<span class="dot" aria-label="Regalo nuevo"></span>');
   document.getElementById('nextHint').innerHTML = n ? `Hoy toca la letra <b>${up(n)} ${n}</b>` : '¡Ya conoces todas las letras! Vamos a repasar.';
-  if(interacted) setTimeout(()=>{ if(my===run) nuevo===true ? say(`¡Encantado de conocerte, ${S.name}! ¡Vamos a jugar!`, T.regOk) : say(`¡Hola, ${S.name}! Soy Lulo. ¿Jugamos?`, T.hola); }, 300);
+  const rachaHoy = st>=2 && (S.days||[]).includes(today()) && S.rachaDicha!==today();
+  if(rachaHoy){ S.rachaDicha=today(); save(); }
+  if(interacted) setTimeout(()=>{ if(my!==run) return; if(nuevo===true) say(`¡Encantado de conocerte, ${S.name}! ¡Vamos a jugar!`, T.regOk); else if(rachaHoy) say(`¡Hola, ${S.name}! ${T.racha(st)}`, [T.hola, T.racha(Math.min(st,30))]); else say(`¡Hola, ${S.name}! Soy Lulo. ¿Jugamos?`, T.hola); }, 300);
 }
 document.getElementById('meBtn').addEventListener('click', ()=>{ sfx.pop(); goWho(); });
 document.getElementById('play').addEventListener('click', ()=>{ interacted=true; sfx.pop(); if(micOK()) ensureMic(); const n=nextLetter(); n ? lesson(n) : goReview(); });
@@ -1042,7 +1232,7 @@ function setDots(n, i){ const d=document.getElementById('dots'); d.classList.rem
   d.innerHTML = Array.from({length:n},(_,k)=>`<i class="${k<i?'done':k===i?'now':''}"></i>`).join(''); }
 function setProg(f){ document.getElementById('dots').classList.add('hidden'); const p=document.getElementById('prog'); p.classList.remove('hidden'); p.firstElementChild.style.width=(f*100)+'%'; }
 document.getElementById('miniLulo').addEventListener('click', e=>{ const l=e.currentTarget.querySelector('.lulo'); luloAnim(l,'giggle',1000); giggleSfx(); if(lastSaid) say(document.getElementById('bubble').textContent, lastSaid); });
-document.querySelectorAll('.home-lulo').forEach(h=>{ h.setAttribute('role','button'); h.setAttribute('aria-label','Hacer cosquillas a Lulo'); h.addEventListener('click', ()=>{ interacted=true; tickle(h.querySelector('.lulo')); }); });
+document.querySelectorAll('.home-lulo,.corner-lulo').forEach(h=>{ h.setAttribute('role','button'); h.setAttribute('aria-label','Hacer cosquillas a Lulo'); h.addEventListener('click', ()=>{ interacted=true; tickle(h.querySelector('.lulo')); }); });
 document.getElementById('bubble').addEventListener('click', ()=>{ if(lastSaid) say(document.getElementById('bubble').textContent, lastSaid); });
 
 /* Tarea de voz: pulsa el micro, lo dice, Lulo comprueba.
@@ -1222,6 +1412,7 @@ function comerTask(area, ch, rounds=3){
     lulo.insertAdjacentHTML('beforeend','<g class="mopen"><ellipse cx="100" cy="148" rx="26" ry="21" fill="#5A1A28"/><ellipse cx="100" cy="160" rx="15" ry="7" fill="#FF7A8A"/></g>');
     lulo.classList.add('hungry');
     lulo.addEventListener('click', ()=>{ if(!document.querySelector('.drag.dragging')) tickle(lulo); });
+    dressLulos();
     const others=shuffle(ORDER.filter(c=>c!==ch && LET[c] && up(c)!==up(ch) && !(SIMILAR[ch]||'').includes(c)));
     for(let r=0;r<rounds;r++){
       if(my!==run) return;
@@ -1395,7 +1586,7 @@ function buildSteps(D){
   s.push('premio'); return s;
 }
 async function lesson(ch){
-  const my=show('play-screen'); const D=LET[ch]; const steps=buildSteps(D); setScene('play-screen', ch);
+  const my=show('play-screen'); const D=LET[ch]; const steps=buildSteps(D); setScene('play-screen', ch); curLetter=ch;
   curPuzzle=newPuzzle(); puzzleMini();
   for(let i=0;i<steps.length;i++){
     if(my!==run) return;
@@ -1430,7 +1621,7 @@ async function goReview(){
     for(let i=0;i<pool.length;i++){ r-=weights[i]; if(r<=0){ ch=pool[i]; break; } }
     const D=LET[ch];
     const types=['escucha','escucha','lee','escribe']; if(D.ini && pool.length>=1) types.push('empieza'); if(D.syl) types.push('silaba','leesil'); if(D.words && !D.vowel) types.push('leepal','leepal','forma'); types.push('comer');
-    const type=rand(types);
+    const type=rand(types); curLetter=ch;
     const ok = await QUIZ[type](ch,D,my);
     if(my!==run) return;
     if(ok){ right++; S.score[ch]=Math.min(3,(S.score[ch]||0)+1); got[ch]=1; save(); await addPiece(1); }
@@ -1546,6 +1737,224 @@ function goStickers(){
   if(interacted) say(al.length? T.albMira : T.albNada);
 }
 
+
+/* ================== v7: Juegos, cuentos, rincón y turnos ================== */
+function gamePool(){ const d=ORDER.filter(c=>S.done[c]); if(d.length>=3) return d; const n=Math.max(5, ORDER.indexOf(nextLetter()||'a')+1); return ORDER.slice(0,n); }
+const caseOf = c => Math.random()<.5 ? c : up(c);
+function distract(ch, pool, n){ let o=pool.filter(c=>c!==ch && up(c)!==up(ch)); if(o.length<2) o=ORDER.filter(c=>c!==ch && LET[c]).slice(0,8); return Array.from({length:n},()=>rand(o)); }
+function goGames(){ show('games'); setScene('games', null, gamePool()); if(interacted) say(T.juegos); }
+document.querySelectorAll('[data-game]').forEach(b=>b.addEventListener('click', ()=>{ sfx.pop(); ({globos:gameGlobos, pesca:gamePesca, empareja:gameEmpareja, eco:gameEco})[b.dataset.game](); }));
+function gameEnd(again){
+  sfx.win(); confetti(150); sparkles(24); setTimeout(danceLulo,200); setProg(1);
+  stage.innerHTML = `<div class="prize"><div class="big-emo" aria-hidden="true">🏆</div><h2>¡Juego terminado!</h2><p>¡Lo has hecho genial!</p></div>
+    <div class="actions"><button class="btn teal again2">${ICONS.play} Otra vez</button><button class="btn go">${ICONS.gamepad} Más juegos</button></div>`;
+  say(T.juegoFin);
+  stage.querySelector('.again2').onclick=()=>{ sfx.pop(); again(); };
+  stage.querySelector('.go').onclick=()=>{ sfx.pop(); goGames(); };
+}
+function startGame(){ const my=show('play-screen'); setScene('play-screen', null, gamePool()); curPuzzle=null; puzzleMini(); setProg(0); return my; }
+
+/* Globos: explota los globos que llevan la letra que dice Lulo */
+async function gameGlobos(){
+  const my=startGame(), pool=gamePool(), R=4;
+  for(let r=0;r<R;r++){
+    if(my!==run) return; setProg(r/R);
+    const ch=rand(pool), D=LET[ch]; curLetter=ch;
+    const items=shuffle([ch,ch,ch].map(c=>({c,s:caseOf(c)})).concat(distract(ch,pool,6).map(c=>({c,s:caseOf(c)}))));
+    const cols=shuffle(AVCOL.concat(['#FF8C42','#00A6A6']));
+    stage.innerHTML = `<div class="sky" id="sky">${items.map((it,i)=>`<div class="gw" style="--x:${((i%5)/4).toFixed(2)};--d:${9+Math.random()*2}s;--dl:-${(i*1.05).toFixed(2)}s"><button class="globo" data-k="${i}" style="--c:${cols[i%cols.length]}" aria-label="Globo con la letra ${LET[it.c].name}">${it.s}</button></div>`).join('')}</div>`;
+    const sky=stage.querySelector('#sky'); sky.style.setProperty('--h', sky.clientHeight+'px');
+    say(T.globo(D));
+    await new Promise(res=>{ let got=0;
+      stage.querySelectorAll('.globo').forEach(b=>b.onclick=()=>{
+        if(my!==run || b.classList.contains('pop')) return; const it=items[+b.dataset.k];
+        if(it.c===ch){ b.classList.add('pop'); sfx.pop(); got++; if(got===3) res(); }
+        else { b.classList.remove('wrong'); void b.offsetWidth; b.classList.add('wrong'); sfx.no(); say(`${T.esaEs(LET[it.c])} ${T.busca(D)}`, [T.esaEs(LET[it.c]), T.busca(D)]); }
+      });
+    });
+    if(my!==run) return; await praise(); await wait(300);
+  }
+  if(my===run) gameEnd(gameGlobos);
+}
+
+/* Pesca: toca los peces que llevan la letra */
+async function gamePesca(){
+  const my=startGame(), pool=gamePool(), R=3;
+  for(let r=0;r<R;r++){
+    if(my!==run) return; setProg(r/R);
+    const ch=rand(pool), D=LET[ch]; curLetter=ch;
+    const items=shuffle([ch,ch,ch].map(c=>({c,s:caseOf(c)})).concat(distract(ch,pool,5).map(c=>({c,s:caseOf(c)}))));
+    const fishE=['🐟','🐠','🐡','🐟'];
+    stage.innerHTML = `<div class="pond" id="pond"><div class="bucket" aria-live="polite">🪣 <span id="fc">0</span> de 3</div>${items.map((it,i)=>{ const row=i%3, rev=row===1;
+        return `<div class="fw${rev?' rev':''}" style="--y:${14+row*28}%;--d:${10+row*1.5+Math.random()}s;--dl:-${(Math.floor(i/3)*3.6+row*.8).toFixed(2)}s"><button class="fish" data-k="${i}" aria-label="Pez con la letra ${LET[it.c].name}"><span class="fe" aria-hidden="true">${fishE[i%4]}</span><b>${it.s}</b></button></div>`; }).join('')}</div>`;
+    say(T.pesca(D));
+    await new Promise(res=>{ let got=0;
+      stage.querySelectorAll('.fish').forEach(b=>b.onclick=()=>{
+        if(my!==run || b.classList.contains('caught')) return; const it=items[+b.dataset.k];
+        if(it.c===ch){ b.classList.add('caught'); sfx.pop(); got++; stage.querySelector('#fc').textContent=got; if(got===3) setTimeout(res,500); }
+        else { b.classList.remove('wrong'); void b.offsetWidth; b.classList.add('wrong'); sfx.no(); say(`${T.esaEs(LET[it.c])} ${T.busca(D)}`, [T.esaEs(LET[it.c]), T.busca(D)]); }
+      });
+    });
+    if(my!==run) return; await praise(); await wait(300);
+  }
+  if(my===run) gameEnd(gamePesca);
+}
+
+/* Empareja: arrastra cada palabra a su dibujo (o la letra inicial si aún no lee palabras) */
+function readable(w, okSet){ const t=plain(w).toLowerCase().replace(/[áéíóúü]/g,m=>({á:'a',é:'e',í:'i',ó:'o',ú:'u',ü:'u'})[m]).match(/ch|ll|qu|rr|./g)||[];
+  return t.every(x=>okSet.has(x==='qu'?'q':x==='rr'?'r':x)); }
+function matchPairs(pool){
+  const ok=new Set([...pool,'a','e','i','o','u']); const seen=new Set(), out=[];
+  shuffle(pool.filter(c=>!LET[c].vowel)).forEach(c=>(LET[c].words||[]).forEach(w=>{ const pw=plain(w), pic=WORDPIC[pw]; if(pic && !seen.has(pic) && readable(w,ok)){ seen.add(pic); out.push({pic, label:pw, say:pw}); } }));
+  if(out.length>=3) return {pairs:shuffle(out).slice(0,3), words:true};
+  const lets=shuffle(pool.filter(c=>LET[c].ini)).slice(0,3);
+  return {pairs:lets.map(c=>({pic:LET[c].pic, label:caseOf(c), say:T.esoEs(LET[c].pw), c})), words:false};
+}
+async function gameEmpareja(){
+  const my=startGame(), pool=gamePool(), R=2;
+  for(let r=0;r<R;r++){
+    if(my!==run) return; setProg(r/R);
+    const {pairs, words}=matchPairs(pool); const right=shuffle(pairs.map((p,i)=>i));
+    stage.innerHTML = `<div class="match">${pairs.map((p,i)=>`<div class="mpic" data-i="${i}" aria-label="Dibujo"><span aria-hidden="true">${p.pic}</span><small></small></div><button class="mword" data-i="${right[i]}">${pairs[right[i]].label}</button>`).join('')}</div>`;
+    say(words? T.empareja : T.emparejaL);
+    await new Promise(res=>{ let done=0, sel=null;
+      const pics=[...stage.querySelectorAll('.mpic')];
+      const tryMatch=(b, pic)=>{ const wi=+b.dataset.i, pi=+pic.dataset.i;
+        if(pic.classList.contains('ok')) return false;
+        curLetter = pairs[wi].c || null;
+        if(wi===pi){ pic.classList.add('ok'); pic.querySelector('small').textContent=pairs[wi].label; b.classList.add('placed'); b.classList.remove('sel'); sel=null; sfx.pop(); say(pairs[wi].say); done++; if(done===pairs.length) setTimeout(res,700); return true; }
+        b.classList.remove('wrong'); void b.offsetWidth; b.classList.add('wrong'); sfx.no(); say(T.noEs); return false; };
+      stage.querySelectorAll('.mword').forEach(b=>{
+        b._over=(x,y)=>pics.forEach(p=>p.classList.toggle('over', inRect(p,x,y,0)));
+        dragify(b,(x,y,moved)=>{ if(my!==run) return false;
+          if(!moved){ stage.querySelectorAll('.mword').forEach(o=>o.classList.toggle('sel', o===b && !b.classList.contains('sel'))); sel=b.classList.contains('sel')?b:null; say(pairs[+b.dataset.i].say); return false; }
+          const pic=pics.find(p=>inRect(p,x,y,6)); if(!pic) return false; return tryMatch(b,pic); });
+      });
+      pics.forEach(p=>p.addEventListener('click', ()=>{ if(sel) tryMatch(sel,p); }));
+    });
+    if(my!==run) return; await praise(); await wait(300);
+  }
+  if(my===run) gameEnd(gameEmpareja);
+}
+
+/* Eco: Lulo dice una sílaba o palabra, el niño se graba y escucha las dos voces */
+async function gameEco(){
+  const my=startGame(), pool=gamePool();
+  const bank=[]; pool.forEach(c=>{ const D=LET[c]; if(D.vowel) bank.push({t:up(c)+' '+c, s:D.name}); (D.syl||[]).forEach(x=>bank.push({t:x, s:x})); (D.words||[]).slice(0,3).forEach(w=>bank.push({t:plain(w), s:plain(w)})); });
+  const list=shuffle(bank).slice(0,5); const canRec = !!(window.MediaRecorder && navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
+  for(let k=0;k<list.length;k++){
+    if(my!==run) return; setProg(k/list.length); const it=list[k];
+    stage.innerHTML = `<div class="eco"><div class="syl" style="font-size:clamp(70px,20vw,140px)">${it.t}</div>
+      <div class="eco-row"><button class="round lulo-say" aria-label="Escuchar a Lulo">${ICONS.ear}</button>
+      ${canRec?`<button class="btn-rec" aria-label="Grabarme">${ICONS.rec}</button>`:''}
+      <button class="round both hidden" aria-label="Escuchar a Lulo y a mí">${ICONS.play}</button></div>
+      <div class="mic-label">${canRec?'Pulsa el botón rojo y dilo':'Repítelo en voz alta'}</div>
+      <button class="btn teal small nextb hidden">${ICONS.next} Siguiente</button></div>`;
+    const lab=stage.querySelector('.mic-label'), rec=stage.querySelector('.btn-rec'), both=stage.querySelector('.both'), nextb=stage.querySelector('.nextb');
+    stage.querySelector('.lulo-say').onclick=()=>say(it.s);
+    if(k===0){ await say(T.eco1); if(my!==run) return; }
+    await say(it.s); if(my!==run) return;
+    let url=null, praised=false;
+    const playBoth=async()=>{ if(!url) return; await say(T.ecoLulo); if(my!==run) return; await say(it.s); if(my!==run) return; await wait(250); await say(T.ecoTu); if(my!==run) return;
+      await new Promise(r=>{ const a=new Audio(url); a.onended=r; a.onerror=r; a.play().catch(r); setTimeout(r,6000); }); };
+    if(!canRec){ say(T.ecoNo); nextb.classList.remove('hidden'); }
+    else rec.onclick=async()=>{
+      if(rec._mr){ rec._mr.stop(); return; }
+      hush(); let st; try{ st=await navigator.mediaDevices.getUserMedia({audio:true}); }catch(e){ lab.textContent='No puedo usar el micrófono'; say(T.ecoNo); nextb.classList.remove('hidden'); return; }
+      const ch=[]; const mr=new MediaRecorder(st); rec._mr=mr; rec.classList.add('on'); rec.innerHTML=ICONS.stop; lab.textContent='Te grabo... ¡dilo!';
+      mr.ondataavailable=e=>{ if(e.data && e.data.size) ch.push(e.data); };
+      mr.onstop=async()=>{ st.getTracks().forEach(t=>t.stop()); rec._mr=null; rec.classList.remove('on'); rec.innerHTML=ICONS.rec; clearTimeout(rec._t);
+        if(my!==run) return; if(url) URL.revokeObjectURL(url); url=URL.createObjectURL(new Blob(ch,{type:mr.mimeType||'audio/webm'}));
+        lab.textContent='¡Escucha cómo suena!'; both.classList.remove('hidden');
+        await playBoth(); if(my!==run) return;
+        if(!praised){ praised=true; await praise(); }
+        lab.textContent='Puedes grabarte otra vez'; nextb.classList.remove('hidden'); };
+      mr.start(); rec._t=setTimeout(()=>{ if(mr.state==='recording') mr.stop(); }, 4000);
+    };
+    both.onclick=()=>playBoth();
+    await new Promise(r=>nextb.onclick=()=>{ sfx.pop(); if(rec && rec._mr) rec._mr.stop(); r(); });
+  }
+  if(my===run) gameEnd(gameEco);
+}
+
+/* Cuentos: uno por letra aprendida; cada frase leída añade dibujos a la escena */
+function hiLetter(fr, ch){ const L=ch.toLowerCase(); let html='';
+  for(let i=0;i<fr.length;){ const part=fr.substr(i,ch.length); if(part.toLowerCase()===L){ html+='<b>'+part+'</b>'; i+=ch.length; } else { html+=fr[i]; i++; } } return html; }
+function goStories(){
+  show('stories'); setScene('stories', null, gamePool());
+  const ls=ORDER.filter(c=>S.done[c] && CUENTOS[c]);
+  document.getElementById('storySub').textContent = ls.length ? 'Toca un cuento para leerlo' : 'Aprende letras para abrir sus cuentos';
+  document.getElementById('storyGrid').innerHTML = ls.map(c=>`<button class="sttile${S.cuentos[c]?' read':''}" data-c="${c}"><span class="em" aria-hidden="true">${LET[c].pic}</span><span class="lt">${up(c)} ${c}</span>${S.cuentos[c]?ICONS.star.replace('class="i"','class="i" style="color:var(--sun-d)"'):''}</button>`).join('')
+    + ORDER.filter(c=>!S.done[c]).slice(0, Math.max(0, 6-ls.length)).map(c=>`<div class="sttile" style="opacity:.5" aria-label="Cuento bloqueado">${ICONS.lock}<span class="lt">${up(c)} ${c}</span></div>`).join('');
+  document.querySelectorAll('.sttile[data-c]').forEach(b=>b.onclick=()=>{ sfx.pop(); story(b.dataset.c); });
+  if(interacted) say(ls.length? T.cuentosElige : T.cuentosNada);
+}
+async function story(ch){
+  const my=show('play-screen'), D=LET[ch], st=CUENTOS[ch]; setScene('play-screen', ch); curLetter=ch; curPuzzle=null; puzzleMini();
+  stage.innerHTML = `<p class="sub">El cuento de la ${up(ch)} ${ch}</p><div class="scene-box" id="sb" aria-hidden="true"></div><div class="frase small" id="fr"></div><div id="va"></div>`;
+  const sb=stage.querySelector('#sb'), frEl=stage.querySelector('#fr');
+  frEl.style.visibility='hidden'; await say(T.cuento(D)); if(my!==run) return; frEl.style.visibility='';
+  for(let i=0;i<st.length;i++){
+    if(my!==run) return; setDots(st.length+1, i);
+    const [fr, em]=st[i];
+    frEl.innerHTML=hiLetter(fr, ch); frEl.style.animation='none'; void frEl.offsetWidth; frEl.style.animation='';
+    await voiceTask(stage.querySelector('#va'), { check:h=>matchFrase(fr,h), help:()=>say(fr), label:'Pulsa el micrófono y léela', auto:false });
+    if(my!==run) return;
+    [...em].filter(x=>x.trim() && x!=='️').forEach((e,j)=>{ const sp=document.createElement('span'); sp.textContent=e; sp.style.animationDelay=(j*.2)+'s'; sb.appendChild(sp); });
+    sfx.pop(); await say(fr); await wait(300);
+  }
+  if(my!==run) return;
+  S.cuentos[ch]=1; save(); setDots(st.length+1, st.length+1);
+  sfx.win(); confetti(140); setTimeout(danceLulo,200);
+  stage.querySelector('#va').innerHTML = `<div class="prize"><h2>¡Fin!</h2><p>¡Has leído un cuento entero!</p></div>
+    <div class="actions"><button class="btn teal again2">${ICONS.book} Más cuentos</button><button class="btn go">${ICONS.home} Inicio</button></div>`;
+  frEl.innerHTML = st.map(x=>hiLetter(x[0],ch)).join(' '); frEl.classList.add('small'); frEl.style.fontSize='clamp(20px,5vw,30px)';
+  say(T.fin);
+  stage.querySelector('.again2').onclick=()=>{ sfx.pop(); goStories(); };
+  stage.querySelector('.go').onclick=()=>{ sfx.pop(); goHome(); };
+}
+
+/* Rincón de Lulo */
+function goCorner(){
+  show('corner'); homeScene('corner'); S.seenAcc=unlockedN(); save();
+  const next=ACCS.find(a=>S.stars<a.need);
+  document.getElementById('cornerSub').textContent = next ? `Con ${next.need} estrellas consigues: ${next.name}` : '¡Has conseguido todos los regalos!';
+  document.getElementById('accs').innerHTML = ACCS.map(a=>{ const lock=S.stars<a.need, on=(S.wear||{})[a.slot]===a.id;
+    return `<button class="acc-b${lock?' lock':''}${on?' on':''}" data-a="${a.id}" aria-pressed="${on}" aria-label="${a.name}${lock?', bloqueado':''}"><span class="em" aria-hidden="true">${a.em}</span>${lock?`<span class="need">${ICONS.star}${a.need}</span>`:`<span>${a.name}</span>`}</button>`; }).join('');
+  document.querySelectorAll('.acc-b').forEach(b=>b.onclick=()=>{ const a=ACCS.find(x=>x.id===b.dataset.a);
+    if(S.stars<a.need){ sfx.no(); b.classList.remove('wrong'); void b.offsetWidth; b.classList.add('wrong'); say(`Te faltan ${a.need-S.stars} estrellas.`, T.bloqueado); return; }
+    S.wear=S.wear||{}; S.wear[a.slot] = S.wear[a.slot]===a.id ? null : a.id; save(); sfx.pop();
+    goCornerRefresh(); const l=document.querySelector('#corner .lulo'); if(l) tickle(l, S.wear[a.slot]===a.id); });
+  if(interacted) say(T.rincon);
+}
+function goCornerRefresh(){ const y=document.getElementById('corner').scrollTop; const it=interacted; interacted=false; goCorner(); interacted=it; document.getElementById('corner').scrollTop=y; }
+
+/* Turnos: niños y papá/mamá se turnan preguntas de toque */
+async function turnGame(players){
+  const my=show('play-screen'); turnMode=true;
+  let pool=new Set(); players.forEach(p=>{ if(p.id!=='adult'){ const st=lsGet('lulo-p-'+p.id,{}); Object.keys(st.done||{}).forEach(c=>pool.add(c)); } });
+  pool=[...pool].filter(c=>LET[c]); if(pool.length<3) pool=ORDER.slice(0,5);
+  setScene('play-screen', null, pool); curPuzzle=null; puzzleMini();
+  const score=players.map(()=>0), ROUNDS=players.length*3, tb=document.getElementById('turnBar');
+  for(let k=0;k<ROUNDS;k++){
+    if(my!==run) return; setProg(k/ROUNDS);
+    const pi=k%players.length, pl=players[pi];
+    tb.classList.remove('hidden'); tb.innerHTML=`<span class="av" style="background:${pl.col}">${esc(pl.name.charAt(0))}</span>Turno de ${esc(pl.name)}`;
+    stage.innerHTML=`<div class="prize"><span class="av" style="width:110px;height:110px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:${pl.col};color:#fff;font-family:var(--font-letter);font-size:64px;font-weight:700">${esc(pl.name.charAt(0))}</span><h2>¡Te toca, ${esc(pl.name)}!</h2></div>`;
+    await say(`¡Te toca, ${pl.name}!`, T.teToca); if(my!==run) return; await wait(400);
+    const ch=rand(pool), D=LET[ch]; const types=['escucha','comer']; if(D.ini) types.push('empieza'); if(D.syl) types.push('silaba');
+    const ok = await QUIZ[rand(types)](ch,D,my); turnMode=true;
+    if(my!==run) return; if(ok) score[pi]++; await wait(300);
+  }
+  setProg(1); tb.classList.add('hidden'); sfx.win(); confetti(170); setTimeout(danceLulo,200);
+  const order=players.map((p,i)=>({p,s:score[i]})).sort((a,b)=>b.s-a.s);
+  stage.innerHTML=`<div class="prize"><h2>¡Muy bien jugado!</h2><p>Puntos a la primera</p></div><div class="scores">${order.map(o=>`<div class="score"><span class="av" style="background:${o.p.col}">${esc(o.p.name.charAt(0))}</span>${esc(o.p.name)}<span class="pts">${ICONS.star}${o.s}</span></div>`).join('')}</div>
+    <div class="actions"><button class="btn teal again2">${ICONS.users} Otra partida</button><button class="btn go">${ICONS.home} Inicio</button></div>`;
+  say(T.finTurnos);
+  stage.querySelector('.again2').onclick=()=>{ sfx.pop(); turnGame(players); };
+  stage.querySelector('.go').onclick=()=>{ sfx.pop(); goHome(); };
+}
+
 /* ================== Zona de padres ================== */
 function goParents(){
   show('parents');
@@ -1563,6 +1972,15 @@ function goParents(){
       if(PROF.cur===k.id){ PROF.cur=PROF.list[0]?PROF.list[0].id:null; if(PROF.cur) loadKid(PROF.cur); else S=defState(); }
       saveProf(); goParents(); };
   });
+  const hard=ORDER.map(c=>({c, m:S.miss[c]||0, h:S.hit[c]||0})).filter(x=>x.m>=2).map(x=>({...x, r:x.m/(x.m+x.h)})).sort((a,b)=>b.r-a.r||b.m-a.m).slice(0,6);
+  document.getElementById('pHard').innerHTML = hard.length ? hard.map(x=>`<div class="hard"><span class="pl">${up(x.c)}${x.c}</span><span class="bar2"><i style="width:${Math.round(x.r*100)}%"></i></span><small>${x.m} fallos, ${x.h} aciertos</small><button class="btn ghost small" data-pr="${x.c}">Practicar</button></div>`).join('') : '<p class="note">Todavía no hay datos suficientes. Aparecerán cuando juegue un poco más.</p>';
+  document.querySelectorAll('[data-pr]').forEach(b=>b.onclick=()=>lesson(b.dataset.pr));
+  const tp=[...PROF.list.filter(k=>k.name), {id:'adult', name:'Papá o mamá', col:'#7048E8'}];
+  const sel=new Set(curKid()? [curKid().id,'adult'] : ['adult']);
+  const drawChips=()=>{ document.getElementById('pTurn').innerHTML = tp.map(k=>`<button class="chip${sel.has(k.id)?' on':''}" data-t="${k.id}" aria-pressed="${sel.has(k.id)}">${esc(k.name)}</button>`).join('');
+    document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{ sel.has(b.dataset.t)? sel.delete(b.dataset.t) : sel.add(b.dataset.t); drawChips(); }); };
+  drawChips();
+  document.getElementById('pTurnGo').onclick=()=>{ const pl=tp.filter(k=>sel.has(k.id)); if(pl.length<2){ document.getElementById('pTurnMsg').textContent='Elige al menos dos jugadores.'; return; } interacted=true; turnGame(pl); };
   const mic=document.getElementById('pMic'); mic.checked=G.mic; mic.onchange=()=>{ G.mic=mic.checked; save(); };
   const ad=document.getElementById('pAdult'); ad.checked=!!G.adultOk; ad.onchange=()=>{ G.adultOk=ad.checked; save(); };
   document.getElementById('pVoice').textContent = voice ? `Voz de Lulo: ${voice.name}${NATURAL?' (natural)':''}.` + (NATURAL?'':' Para una voz más natural en el ordenador, abre el juego con Microsoft Edge; en el móvil, instala las voces de Google en español.') : 'No hay voz en español instalada en este dispositivo.';

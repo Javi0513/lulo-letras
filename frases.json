@@ -96,6 +96,74 @@
   "text": "¡Ánimo! Tú puedes."
  },
  {
+  "key": "f8a1286bc",
+  "text": "¡Elige un juego!"
+ },
+ {
+  "key": "f5d7f966e",
+  "text": "¡Juego terminado! ¡Lo has hecho genial!"
+ },
+ {
+  "key": "f168741f2",
+  "text": "Une cada dibujo con su palabra. Arrastra la palabra hasta su dibujo."
+ },
+ {
+  "key": "f326154da",
+  "text": "Une cada dibujo con la letra por la que empieza."
+ },
+ {
+  "key": "f7d176d54",
+  "text": "Ese no es su dibujo. Prueba otra vez."
+ },
+ {
+  "key": "ffe7d7453",
+  "text": "Escucha a Lulo. Luego pulsa el botón rojo y dilo tú."
+ },
+ {
+  "key": "f17cccfc8",
+  "text": "Así lo dice Lulo."
+ },
+ {
+  "key": "fb02c9804",
+  "text": "¡Y así lo dices tú!"
+ },
+ {
+  "key": "f4bb3a098",
+  "text": "Este aparato no deja grabar. Repítelo en voz alta."
+ },
+ {
+  "key": "f91ba878f",
+  "text": "¡Fin! ¡Has leído un cuento entero!"
+ },
+ {
+  "key": "ff9bea871",
+  "text": "Aprende letras para abrir sus cuentos."
+ },
+ {
+  "key": "f3a2b63c3",
+  "text": "¿Qué cuento leemos?"
+ },
+ {
+  "key": "f9564f142",
+  "text": "¡Este es mi rincón! Toca un regalo para ponérmelo."
+ },
+ {
+  "key": "f4a06ab19",
+  "text": "¡Has conseguido un regalo nuevo para Lulo! Míralo en su rincón."
+ },
+ {
+  "key": "f5aacaf86",
+  "text": "Consigue más estrellas para desbloquearlo."
+ },
+ {
+  "key": "ff77fb6a7",
+  "text": "¡Te toca!"
+ },
+ {
+  "key": "ffbdba6a8",
+  "text": "¡Muy bien jugado! ¡Habéis aprendido un montón!"
+ },
+ {
   "key": "fd17087c6",
   "text": "No puedo usar el micrófono. Dilo en voz alta y que un mayor pulse el botón verde."
  },
@@ -212,6 +280,18 @@
   "text": "Dale de comer a Lulo la a. Arrástrala hasta su boca."
  },
  {
+  "key": "fbcde3f8d",
+  "text": "Explota los globos de la a."
+ },
+ {
+  "key": "f44bd45aa",
+  "text": "Pesca los peces de la a."
+ },
+ {
+  "key": "fe563fadf",
+  "text": "El cuento de la a. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "fc2af4f94",
   "text": "Toca todas las a: las grandes y las pequeñas."
  },
@@ -286,6 +366,18 @@
  {
   "key": "f8ae664c8",
   "text": "Dale de comer a Lulo la e. Arrástrala hasta su boca."
+ },
+ {
+  "key": "f3ce80369",
+  "text": "Explota los globos de la e."
+ },
+ {
+  "key": "fc4c70986",
+  "text": "Pesca los peces de la e."
+ },
+ {
+  "key": "fdb760bd3",
+  "text": "El cuento de la e. Lee cada frase y verás qué pasa."
  },
  {
   "key": "f56f83300",
@@ -364,6 +456,18 @@
   "text": "Dale de comer a Lulo la i. Arrástrala hasta su boca."
  },
  {
+  "key": "fbccab7d5",
+  "text": "Explota los globos de la i."
+ },
+ {
+  "key": "f64d0ffc2",
+  "text": "Pesca los peces de la i."
+ },
+ {
+  "key": "fa213bbd7",
+  "text": "El cuento de la i. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "fb32ab19c",
   "text": "Toca todas las i: las grandes y las pequeñas."
  },
@@ -438,6 +542,18 @@
  {
   "key": "fdadf895e",
   "text": "Dale de comer a Lulo la o. Arrástrala hasta su boca."
+ },
+ {
+  "key": "fbccf3503",
+  "text": "Explota los globos de la o."
+ },
+ {
+  "key": "f44dfd7ec",
+  "text": "Pesca los peces de la o."
+ },
+ {
+  "key": "ff8225681",
+  "text": "El cuento de la o. Lee cada frase y verás qué pasa."
  },
  {
   "key": "f8fbd6d2e",
@@ -516,6 +632,18 @@
   "text": "Dale de comer a Lulo la u. Arrástrala hasta su boca."
  },
  {
+  "key": "f9d0fa9f9",
+  "text": "Explota los globos de la u."
+ },
+ {
+  "key": "fe4ee4b56",
+  "text": "Pesca los peces de la u."
+ },
+ {
+  "key": "fd1388883",
+  "text": "El cuento de la u. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "f678e45f0",
   "text": "Toca todas las u: las grandes y las pequeñas."
  },
@@ -590,6 +718,18 @@
  {
   "key": "f35c09eea",
   "text": "Dale de comer a Lulo la eme. Arrástrala hasta su boca."
+ },
+ {
+  "key": "fb5b2c1f3",
+  "text": "Explota los globos de la eme."
+ },
+ {
+  "key": "f1e557d24",
+  "text": "Pesca los peces de la eme."
+ },
+ {
+  "key": "f934273b5",
+  "text": "El cuento de la eme. Lee cada frase y verás qué pasa."
  },
  {
   "key": "f62f80ed6",
@@ -756,6 +896,18 @@
   "text": "Dale de comer a Lulo la pe. Arrástrala hasta su boca."
  },
  {
+  "key": "ff775838d",
+  "text": "Explota los globos de la pe."
+ },
+ {
+  "key": "f15ca2c74",
+  "text": "Pesca los peces de la pe."
+ },
+ {
+  "key": "f40d86cf3",
+  "text": "El cuento de la pe. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "fb84a21ce",
   "text": "Toca todas las pe: las grandes y las pequeñas."
  },
@@ -918,6 +1070,18 @@
  {
   "key": "f2fb430d1",
   "text": "Dale de comer a Lulo la ele. Arrástrala hasta su boca."
+ },
+ {
+  "key": "f427074f4",
+  "text": "Explota los globos de la ele."
+ },
+ {
+  "key": "f5373fda3",
+  "text": "Pesca los peces de la ele."
+ },
+ {
+  "key": "f89079b00",
+  "text": "El cuento de la ele. Lee cada frase y verás qué pasa."
  },
  {
   "key": "ffe4b63f5",
@@ -1088,6 +1252,18 @@
   "text": "Dale de comer a Lulo la ese. Arrástrala hasta su boca."
  },
  {
+  "key": "f7c839729",
+  "text": "Explota los globos de la ese."
+ },
+ {
+  "key": "f800dca02",
+  "text": "Pesca los peces de la ese."
+ },
+ {
+  "key": "f9cfddeff",
+  "text": "El cuento de la ese. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "fbf3f3e3c",
   "text": "Toca todas las ese: las grandes y las pequeñas."
  },
@@ -1254,6 +1430,18 @@
  {
   "key": "fe56053f4",
   "text": "Dale de comer a Lulo la te. Arrástrala hasta su boca."
+ },
+ {
+  "key": "f09e6c9b9",
+  "text": "Explota los globos de la te."
+ },
+ {
+  "key": "fc813cc10",
+  "text": "Pesca los peces de la te."
+ },
+ {
+  "key": "f98c7c8a7",
+  "text": "El cuento de la te. Lee cada frase y verás qué pasa."
  },
  {
   "key": "f102fdb1a",
@@ -1424,6 +1612,18 @@
   "text": "Dale de comer a Lulo la ene. Arrástrala hasta su boca."
  },
  {
+  "key": "ffb9ed63e",
+  "text": "Explota los globos de la ene."
+ },
+ {
+  "key": "f2c8f0995",
+  "text": "Pesca los peces de la ene."
+ },
+ {
+  "key": "f11eade1e",
+  "text": "El cuento de la ene. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "f64f980b7",
   "text": "Toca todas las ene: las grandes y las pequeñas."
  },
@@ -1582,6 +1782,18 @@
  {
   "key": "f5b4d92a4",
   "text": "Dale de comer a Lulo la de. Arrástrala hasta su boca."
+ },
+ {
+  "key": "fdc1a9409",
+  "text": "Explota los globos de la de."
+ },
+ {
+  "key": "fdae5cbe0",
+  "text": "Pesca los peces de la de."
+ },
+ {
+  "key": "f27b04ed7",
+  "text": "El cuento de la de. Lee cada frase y verás qué pasa."
  },
  {
   "key": "f075ba90a",
@@ -1752,6 +1964,18 @@
   "text": "Dale de comer a Lulo la efe. Arrástrala hasta su boca."
  },
  {
+  "key": "f6235bd26",
+  "text": "Explota los globos de la efe."
+ },
+ {
+  "key": "ff3c4585d",
+  "text": "Pesca los peces de la efe."
+ },
+ {
+  "key": "fe4ffa546",
+  "text": "El cuento de la efe. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "f7d7989bf",
   "text": "Toca todas las efe: las grandes y las pequeñas."
  },
@@ -1918,6 +2142,18 @@
  {
   "key": "f35accdb3",
   "text": "Dale de comer a Lulo la erre. Arrástrala hasta su boca."
+ },
+ {
+  "key": "f2ca1df12",
+  "text": "Explota los globos de la erre."
+ },
+ {
+  "key": "fba526f2b",
+  "text": "Pesca los peces de la erre."
+ },
+ {
+  "key": "f00d3e062",
+  "text": "El cuento de la erre. Lee cada frase y verás qué pasa."
  },
  {
   "key": "fee0446bd",
@@ -2088,6 +2324,18 @@
   "text": "Dale de comer a Lulo la ce. Arrástrala hasta su boca."
  },
  {
+  "key": "f98f5260c",
+  "text": "Explota los globos de la ce."
+ },
+ {
+  "key": "fb45a8635",
+  "text": "Pesca los peces de la ce."
+ },
+ {
+  "key": "f06c9ac70",
+  "text": "El cuento de la ce. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "f84aeb11f",
   "text": "Toca todas las ce: las grandes y las pequeñas."
  },
@@ -2230,6 +2478,18 @@
  {
   "key": "f851d1512",
   "text": "Dale de comer a Lulo la be. Arrástrala hasta su boca."
+ },
+ {
+  "key": "f2eb20e6b",
+  "text": "Explota los globos de la be."
+ },
+ {
+  "key": "f1f50894e",
+  "text": "Pesca los peces de la be."
+ },
+ {
+  "key": "f96dd06e5",
+  "text": "El cuento de la be. Lee cada frase y verás qué pasa."
  },
  {
   "key": "f306df8a0",
@@ -2400,6 +2660,18 @@
   "text": "Dale de comer a Lulo la uve. Arrástrala hasta su boca."
  },
  {
+  "key": "fe14871e6",
+  "text": "Explota los globos de la uve."
+ },
+ {
+  "key": "f0dd20c7d",
+  "text": "Pesca los peces de la uve."
+ },
+ {
+  "key": "f8195a306",
+  "text": "El cuento de la uve. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "f5dcbeb5f",
   "text": "Toca todas las uve: las grandes y las pequeñas."
  },
@@ -2568,6 +2840,18 @@
   "text": "Dale de comer a Lulo la ge. Arrástrala hasta su boca."
  },
  {
+  "key": "f6db96108",
+  "text": "Explota los globos de la ge."
+ },
+ {
+  "key": "fe94667c1",
+  "text": "Pesca los peces de la ge."
+ },
+ {
+  "key": "f69719a24",
+  "text": "El cuento de la ge. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "fb0abd61b",
   "text": "Toca todas las ge: las grandes y las pequeñas."
  },
@@ -2710,6 +2994,18 @@
  {
   "key": "fcc870ac9",
   "text": "Dale de comer a Lulo la jota. Arrástrala hasta su boca."
+ },
+ {
+  "key": "fb2554150",
+  "text": "Explota los globos de la jota."
+ },
+ {
+  "key": "f4566ebed",
+  "text": "Pesca los peces de la jota."
+ },
+ {
+  "key": "f459a2708",
+  "text": "El cuento de la jota. Lee cada frase y verás qué pasa."
  },
  {
   "key": "f79ccbbef",
@@ -2880,6 +3176,18 @@
   "text": "Dale de comer a Lulo la hache. Arrástrala hasta su boca."
  },
  {
+  "key": "fde6f776d",
+  "text": "Explota los globos de la hache."
+ },
+ {
+  "key": "f1c726732",
+  "text": "Pesca los peces de la hache."
+ },
+ {
+  "key": "f3cdb2e73",
+  "text": "El cuento de la hache. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "fb1ec7794",
   "text": "Toca todas las hache: las grandes y las pequeñas."
  },
@@ -3048,6 +3356,18 @@
   "text": "Dale de comer a Lulo la eñe. Arrástrala hasta su boca."
  },
  {
+  "key": "f2fe7d647",
+  "text": "Explota los globos de la eñe."
+ },
+ {
+  "key": "ffa38a978",
+  "text": "Pesca los peces de la eñe."
+ },
+ {
+  "key": "fea8dacf1",
+  "text": "El cuento de la eñe. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "fd93f2fba",
   "text": "Toca todas las eñe: las grandes y las pequeñas."
  },
@@ -3210,6 +3530,18 @@
  {
   "key": "f3bd29fdf",
   "text": "Dale de comer a Lulo la i griega. Arrástrala hasta su boca."
+ },
+ {
+  "key": "f347f8dba",
+  "text": "Explota los globos de la i griega."
+ },
+ {
+  "key": "fe0a3beb3",
+  "text": "Pesca los peces de la i griega."
+ },
+ {
+  "key": "fe436e75e",
+  "text": "El cuento de la i griega. Lee cada frase y verás qué pasa."
  },
  {
   "key": "fb808340d",
@@ -3380,6 +3712,18 @@
   "text": "Dale de comer a Lulo la elle. Arrástrala hasta su boca."
  },
  {
+  "key": "fa4ff6cd2",
+  "text": "Explota los globos de la elle."
+ },
+ {
+  "key": "f8702b347",
+  "text": "Pesca los peces de la elle."
+ },
+ {
+  "key": "fb072c7a2",
+  "text": "El cuento de la elle. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "f27e463d1",
   "text": "Toca todas las elle: las grandes y las pequeñas."
  },
@@ -3546,6 +3890,18 @@
  {
   "key": "ff8693077",
   "text": "Dale de comer a Lulo la che. Arrástrala hasta su boca."
+ },
+ {
+  "key": "f5f5489ee",
+  "text": "Explota los globos de la che."
+ },
+ {
+  "key": "fb4b944e9",
+  "text": "Pesca los peces de la che."
+ },
+ {
+  "key": "fdb457d3e",
+  "text": "El cuento de la che. Lee cada frase y verás qué pasa."
  },
  {
   "key": "f6c983c03",
@@ -3716,6 +4072,18 @@
   "text": "Dale de comer a Lulo la zeta. Arrástrala hasta su boca."
  },
  {
+  "key": "fef28e08a",
+  "text": "Explota los globos de la zeta."
+ },
+ {
+  "key": "f852ab9ff",
+  "text": "Pesca los peces de la zeta."
+ },
+ {
+  "key": "f2a238b86",
+  "text": "El cuento de la zeta. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "f840b2a59",
   "text": "Toca todas las zeta: las grandes y las pequeñas."
  },
@@ -3856,6 +4224,18 @@
   "text": "Dale de comer a Lulo la cu. Arrástrala hasta su boca."
  },
  {
+  "key": "f391d315c",
+  "text": "Explota los globos de la cu."
+ },
+ {
+  "key": "f14822cc5",
+  "text": "Pesca los peces de la cu."
+ },
+ {
+  "key": "f7a912bc0",
+  "text": "El cuento de la cu. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "fc2bb622f",
   "text": "Toca todas las cu: las grandes y las pequeñas."
  },
@@ -3978,6 +4358,18 @@
  {
   "key": "fba28f95d",
   "text": "Dale de comer a Lulo la ka. Arrástrala hasta su boca."
+ },
+ {
+  "key": "fd254ada8",
+  "text": "Explota los globos de la ka."
+ },
+ {
+  "key": "f7b9a6259",
+  "text": "Pesca los peces de la ka."
+ },
+ {
+  "key": "fcd00e884",
+  "text": "El cuento de la ka. Lee cada frase y verás qué pasa."
  },
  {
   "key": "f349f5723",
@@ -4132,6 +4524,18 @@
   "text": "Dale de comer a Lulo la uve doble. Arrástrala hasta su boca."
  },
  {
+  "key": "f0d8e1be4",
+  "text": "Explota los globos de la uve doble."
+ },
+ {
+  "key": "f54d6d38b",
+  "text": "Pesca los peces de la uve doble."
+ },
+ {
+  "key": "f45908bdc",
+  "text": "El cuento de la uve doble. Lee cada frase y verás qué pasa."
+ },
+ {
   "key": "f7952ff1d",
   "text": "Toca todas las uve doble: las grandes y las pequeñas."
  },
@@ -4198,6 +4602,18 @@
  {
   "key": "f37f9f096",
   "text": "Dale de comer a Lulo la equis. Arrástrala hasta su boca."
+ },
+ {
+  "key": "f87aa0bfb",
+  "text": "Explota los globos de la equis."
+ },
+ {
+  "key": "f0d77da1c",
+  "text": "Pesca los peces de la equis."
+ },
+ {
+  "key": "f30619451",
+  "text": "El cuento de la equis. Lee cada frase y verás qué pasa."
  },
  {
   "key": "fcc8ac326",
@@ -4390,6 +4806,462 @@
  {
   "key": "fc04019fd",
   "text": "El taxi es amarillo."
+ },
+ {
+  "key": "fb8dff6bb",
+  "text": "Ana tiene una abeja."
+ },
+ {
+  "key": "f83d5a098",
+  "text": "La abeja vuela alto."
+ },
+ {
+  "key": "f48ca486a",
+  "text": "Ana y la abeja se van a casa."
+ },
+ {
+  "key": "f9ee66e59",
+  "text": "Eva ve un elefante."
+ },
+ {
+  "key": "fcd6a85e8",
+  "text": "El elefante es enorme."
+ },
+ {
+  "key": "fcd6e4450",
+  "text": "Eva le da agua al elefante."
+ },
+ {
+  "key": "f3622af2e",
+  "text": "Isa va a la isla."
+ },
+ {
+  "key": "f4296d1d7",
+  "text": "En la isla hay un pino."
+ },
+ {
+  "key": "f101bc916",
+  "text": "Isa mira el mar."
+ },
+ {
+  "key": "fcf5c653b",
+  "text": "El oso tiene sueño."
+ },
+ {
+  "key": "f1c9c8a22",
+  "text": "El oso ve una ola."
+ },
+ {
+  "key": "fedf7a959",
+  "text": "El oso come miel y se duerme."
+ },
+ {
+  "key": "fa78544bf",
+  "text": "Una uva cae al suelo."
+ },
+ {
+  "key": "fb0289b78",
+  "text": "Una niña ve la uva."
+ },
+ {
+  "key": "f4211f44c",
+  "text": "La niña se come la uva."
+ },
+ {
+  "key": "f0e63027f",
+  "text": "Mi mamá mira la luna."
+ },
+ {
+  "key": "fca19ddc9",
+  "text": "Un mono come una manzana."
+ },
+ {
+  "key": "f02d9126e",
+  "text": "Mamá y el mono se ríen."
+ },
+ {
+  "key": "fbff877b9",
+  "text": "Papá tiene un pato."
+ },
+ {
+  "key": "f55a98da5",
+  "text": "El pato nada en el lago."
+ },
+ {
+  "key": "fc6ad3a61",
+  "text": "Papá le da pan al pato."
+ },
+ {
+  "key": "f25808b76",
+  "text": "Lola lee un libro."
+ },
+ {
+  "key": "fc9029861",
+  "text": "La luna sale de noche."
+ },
+ {
+  "key": "f664784c1",
+  "text": "Lola se duerme con la luz de la luna."
+ },
+ {
+  "key": "fddc292eb",
+  "text": "Susi sale al sol."
+ },
+ {
+  "key": "f9ef5d402",
+  "text": "Ve un sapo en una seta."
+ },
+ {
+  "key": "fc079c01a",
+  "text": "El sapo salta y se va."
+ },
+ {
+  "key": "f7a209281",
+  "text": "Tomás tiene un tomate."
+ },
+ {
+  "key": "f10e99e24",
+  "text": "Pone el tomate en la mesa."
+ },
+ {
+  "key": "f2a446769",
+  "text": "Su tía hace una tortilla."
+ },
+ {
+  "key": "f59e31c02",
+  "text": "Nina ve una nube."
+ },
+ {
+  "key": "f71cb8bf1",
+  "text": "La nube tapa la luna."
+ },
+ {
+  "key": "fa30446e4",
+  "text": "Nina dice: ¡No, nube, no!"
+ },
+ {
+  "key": "f1c61cb77",
+  "text": "Dani tiene un dado."
+ },
+ {
+  "key": "fa3b619e1",
+  "text": "Dani tira el dado y sale un dos."
+ },
+ {
+  "key": "faecd0dba",
+  "text": "Dani da saltos de alegría."
+ },
+ {
+  "key": "faf1b61e2",
+  "text": "Fede tiene una foto."
+ },
+ {
+  "key": "fcb93419a",
+  "text": "En la foto hay una foca."
+ },
+ {
+  "key": "f5fd67d85",
+  "text": "La foca come fresas."
+ },
+ {
+  "key": "f0547c6b5",
+  "text": "La rana Rita está en el río."
+ },
+ {
+  "key": "f90aac775",
+  "text": "Rita ve una rosa roja."
+ },
+ {
+  "key": "fa299f60d",
+  "text": "Rita se ríe y salta."
+ },
+ {
+  "key": "f28a758f1",
+  "text": "Come caldo con una cuchara."
+ },
+ {
+  "key": "fd2aef00d",
+  "text": "Luego juega con su coche."
+ },
+ {
+  "key": "f7f575993",
+  "text": "El bebé tiene una bota."
+ },
+ {
+  "key": "fefaf1414",
+  "text": "La bola cae en el barco."
+ },
+ {
+  "key": "fe7819d57",
+  "text": "La vaca vive en el campo."
+ },
+ {
+  "key": "fa70c9f6e",
+  "text": "La vaca ve una uva."
+ },
+ {
+  "key": "f888360ee",
+  "text": "La vaca se va a dormir."
+ },
+ {
+  "key": "fb1759283",
+  "text": "El gato Gus tiene una goma."
+ },
+ {
+  "key": "fdb6d82bb",
+  "text": "Gus juega con la goma."
+ },
+ {
+  "key": "ff1f6ccfc",
+  "text": "La goma sale volando."
+ },
+ {
+  "key": "fbfa7ad4b",
+  "text": "La jirafa Juana es muy alta."
+ },
+ {
+  "key": "fdf4c1173",
+  "text": "Juana come hojas."
+ },
+ {
+  "key": "fdf93f6e0",
+  "text": "Juana juega con un niño."
+ },
+ {
+  "key": "fa90abd77",
+  "text": "El hada tiene un helado."
+ },
+ {
+  "key": "ff397b565",
+  "text": "El helado se derrite al sol."
+ },
+ {
+  "key": "f973f00e5",
+  "text": "El hada hace magia y sale otro helado."
+ },
+ {
+  "key": "fc1424659",
+  "text": "El niño tiene una piña."
+ },
+ {
+  "key": "f7a5375a3",
+  "text": "El niño y la niña se bañan."
+ },
+ {
+  "key": "f2ad4e446",
+  "text": "Después comen piña juntos."
+ },
+ {
+  "key": "fa5fbae0f",
+  "text": "Mi yoyó sube y baja."
+ },
+ {
+  "key": "fd2a111ff",
+  "text": "Mi yegua mira mi yoyó."
+ },
+ {
+  "key": "ffca61619",
+  "text": "Llueve mucho en la calle."
+ },
+ {
+  "key": "f6b97c9ed",
+  "text": "Llevo la llave a casa."
+ },
+ {
+  "key": "f004808e3",
+  "text": "Luego come chocolate."
+ },
+ {
+  "key": "f65b7cd82",
+  "text": "Se va en coche a la playa."
+ },
+ {
+  "key": "fa61ad717",
+  "text": "El zorro tiene zapatos."
+ },
+ {
+  "key": "f0cace07f",
+  "text": "El zorro baila en la plaza."
+ },
+ {
+  "key": "f90402a77",
+  "text": "Quique quiere queso."
+ },
+ {
+  "key": "f611c168d",
+  "text": "El queso está en el paquete."
+ },
+ {
+  "key": "fc93f80cb",
+  "text": "Quique se come el queso."
+ },
+ {
+  "key": "f02a7e145",
+  "text": "Kiko tiene un kiwi."
+ },
+ {
+  "key": "f1c6c34c6",
+  "text": "Kiko hace kárate."
+ },
+ {
+  "key": "f7424a708",
+  "text": "Un koala mira a Kiko."
+ },
+ {
+  "key": "f2b41cf1a",
+  "text": "Walter tiene un kiwi."
+ },
+ {
+  "key": "f6df13a44",
+  "text": "Walter ve la web de su cole."
+ },
+ {
+  "key": "f848b11fe",
+  "text": "Su perro dice: ¡guau!"
+ },
+ {
+  "key": "fccd8fb69",
+  "text": "En el taxi va un saxofón."
+ },
+ {
+  "key": "f5b517092",
+  "text": "El taxista toca el saxofón."
+ },
+ {
+  "key": "fe40c292c",
+  "text": "a"
+ },
+ {
+  "key": "fe00c22e0",
+  "text": "e"
+ },
+ {
+  "key": "fec0c35c4",
+  "text": "i"
+ },
+ {
+  "key": "fea0c329e",
+  "text": "o"
+ },
+ {
+  "key": "ff00c3c10",
+  "text": "u"
+ },
+ {
+  "key": "f5dc70282",
+  "text": "¡Llevas 2 días seguidos jugando!"
+ },
+ {
+  "key": "fe778bbe7",
+  "text": "¡Llevas 3 días seguidos jugando!"
+ },
+ {
+  "key": "ffc8750c0",
+  "text": "¡Llevas 4 días seguidos jugando!"
+ },
+ {
+  "key": "f357fa70d",
+  "text": "¡Llevas 5 días seguidos jugando!"
+ },
+ {
+  "key": "fffd34d16",
+  "text": "¡Llevas 6 días seguidos jugando!"
+ },
+ {
+  "key": "fbdd7bc4b",
+  "text": "¡Llevas 7 días seguidos jugando!"
+ },
+ {
+  "key": "fbde79824",
+  "text": "¡Llevas 8 días seguidos jugando!"
+ },
+ {
+  "key": "f4a5203e1",
+  "text": "¡Llevas 9 días seguidos jugando!"
+ },
+ {
+  "key": "f28df3da9",
+  "text": "¡Llevas 10 días seguidos jugando!"
+ },
+ {
+  "key": "fd690c30c",
+  "text": "¡Llevas 11 días seguidos jugando!"
+ },
+ {
+  "key": "face7a1b7",
+  "text": "¡Llevas 12 días seguidos jugando!"
+ },
+ {
+  "key": "f554fd652",
+  "text": "¡Llevas 13 días seguidos jugando!"
+ },
+ {
+  "key": "fd420f5dd",
+  "text": "¡Llevas 14 días seguidos jugando!"
+ },
+ {
+  "key": "f57771890",
+  "text": "¡Llevas 15 días seguidos jugando!"
+ },
+ {
+  "key": "f88c8bd9b",
+  "text": "¡Llevas 16 días seguidos jugando!"
+ },
+ {
+  "key": "f89516c66",
+  "text": "¡Llevas 17 días seguidos jugando!"
+ },
+ {
+  "key": "f03977331",
+  "text": "¡Llevas 18 días seguidos jugando!"
+ },
+ {
+  "key": "f6a575634",
+  "text": "¡Llevas 19 días seguidos jugando!"
+ },
+ {
+  "key": "ff62eb524",
+  "text": "¡Llevas 20 días seguidos jugando!"
+ },
+ {
+  "key": "f829920e1",
+  "text": "¡Llevas 21 días seguidos jugando!"
+ },
+ {
+  "key": "fa6599baa",
+  "text": "¡Llevas 22 días seguidos jugando!"
+ },
+ {
+  "key": "f7158110f",
+  "text": "¡Llevas 23 días seguidos jugando!"
+ },
+ {
+  "key": "f92bf7348",
+  "text": "¡Llevas 24 días seguidos jugando!"
+ },
+ {
+  "key": "f2dda9d15",
+  "text": "¡Llevas 25 días seguidos jugando!"
+ },
+ {
+  "key": "faa4b8f1e",
+  "text": "¡Llevas 26 días seguidos jugando!"
+ },
+ {
+  "key": "f2efd1473",
+  "text": "¡Llevas 27 días seguidos jugando!"
+ },
+ {
+  "key": "f73e83e7c",
+  "text": "¡Llevas 28 días seguidos jugando!"
+ },
+ {
+  "key": "fbf5b6059",
+  "text": "¡Llevas 29 días seguidos jugando!"
+ },
+ {
+  "key": "f881f38bb",
+  "text": "¡Llevas 30 días seguidos jugando!"
  },
  {
   "key": "f65fe3bae",
