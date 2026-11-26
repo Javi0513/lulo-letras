@@ -1,5 +1,9 @@
 [
  {
+  "key": "faa65d1b2",
+  "text": "¡Bien hecho!"
+ },
+ {
   "key": "fb0450504",
   "text": "¡Muy bien!"
  },
@@ -20,8 +24,8 @@
   "text": "¡Bravo!"
  },
  {
-  "key": "f9db5aef6",
-  "text": "¡Qué bien lo has dicho!"
+  "key": "f1ddae836",
+  "text": "¡Qué bien lo has hecho!"
  },
  {
   "key": "f17f48e26",
@@ -30,6 +34,22 @@
  {
   "key": "ff1a033c7",
   "text": "¡Eres un crack!"
+ },
+ {
+  "key": "fa9037c19",
+  "text": "¡Perfecto!"
+ },
+ {
+  "key": "f92fdd912",
+  "text": "¡Bien dicho!"
+ },
+ {
+  "key": "f9db5aef6",
+  "text": "¡Qué bien lo has dicho!"
+ },
+ {
+  "key": "fa54799fc",
+  "text": "¡Qué bien lo has leído!"
  },
  {
   "key": "f667d3932",
@@ -158,6 +178,34 @@
  {
   "key": "ff77fb6a7",
   "text": "¡Te toca!"
+ },
+ {
+  "key": "fb883fdff",
+  "text": "Busca las parejas. Da la vuelta a dos cartas."
+ },
+ {
+  "key": "f5311e513",
+  "text": "Busca las parejas: cada dibujo con su letra."
+ },
+ {
+  "key": "fdfd30fa7",
+  "text": "Escucha a Lulo y toca lo que dice."
+ },
+ {
+  "key": "f981cc26f",
+  "text": "Mira el dibujo. ¿Qué sílaba falta?"
+ },
+ {
+  "key": "f48088928",
+  "text": "Lee la palabra. ¿Qué sílaba falta?"
+ },
+ {
+  "key": "f27aa1464",
+  "text": "¡Juego superado! ¡Pasas al siguiente nivel!"
+ },
+ {
+  "key": "f12c3be26",
+  "text": "¡Eres un campeón de este juego!"
  },
  {
   "key": "ffbdba6a8",
@@ -5262,6 +5310,134 @@
  {
   "key": "f881f38bb",
   "text": "¡Llevas 30 días seguidos jugando!"
+ },
+ {
+  "key": "f678c6992",
+  "text": "Nivel 1."
+ },
+ {
+  "key": "fe993f1fd",
+  "text": "Nivel 2."
+ },
+ {
+  "key": "f6790e6c0",
+  "text": "Nivel 3."
+ },
+ {
+  "key": "f116d9e49",
+  "text": "Atrapa los topos de la a. ¡Rápido!"
+ },
+ {
+  "key": "fbc54708d",
+  "text": "Atrapa los topos de la e. ¡Rápido!"
+ },
+ {
+  "key": "f07305421",
+  "text": "Atrapa los topos de la i. ¡Rápido!"
+ },
+ {
+  "key": "f71d51f2f",
+  "text": "Atrapa los topos de la o. ¡Rápido!"
+ },
+ {
+  "key": "fb9ff01bd",
+  "text": "Atrapa los topos de la u. ¡Rápido!"
+ },
+ {
+  "key": "f35f33bd7",
+  "text": "Atrapa los topos de la eme. ¡Rápido!"
+ },
+ {
+  "key": "fc5f18427",
+  "text": "Atrapa los topos de la pe. ¡Rápido!"
+ },
+ {
+  "key": "fba958c02",
+  "text": "Atrapa los topos de la ele. ¡Rápido!"
+ },
+ {
+  "key": "f8d19fe91",
+  "text": "Atrapa los topos de la ese. ¡Rápido!"
+ },
+ {
+  "key": "fde15f6cb",
+  "text": "Atrapa los topos de la te. ¡Rápido!"
+ },
+ {
+  "key": "f9dbfecf8",
+  "text": "Atrapa los topos de la ene. ¡Rápido!"
+ },
+ {
+  "key": "f9e666e3b",
+  "text": "Atrapa los topos de la de. ¡Rápido!"
+ },
+ {
+  "key": "f243f6700",
+  "text": "Atrapa los topos de la efe. ¡Rápido!"
+ },
+ {
+  "key": "faa9ea13a",
+  "text": "Atrapa los topos de la erre. ¡Rápido!"
+ },
+ {
+  "key": "fe6d32a78",
+  "text": "Atrapa los topos de la ce. ¡Rápido!"
+ },
+ {
+  "key": "f0e8b0255",
+  "text": "Atrapa los topos de la be. ¡Rápido!"
+ },
+ {
+  "key": "fe31c9e60",
+  "text": "Atrapa los topos de la uve. ¡Rápido!"
+ },
+ {
+  "key": "f58b16aec",
+  "text": "Atrapa los topos de la ge. ¡Rápido!"
+ },
+ {
+  "key": "fb81ba580",
+  "text": "Atrapa los topos de la jota. ¡Rápido!"
+ },
+ {
+  "key": "fa24b7e61",
+  "text": "Atrapa los topos de la hache. ¡Rápido!"
+ },
+ {
+  "key": "f026b8933",
+  "text": "Atrapa los topos de la eñe. ¡Rápido!"
+ },
+ {
+  "key": "f3087df72",
+  "text": "Atrapa los topos de la i griega. ¡Rápido!"
+ },
+ {
+  "key": "f5becfc6e",
+  "text": "Atrapa los topos de la elle. ¡Rápido!"
+ },
+ {
+  "key": "fcf212664",
+  "text": "Atrapa los topos de la che. ¡Rápido!"
+ },
+ {
+  "key": "ff92479e6",
+  "text": "Atrapa los topos de la zeta. ¡Rápido!"
+ },
+ {
+  "key": "ffb78df48",
+  "text": "Atrapa los topos de la cu. ¡Rápido!"
+ },
+ {
+  "key": "f85f52ea4",
+  "text": "Atrapa los topos de la ka. ¡Rápido!"
+ },
+ {
+  "key": "fd6a061ea",
+  "text": "Atrapa los topos de la uve doble. ¡Rápido!"
+ },
+ {
+  "key": "fc4a1ce5f",
+  "text": "Atrapa los topos de la equis. ¡Rápido!"
  },
  {
   "key": "f65fe3bae",

@@ -22,4 +22,20 @@ Código hecho en la copia maestra (script de cambios: edit8.py). Funciones: goGa
 - [x] 5. Eco: Lulo dice sílaba o palabra, el niño se graba (MediaRecorder) y oye las dos voces.
 - [x] 6. Rincón de Lulo: 8 regalos que se desbloquean con estrellas (no se gastan) y se ven en Lulo en todo el juego; racha de días seguidos (llama en el inicio).
 - [x] 7. Zona de padres: letras que más cuestan (con botón Practicar) y juego por turnos (niños + papá o mamá).
-- [ ] Probar, generar voces, publicar, actualizar portfolio.
+- [x] Probado en simulación (Playwright): juegos, cuentos, eco, rincón, turnos y lección completa sin errores.
+- [x] index.html (MD5 e60383147c0e04a1fd6211fc0d5c54f6) y frases.json (1334 frases, MD5 c15980eb052dff5ab3ecd8c41a34a311) copiados a D:\Proyectos\lulo-letras.
+- [x] Publicado (commit e7729ed): 1334 frases con audio, web comprobada.
+- [x] Portfolio actualizado (portfolio.md + 7 capturas v7).
+
+## En curso: v8 (pedido de Javi el 2026-11-26)
+Código hecho en la copia maestra (scripts edit9.py y edit10.py). index.html MD5 3d5f5d906aa7960f99ec3520e8204121, frases.json 1378 frases (44 nuevas) MD5 27f12fb53ac742f26f62957750c31172.
+- [x] Letras como en la lámina del Micho: MAYÚSCULAS de imprenta (Andika) y minúsculas en letra escolar ligada (Playwrite España, OFL), metidas en el HTML en base64 (familia `LuloLetra`, unicode-range). El trazo usa la misma letra. Nombres de niños en imprenta (`--font-print`).
+- [x] Felicitaciones: `praise()` dice "¡Bien hecho!" y similares al tocar/arrastrar/escribir; `praise('voz')` (PRAISE_VOZ, "¡Bien dicho!") solo al hablar (voiceTask y Eco).
+- [x] 4 juegos nuevos: Parejas (memoria), Topos, Escucha (dictado: letra, sílaba o palabra) y ¿Qué falta? (sílaba que falta).
+- [x] Niveles 1-3 en los 8 juegos (S.gw[juego] = partidas terminadas; sube cada 2). Más rápido, más distractores y más difícil por nivel.
+- [x] Probado en Playwright sin errores.
+- [ ] Copiar a D:\Proyectos\lulo-letras, generar las 44 voces nuevas, commit + push.
+- [ ] Portfolio v8.
+
+## Siguiente
+- Probarlo con la niña y ajustar lo que haga falta.
